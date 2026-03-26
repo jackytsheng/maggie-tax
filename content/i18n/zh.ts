@@ -671,7 +671,14 @@ export const zh = {
     successBody: "当前为可接入邮箱服务的占位流程，后续可直接连接 Resend 或其他表单服务。",
     errorTitle: "提交失败，请稍后再试。",
     errorBody: "你也可以改用页面上的邮箱方式直接联系事务所。",
-    privacyNotice: "提交表单即表示你同意我们使用所填写的信息来回复你的咨询。"
+    privacyNotice: "提交表单即表示你同意我们使用所填写的信息来回复你的咨询。",
+    fieldErrors: {
+      name: "请填写至少 2 个字符的姓名。",
+      email: "请输入有效的邮箱地址。",
+      phone: "请填写简洁有效的电话号码。",
+      service: "请选择或填写你需要的服务。",
+      message: "请提供更具体的情况说明，方便我们判断下一步。"
+    }
   },
   privacyPage: {
     metaTitle: "隐私政策",

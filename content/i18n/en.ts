@@ -701,7 +701,14 @@ export const en = {
     successBody: "Your enquiry has been received. This placeholder workflow is ready to connect to email delivery later.",
     errorTitle: "Something went wrong.",
     errorBody: "Please try again in a moment or contact the practice directly by email.",
-    privacyNotice: "By submitting this form, you agree that your details can be used to respond to your enquiry."
+    privacyNotice: "By submitting this form, you agree that your details can be used to respond to your enquiry.",
+    fieldErrors: {
+      name: "Please enter at least 2 characters.",
+      email: "Please enter a valid email address.",
+      phone: "Please keep the phone number short and readable.",
+      service: "Please select or enter the service you need.",
+      message: "Please provide a little more detail so we can help."
+    }
   },
   privacyPage: {
     metaTitle: "Privacy Policy",

@@ -13,6 +13,8 @@
   --primary-soft: #ddecea;
   --accent: #d4a79b;
   --accent-soft: #f2e3df;
+  --alert: #b85c5c;
+  --alert-soft: #f7e3e3;
   --border: rgba(38, 45, 44, 0.1);
   --shadow-soft: 0 18px 45px -28px rgba(30, 42, 41, 0.25);
   --shadow-card: 0 16px 32px -26px rgba(36, 53, 52, 0.28);

@@ -41,6 +41,14 @@ export interface ContactDetail {
   href?: string;
 }
 
+export interface ContactFormFieldErrors {
+  name: string;
+  email: string;
+  phone: string;
+  service: string;
+  message: string;
+}
+
 export interface InsightCardCopy {
   title: string;
   excerpt: string;
@@ -136,7 +144,6 @@ export interface Dictionary {
       title: string;
       description: string;
       expectationsLabel: string;
-      summaryLabel: string;
     };
       quickLinks: {
         title: string;
@@ -271,6 +278,7 @@ export interface Dictionary {
     errorTitle: string;
     errorBody: string;
     privacyNotice: string;
+    fieldErrors: ContactFormFieldErrors;
   };
   privacyPage: {
     metaTitle: string;

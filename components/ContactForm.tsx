@@ -4,6 +4,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 
+import type { ContactFormFieldErrors } from "@/content/i18n/schema";
 import type { Locale } from "@/lib/i18n";
 import { trackEvent } from "@/lib/analytics";
 import { contactFormSchema, type ContactFormValues } from "@/lib/validation";
@@ -30,30 +31,16 @@ interface ContactFormProps {
     errorTitle: string;
     errorBody: string;
     privacyNotice: string;
+    fieldErrors: ContactFormFieldErrors;
   };
 }
 
 type FormStatus = "idle" | "success" | "error";
+const WEB3FORMS_ACCESS_KEY =
+  process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY ?? "d14ac511-8881-4fc7-aa54-4043f0454dc4";
 
-const fieldErrorCopy = {
-  en: {
-    name: "Please enter at least 2 characters.",
-    email: "Please enter a valid email address.",
-    phone: "Please keep the phone number short and readable.",
-    service: "Please select or enter the service you need.",
-    message: "Please provide a little more detail so we can help."
-  },
-  zh: {
-    name: "请填写至少 2 个字符的姓名。",
-    email: "请输入有效的邮箱地址。",
-    phone: "请填写简洁有效的电话号码。",
-    service: "请选择或填写你需要的服务。",
-    message: "请提供更具体的情况说明，方便我们判断下一步。"
-  }
-} as const;
-
-function getFieldError(locale: Locale, field: keyof typeof fieldErrorCopy.en) {
-  return fieldErrorCopy[locale][field];
+function getFieldError(fieldErrors: ContactFormFieldErrors, field: keyof ContactFormFieldErrors) {
+  return fieldErrors[field];
 }
 
 export function ContactForm({ locale, copy }: ContactFormProps) {
@@ -80,15 +67,23 @@ export function ContactForm({ locale, copy }: ContactFormProps) {
     setStatus("idle");
 
     try {
-      const response = await fetch("/api/contact", {
+      const formData = new FormData();
+      formData.append("access_key", WEB3FORMS_ACCESS_KEY);
+      formData.append("name", values.name);
+      formData.append("email", values.email);
+      formData.append("phone", values.phone ?? "");
+      formData.append("service", values.service);
+      formData.append("message", values.message);
+      formData.append("company", values.company ?? "");
+
+      const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify(values)
+        body: formData
       });
 
-      if (!response.ok) {
+      const data = await response.json();
+
+      if (!response.ok || !data.success) {
         throw new Error("Request failed");
       }
 
@@ -123,7 +118,9 @@ export function ContactForm({ locale, copy }: ContactFormProps) {
             placeholder={copy.namePlaceholder}
             type="text"
           />
-          {errors.name ? <p className="text-sm text-[var(--primary-deep)]">{getFieldError(locale, "name")}</p> : null}
+          {errors.name ? (
+            <p className="text-sm text-[var(--alert: #b85c5c;)]">{getFieldError(copy.fieldErrors, "name")}</p>
+          ) : null}
         </div>
         <div className="space-y-2">
           <label className="text-sm font-semibold text-[var(--foreground)]" htmlFor="email">
@@ -137,7 +134,7 @@ export function ContactForm({ locale, copy }: ContactFormProps) {
             type="email"
           />
           {errors.email ? (
-            <p className="text-sm text-[var(--primary-deep)]">{getFieldError(locale, "email")}</p>
+            <p className="text-sm text-[var(--alert: #b85c5c;)]">{getFieldError(copy.fieldErrors, "email")}</p>
           ) : null}
         </div>
         <div className="space-y-2">
@@ -152,7 +149,7 @@ export function ContactForm({ locale, copy }: ContactFormProps) {
             type="tel"
           />
           {errors.phone ? (
-            <p className="text-sm text-[var(--primary-deep)]">{getFieldError(locale, "phone")}</p>
+            <p className="text-sm text-[var(--alert: #b85c5c;)]">{getFieldError(copy.fieldErrors, "phone")}</p>
           ) : null}
         </div>
         <div className="space-y-2">
@@ -172,7 +169,7 @@ export function ContactForm({ locale, copy }: ContactFormProps) {
             ))}
           </select>
           {errors.service ? (
-            <p className="text-sm text-[var(--primary-deep)]">{getFieldError(locale, "service")}</p>
+            <p className="text-sm text-[var(--alert: #b85c5c;)]">{getFieldError(copy.fieldErrors, "service")}</p>
           ) : null}
         </div>
       </div>
@@ -193,7 +190,7 @@ export function ContactForm({ locale, copy }: ContactFormProps) {
           placeholder={copy.messagePlaceholder}
         />
         {errors.message ? (
-          <p className="text-sm text-[var(--primary-deep)]">{getFieldError(locale, "message")}</p>
+          <p className="text-sm text-[var(--primary-deep)]">{getFieldError(copy.fieldErrors, "message")}</p>
         ) : null}
       </div>
 
