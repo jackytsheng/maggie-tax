@@ -3,7 +3,7 @@ export const business = {
   founderName: "Maggie Xing",
   founderRole: "[Founder Role / Practice Director]",
   qualifications: "[Qualifications and registrations to be added]",
-  email: "hello@practice-domain.com.au",
+  email: "jackytsheng@gmail.com",
   phone: "03 9000 0000",
   city: "Melbourne",
   state: "Victoria",

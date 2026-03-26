@@ -705,7 +705,7 @@ export const en = {
     fieldErrors: {
       name: "Please enter at least 2 characters.",
       email: "Please enter a valid email address.",
-      phone: "Please keep the phone number short and readable.",
+      phone: "Please use digits only, with an optional + at the beginning.",
       service: "Please select or enter the service you need.",
       message: "Please provide a little more detail so we can help."
     }

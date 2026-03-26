@@ -5,9 +5,10 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 
 import type { ContactFormFieldErrors } from "@/content/i18n/schema";
+import { business } from "@/content/business";
 import type { Locale } from "@/lib/i18n";
 import { trackEvent } from "@/lib/analytics";
-import { contactFormSchema, type ContactFormValues } from "@/lib/validation";
+import { CONTACT_MESSAGE_MAX_LENGTH, contactFormSchema, type ContactFormValues } from "@/lib/validation";
 
 interface ContactFormProps {
   locale: Locale;
@@ -50,6 +51,7 @@ export function ContactForm({ locale, copy }: ContactFormProps) {
     register,
     handleSubmit,
     reset,
+    watch,
     formState: { errors, isSubmitting }
   } = useForm<ContactFormValues>({
     resolver: zodResolver(contactFormSchema),
@@ -62,6 +64,7 @@ export function ContactForm({ locale, copy }: ContactFormProps) {
       company: ""
     }
   });
+  const messageValue = watch("message") ?? "";
 
   const onSubmit = handleSubmit(async (values) => {
     setStatus("idle");
@@ -75,6 +78,8 @@ export function ContactForm({ locale, copy }: ContactFormProps) {
       formData.append("service", values.service);
       formData.append("message", values.message);
       formData.append("company", values.company ?? "");
+      formData.append("from_name", business.name); 
+      formData.append("subject", `${business.name} enquiry: ${values.service} - ${values.name}`);
 
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
@@ -119,7 +124,7 @@ export function ContactForm({ locale, copy }: ContactFormProps) {
             type="text"
           />
           {errors.name ? (
-            <p className="text-sm text-[var(--alert: #b85c5c;)]">{getFieldError(copy.fieldErrors, "name")}</p>
+            <p className="text-sm text-[var(--alert)]">{getFieldError(copy.fieldErrors, "name")}</p>
           ) : null}
         </div>
         <div className="space-y-2">
@@ -134,7 +139,7 @@ export function ContactForm({ locale, copy }: ContactFormProps) {
             type="email"
           />
           {errors.email ? (
-            <p className="text-sm text-[var(--alert: #b85c5c;)]">{getFieldError(copy.fieldErrors, "email")}</p>
+            <p className="text-sm text-[var(--alert)]">{getFieldError(copy.fieldErrors, "email")}</p>
           ) : null}
         </div>
         <div className="space-y-2">
@@ -149,7 +154,7 @@ export function ContactForm({ locale, copy }: ContactFormProps) {
             type="tel"
           />
           {errors.phone ? (
-            <p className="text-sm text-[var(--alert: #b85c5c;)]">{getFieldError(copy.fieldErrors, "phone")}</p>
+            <p className="text-sm text-[var(--alert)]">{getFieldError(copy.fieldErrors, "phone")}</p>
           ) : null}
         </div>
         <div className="space-y-2">
@@ -169,7 +174,7 @@ export function ContactForm({ locale, copy }: ContactFormProps) {
             ))}
           </select>
           {errors.service ? (
-            <p className="text-sm text-[var(--alert: #b85c5c;)]">{getFieldError(copy.fieldErrors, "service")}</p>
+            <p className="text-sm text-[var(--alert)]">{getFieldError(copy.fieldErrors, "service")}</p>
           ) : null}
         </div>
       </div>
@@ -187,11 +192,19 @@ export function ContactForm({ locale, copy }: ContactFormProps) {
           {...register("message")}
           className="focus-ring min-h-40 w-full rounded-[1.6rem] border border-[var(--border)] bg-white px-4 py-3 text-[var(--foreground)] placeholder:text-[var(--muted-soft)]"
           id="message"
+          maxLength={CONTACT_MESSAGE_MAX_LENGTH}
           placeholder={copy.messagePlaceholder}
         />
-        {errors.message ? (
-          <p className="text-sm text-[var(--primary-deep)]">{getFieldError(copy.fieldErrors, "message")}</p>
-        ) : null}
+        <div className="flex items-start justify-between gap-4">
+          {errors.message ? (
+            <p className="text-sm text-[var(--alert)]">{getFieldError(copy.fieldErrors, "message")}</p>
+          ) : (
+            <span />
+          )}
+          <p className="shrink-0 text-sm text-[var(--muted)]">
+            {messageValue.length}/{CONTACT_MESSAGE_MAX_LENGTH}
+          </p>
+        </div>
       </div>
 
       <div className="flex flex-col gap-4 border-t border-[var(--border)] pt-5 sm:flex-row sm:items-center sm:justify-between">
