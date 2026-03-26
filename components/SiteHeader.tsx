@@ -41,7 +41,7 @@ export function SiteHeader({
       <Container>
         <div className="flex min-h-20 items-center justify-between gap-4">
           <Link className="focus-ring inline-flex items-center gap-3" href={localizePath(locale, "")}>
-            <span className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-[var(--primary)] text-sm font-semibold text-white">
+            <span className="primary-surface inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-[var(--primary)] text-sm font-semibold text-white">
               M
             </span>
             <div className="hidden sm:block">

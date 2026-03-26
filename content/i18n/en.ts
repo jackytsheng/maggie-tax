@@ -743,10 +743,10 @@ export const en = {
       eyebrow: "Insights",
       title: "A content hub ready for future SEO growth.",
       description:
-        "The first release uses placeholder article cards so the structure is ready for future educational content, suburb pages, and service-specific guidance."
+        "The insights section now reads from a local article registry, making future educational content easy to publish and maintain."
     },
     intro:
-      "This section can later support blog posts, FAQs, practical guides, and bilingual educational content without needing to rework the wider site structure.",
+      "Articles are maintained through local content files, so future blog posts, practical guides, and bilingual educational content can be added without rewriting page components.",
     cards: [
       {
         title: "What to prepare before lodging your tax return",

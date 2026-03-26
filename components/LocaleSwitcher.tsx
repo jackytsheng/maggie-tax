@@ -22,7 +22,9 @@ export function LocaleSwitcher({ currentLocale, label }: LocaleSwitcherProps) {
           key={locale}
           className={cn(
             "focus-ring rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] transition",
-            locale === currentLocale ? "bg-[var(--primary)] text-white" : "text-[var(--muted)] hover:text-[var(--primary)]"
+            locale === currentLocale
+              ? "primary-surface bg-[var(--primary)] text-white"
+              : "text-[var(--muted)] hover:text-[var(--primary)]"
           )}
           href={localizePath(locale, routeWithoutLocale)}
           hrefLang={locale === "zh" ? "zh-Hans" : "en-AU"}

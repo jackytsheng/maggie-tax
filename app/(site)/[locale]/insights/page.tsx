@@ -2,6 +2,7 @@ import { CTASection } from "@/components/CTASection";
 import { Container } from "@/components/Container";
 import { InsightCard } from "@/components/InsightCard";
 import { PageHero } from "@/components/PageHero";
+import { getLocalizedInsightSummaries } from "@/content/insights";
 import { buildMetadata } from "@/lib/metadata";
 import { getLocaleDictionary } from "@/lib/get-locale-dictionary";
 
@@ -21,6 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function InsightsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale, dictionary } = await getLocaleDictionary(params);
+  const articles = getLocalizedInsightSummaries(locale);
 
   return (
     <>
@@ -41,8 +43,8 @@ export default async function InsightsPage({ params }: { params: Promise<{ local
             <p className="max-w-4xl text-base leading-8 sm:text-lg">{dictionary.insightsPage.intro}</p>
           </div>
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-            {dictionary.insightsPage.cards.map((card) => (
-              <InsightCard card={card} key={card.title} />
+            {articles.map((card) => (
+              <InsightCard card={card} key={card.slug} locale={locale} readMoreLabel={dictionary.common.readMore} />
             ))}
           </div>
         </Container>

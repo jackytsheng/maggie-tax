@@ -66,6 +66,33 @@ If these values are omitted, the site still runs normally.
 - Contact API placeholder:
   [`app/api/contact/route.ts`](/Users/jiajinzheng/Desktop/github-repo/Maggie-Web/app/api/contact/route.ts)
 
+## Adding blog articles declaratively
+
+Articles now live in a file-based content layer:
+
+- Article registry:
+  [`content/insights/index.ts`](/Users/jiajinzheng/Desktop/github-repo/Maggie-Web/content/insights/index.ts)
+- Article types:
+  [`content/insights/types.ts`](/Users/jiajinzheng/Desktop/github-repo/Maggie-Web/content/insights/types.ts)
+- Sample article:
+  [`content/insights/articles/get-your-tax-return-ready.ts`](/Users/jiajinzheng/Desktop/github-repo/Maggie-Web/content/insights/articles/get-your-tax-return-ready.ts)
+
+To add another article:
+
+1. Create a new file in `content/insights/articles/`.
+2. Export one `InsightArticle` object with the same structure as the sample article.
+3. Add that export to the array in `content/insights/index.ts`.
+4. Run `npm run build`.
+
+Each article file contains:
+
+- One shared slug and publish date
+- English and Chinese translations
+- Metadata, excerpt, category, and status
+- Intro, sections, optional bullet lists, and takeaway items
+
+This keeps the blog declarative and easy to maintain without introducing a CMS yet.
+
 ## Locale routing
 
 - `/` redirects to `/zh`

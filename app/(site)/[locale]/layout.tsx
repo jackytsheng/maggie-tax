@@ -53,7 +53,7 @@ export default async function LocaleLayout({
     <html lang={localeToHtmlLang[localeParam]}>
       <body className="relative min-h-screen">
         <a
-          className="focus-ring sr-only left-4 top-4 z-[60] rounded-full bg-[var(--primary)] px-4 py-2 text-sm font-semibold text-white focus:not-sr-only focus:absolute"
+          className="primary-surface focus-ring sr-only left-4 top-4 z-[60] rounded-full bg-[var(--primary)] px-4 py-2 text-sm font-semibold text-white focus:not-sr-only focus:absolute"
           href="#main-content"
         >
           {dictionary.common.skipToContent}

@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 
 import { business } from "@/content/business";
+import { getAllInsightArticles } from "@/content/insights";
 import { locales, localizePath } from "@/lib/i18n";
 
 const routes = [
@@ -18,9 +19,11 @@ const routes = [
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
+  const articleRoutes = getAllInsightArticles().map((article) => `/insights/${article.slug}`);
+  const allRoutes = [...routes, ...articleRoutes];
 
   return locales.flatMap((locale) =>
-    routes.map((route) => ({
+    allRoutes.map((route) => ({
       url: `${business.domain}${localizePath(locale, route)}`,
       lastModified
     }))

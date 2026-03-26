@@ -121,11 +121,18 @@ textarea {
     box-shadow: 0 0 0 4px rgba(47, 111, 107, 0.18);
   }
 
-  .primary-button {
-    color: #ffffff;
+  .primary-surface,
+  .primary-surface * {
+    color: #ffffff !important;
   }
 
-  .primary-button:is(:hover, :focus, :visited) {
-    color: #ffffff;
+  .primary-button,
+  .primary-button * {
+    color: #ffffff !important;
+  }
+
+  .primary-button:is(:hover, :focus, :visited),
+  .primary-button:is(:hover, :focus, :visited) * {
+    color: #ffffff !important;
   }
 }
