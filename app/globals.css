@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f6f1eb;
+  --surface: #ffffff;
+  --surface-soft: #f3ebe4;
+  --surface-sage: #edf4f1;
+  --foreground: #262d2c;
+  --muted: #5d6663;
+  --muted-soft: #7f8884;
+  --primary: #2f6f6b;
+  --primary-deep: #245956;
+  --primary-soft: #ddecea;
+  --accent: #d4a79b;
+  --accent-soft: #f2e3df;
+  --border: rgba(38, 45, 44, 0.1);
+  --shadow-soft: 0 18px 45px -28px rgba(30, 42, 41, 0.25);
+  --shadow-card: 0 16px 32px -26px rgba(36, 53, 52, 0.28);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top right, rgba(212, 167, 155, 0.12), transparent 28%),
+    radial-gradient(circle at left top, rgba(47, 111, 107, 0.08), transparent 30%),
+    linear-gradient(180deg, #faf6f2 0%, #f6f1eb 100%);
+  color: var(--foreground);
+  font-family:
+    "Avenir Next",
+    "Manrope",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "Microsoft YaHei",
+    sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(47, 111, 107, 0.16);
+  color: var(--foreground);
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4 {
+    letter-spacing: -0.03em;
+  }
+
+  p {
+    color: var(--muted);
+  }
+}
+
+@layer components {
+  .shell-card {
+    background: color-mix(in srgb, var(--surface) 92%, transparent);
+    border: 1px solid var(--border);
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-card);
+    backdrop-filter: blur(14px);
+  }
+
+  .section-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 1.75rem;
+    box-shadow: var(--shadow-soft);
+  }
+
+  .pill-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.72);
+    padding: 0.55rem 0.9rem;
+    color: var(--primary-deep);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .focus-ring {
+    outline: none;
+    transition:
+      box-shadow 160ms ease,
+      border-color 160ms ease,
+      background-color 160ms ease;
+  }
+
+  .focus-ring:focus-visible {
+    box-shadow: 0 0 0 4px rgba(47, 111, 107, 0.18);
+  }
+
+  .primary-button {
+    color: #ffffff;
+  }
+
+  .primary-button:is(:hover, :focus, :visited) {
+    color: #ffffff;
+  }
+}
