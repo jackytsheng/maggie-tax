@@ -72,7 +72,6 @@ export const zh = {
         title: "从最贴合你情况的服务方向开始。",
         description: "如果你暂时不确定，也可以先提交咨询，我们会协助你判断下一步。",
         expectationsLabel: "你可以期待的服务体验",
-        summaryLabel: "核心支持方向"
       },
       quickLinks: {
         title: "常见咨询起点",

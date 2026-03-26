@@ -76,7 +76,6 @@ export const en = {
         description:
           "If you are unsure, the contact form is set up so we can guide you to the right next step.",
         expectationsLabel: "What you can expect",
-        summaryLabel: "Core support areas"
       },
       quickLinks: {
         title: "Popular starting points",
