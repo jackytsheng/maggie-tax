@@ -132,6 +132,16 @@ export interface Dictionary {
       primary: CtaLink;
       secondary: CtaLink;
       trustPoints: string[];
+    panel: {
+      title: string;
+      description: string;
+      expectationsLabel: string;
+      summaryLabel: string;
+    };
+      quickLinks: {
+        title: string;
+        description: string;
+      };
     };
     trustBar: string[];
     services: {

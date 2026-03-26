@@ -70,7 +70,19 @@ export const en = {
         "Australian tax support tailored to real-life client situations",
         "Structured guidance for individuals, investors, and small businesses",
         "Built for long-term clarity, not one-off transactions"
-      ]
+      ],
+      panel: {
+        title: "Start with the service that best matches your situation.",
+        description:
+          "If you are unsure, the contact form is set up so we can guide you to the right next step.",
+        expectationsLabel: "What you can expect",
+        summaryLabel: "Core support areas"
+      },
+      quickLinks: {
+        title: "Popular starting points",
+        description:
+          "Most enquiries begin in one of these core areas."
+      }
     },
     trustBar: ["Melbourne-based", "Individuals and small businesses", "Bilingual-ready client experience"],
     services: {

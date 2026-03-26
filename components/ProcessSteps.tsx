@@ -2,7 +2,7 @@ import type { StepItem } from "@/content/i18n/schema";
 
 export function ProcessSteps({ steps }: { steps: StepItem[] }) {
   return (
-    <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+    <div className="grid gap-4 md:grid-cols-2">
       {steps.map((step, index) => (
         <div key={step.title} className="section-card h-full px-5 py-6 sm:px-6">
           <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[var(--surface-sage)] text-sm font-semibold text-[var(--primary)]">
