@@ -2,6 +2,7 @@ import "../../globals.css";
 
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Analytics } from "@vercel/analytics/next";
 
 import { business } from "@/content/business";
 import { AnalyticsScripts } from "@/components/AnalyticsScripts";
@@ -77,6 +78,7 @@ export default async function LocaleLayout({
         </main>
         <SiteFooter dictionary={dictionary} locale={localeParam} />
         <AnalyticsScripts />
+        <Analytics />
       </body>
     </html>
   );
