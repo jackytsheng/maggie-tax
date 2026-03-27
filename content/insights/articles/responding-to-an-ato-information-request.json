@@ -1,0 +1,100 @@
+{
+  "slug": "responding-to-an-ato-information-request",
+  "publishedAt": "2025-11-18",
+  "translations": {
+    "en": {
+      "metaTitle": "How to Respond to an ATO Information Request",
+      "metaDescription": "A sample article outlining the first practical steps to take when the ATO asks for information or documents.",
+      "title": "How to respond to an ATO information request",
+      "excerpt": "A sample ATO-support article showing how content can be filtered by date and automatically published from a single file.",
+      "description": "ATO support",
+      "category": "ATO support",
+      "status": "Sample article",
+      "publishedLabel": "18 November 2025",
+      "readTimeLabel": "4 min read",
+      "intro": "ATO correspondence usually feels urgent, but the first priority is not speed alone. It is understanding exactly what has been requested, by when, and what records are actually relevant.",
+      "sections": [
+        {
+          "title": "Read the request carefully before gathering everything",
+          "paragraphs": [
+            "Clients sometimes react by sending every available record. That can create more confusion instead of less. A better first step is to confirm the period, issue, and specific documents being requested.",
+            "That short review usually helps separate relevant records from background material."
+          ]
+        },
+        {
+          "title": "Build a response file with structure",
+          "paragraphs": [
+            "A response becomes easier to manage when documents are grouped logically and named clearly. This is especially helpful where multiple accounts, entities, or tax periods are involved.",
+            "Structure also helps reduce the chance of overlooking a deadline or providing incomplete information."
+          ],
+          "bullets": [
+            "Keep the ATO letter with the response file",
+            "Group documents by issue or period",
+            "Note any missing records early",
+            "Track deadlines in one visible place"
+          ]
+        },
+        {
+          "title": "Ask for help early if the issue is not straightforward",
+          "paragraphs": [
+            "When the issue involves multiple transactions, older records, or unclear tax treatment, early support can reduce avoidable stress.",
+            "Even where the matter is still at an early review stage, a more organised response can change the whole experience."
+          ]
+        }
+      ],
+      "takeawayTitle": "First response priorities",
+      "takeawayItems": [
+        "Confirm exactly what the ATO is asking for",
+        "Organise records before sending anything",
+        "Escalate early when the issue is complex"
+      ]
+    },
+    "cn": {
+      "metaTitle": "收到 ATO 资料要求后，应该怎么开始处理",
+      "metaDescription": "一篇示例文章，说明当 ATO 要求提供资料时，第一步该如何更稳妥地回应。",
+      "title": "收到 ATO 资料要求后，应该怎么开始处理",
+      "excerpt": "这是一篇 ATO 协助方向的示例文章，用来展示文章如何自动发布并按日期筛选。",
+      "description": "ATO 协助",
+      "category": "ATO 协助",
+      "status": "示例文章",
+      "publishedLabel": "2025年11月18日",
+      "readTimeLabel": "约 4 分钟",
+      "intro": "收到 ATO 来信时，很多人第一反应是赶快回复。但真正更重要的第一步，是先弄清楚 ATO 具体要什么、截止日期是什么，以及哪些资料才真正相关。",
+      "sections": [
+        {
+          "title": "先读清楚要求，再开始整理资料",
+          "paragraphs": [
+            "有些客户会本能地把所有能找到的文件都发出去，但这样反而可能让重点更模糊。更稳妥的起点，是先确认涉及哪个期间、哪个问题，以及具体被要求提供哪些文件。",
+            "这个小步骤通常就能帮助你把真正相关的资料和背景资料分开。"
+          ]
+        },
+        {
+          "title": "把回应资料整理成清楚的结构",
+          "paragraphs": [
+            "如果文件能按问题、期间或实体分类，并且命名清楚，后续回应会容易很多。尤其当涉及多个账户、实体或税年时，结构更重要。",
+            "资料结构清楚，也更不容易漏掉时间点或提交不完整内容。"
+          ],
+          "bullets": [
+            "把 ATO 来信和回应资料放在同一个文件夹",
+            "按问题或期间分组整理文件",
+            "尽早标记缺失资料",
+            "把截止日期放在显眼位置追踪"
+          ]
+        },
+        {
+          "title": "如果问题不简单，尽早寻求协助",
+          "paragraphs": [
+            "当问题牵涉多笔交易、较早年份资料，或税务处理本身不够清楚时，越早获得支持越能减少不必要的紧张。",
+            "即使还只是初步审阅阶段，更有条理的回应方式也会让整个过程轻松很多。"
+          ]
+        }
+      ],
+      "takeawayTitle": "初步回应可先抓住的重点",
+      "takeawayItems": [
+        "先确认 ATO 具体要求什么",
+        "整理好结构再提交资料",
+        "复杂问题尽早升级处理"
+      ]
+    }
+  }
+}

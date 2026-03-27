@@ -1,0 +1,102 @@
+{
+  "slug": "rental-property-records-before-tax-time",
+  "publishedAt": "2025-07-04",
+  "translations": {
+    "en": {
+      "metaTitle": "Rental Property Records to Prepare Before Tax Time",
+      "metaDescription": "A sample article for investors on organising rental property records before tax season.",
+      "title": "Rental property records to prepare before tax time",
+      "excerpt": "A sample investor-focused article that helps demonstrate multi-year archives, pagination, and date-based filtering.",
+      "description": "Individual tax",
+      "category": "Individual tax",
+      "status": "Sample article",
+      "publishedLabel": "4 July 2025",
+      "readTimeLabel": "4 min read",
+      "intro": "Rental property returns often become messy when expenses, loan records, and agent statements are scattered across different places. A little structure before tax time makes review much easier.",
+      "sections": [
+        {
+          "title": "Start with the annual rental summary",
+          "paragraphs": [
+            "The managing agent statement is often the best starting point because it provides a year-level view of rent received and common expense categories.",
+            "It should still be checked against bank records and any direct expenses paid outside the agent account."
+          ]
+        },
+        {
+          "title": "Keep capital and repair costs distinct",
+          "paragraphs": [
+            "Property owners often keep every invoice together, but tax treatment can differ significantly between repairs, maintenance, and capital improvements.",
+            "Clear labeling at the record stage helps avoid confusion later when the return is reviewed."
+          ],
+          "bullets": [
+            "Agent annual statements",
+            "Loan interest summaries",
+            "Council and water notices",
+            "Insurance and strata invoices",
+            "Repair versus improvement notes"
+          ]
+        },
+        {
+          "title": "Flag changes in ownership or use",
+          "paragraphs": [
+            "Any part-year rental use, ownership change, refinance, or major renovation can affect how the year should be reviewed.",
+            "Those changes are much easier to deal with when they are identified up front rather than discovered halfway through preparation."
+          ]
+        }
+      ],
+      "takeawayTitle": "Property record checklist",
+      "takeawayItems": [
+        "Begin with the annual rental summary",
+        "Separate repairs from capital works",
+        "Note any ownership or usage changes early"
+      ]
+    },
+    "cn": {
+      "metaTitle": "报税前出租房资料可以先怎么整理",
+      "metaDescription": "一篇面向投资者的示例文章，帮助在税季前整理出租房相关资料。",
+      "title": "报税前出租房资料可以先怎么整理",
+      "excerpt": "这是一篇面向投资者的示例文章，也用来展示多年份归档、分页与按日期筛选。",
+      "description": "个人税务",
+      "category": "个人税务",
+      "status": "示例文章",
+      "publishedLabel": "2025年7月4日",
+      "readTimeLabel": "约 4 分钟",
+      "intro": "出租房报税之所以容易变复杂，往往不是因为规则本身，而是因为支出、贷款记录和中介报表散落在不同地方。税季前先做一点结构整理，后续会轻松很多。",
+      "sections": [
+        {
+          "title": "先从年度租赁汇总开始",
+          "paragraphs": [
+            "很多时候，中介提供的年度汇总是最好的起点，因为它能先把全年租金收入与常见支出类别串起来。",
+            "不过它仍然最好与银行记录以及中介账户之外直接支付的费用一起核对。"
+          ]
+        },
+        {
+          "title": "把资本性支出和维修支出分开",
+          "paragraphs": [
+            "房东很容易把所有发票放在一起，但维修、维护和资本改良在税务处理上可能完全不同。",
+            "如果在整理资料时就先标注清楚，后续审阅时会省下很多来回确认的时间。"
+          ],
+          "bullets": [
+            "中介年度汇总",
+            "贷款利息汇总",
+            "council 和 water 通知",
+            "保险与 strata 发票",
+            "维修与改良的备注区分"
+          ]
+        },
+        {
+          "title": "提前标记产权或用途变化",
+          "paragraphs": [
+            "如果这一年有部分时间自住、产权变化、再融资或较大装修，这些都会影响申报审阅方式。",
+            "越早把这些变化标记出来，后续处理越不容易在中途发现遗漏。"
+          ]
+        }
+      ],
+      "takeawayTitle": "出租房资料准备清单",
+      "takeawayItems": [
+        "先看年度租赁汇总",
+        "把维修和资本支出分开",
+        "提前标记产权或用途变化"
+      ]
+    }
+  }
+}

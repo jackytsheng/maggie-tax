@@ -294,6 +294,19 @@ export interface Dictionary {
     hero: PageHeroCopy;
     intro: string;
     cards: InsightCardCopy[];
+    archive: {
+      resultsTitle: string;
+      resultsDescription: string;
+      yearLabel: string;
+      monthLabel: string;
+      allDatesLabel: string;
+      clearFiltersLabel: string;
+      noResultsTitle: string;
+      noResultsDescription: string;
+      previousPageLabel: string;
+      nextPageLabel: string;
+      pageLabel: string;
+    };
     cta: CtaSectionCopy;
   };
   notFound: {

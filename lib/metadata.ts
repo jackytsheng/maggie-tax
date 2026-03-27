@@ -33,7 +33,7 @@ export function buildMetadata({
     alternates: {
       canonical,
       languages: {
-        "zh-Hans": localizePath("zh", pathname),
+        "zh-Hans": localizePath("cn", pathname),
         "en-AU": localizePath("en", pathname),
         "x-default": localizePath(defaultLocale, pathname)
       }

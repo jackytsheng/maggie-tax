@@ -761,10 +761,10 @@ export const en = {
       eyebrow: "Insights",
       title: "A content hub ready for future SEO growth.",
       description:
-        "The insights section now reads from a local article registry, making future educational content easy to publish and maintain."
+        "The insights section now auto-discovers local article files, making future educational content easy to publish and maintain."
     },
     intro:
-      "Articles are maintained through local content files, so future blog posts, practical guides, and bilingual educational content can be added without rewriting page components.",
+      "Articles are maintained through local content files, so authors can add a new article file and have the archive, article routes, and sitemap update automatically.",
     cards: [
       {
         title: "What to prepare before lodging your tax return",
@@ -785,6 +785,19 @@ export const en = {
         status: "Draft placeholder"
       }
     ],
+    archive: {
+      resultsTitle: "Latest articles",
+      resultsDescription: "Articles are discovered automatically from the local content folder, then sorted, filtered, and paginated for the archive view.",
+      yearLabel: "Year",
+      monthLabel: "Month",
+      allDatesLabel: "All dates",
+      clearFiltersLabel: "Clear filters",
+      noResultsTitle: "No articles match this filter yet.",
+      noResultsDescription: "Try another month or year, or return to the full archive.",
+      previousPageLabel: "Previous",
+      nextPageLabel: "Next",
+      pageLabel: "Page"
+    },
     cta: {
       title: "Need help before the knowledge base is expanded?",
       description: "The site already includes service pages and a validated enquiry form so clients can still reach out directly.",

@@ -1,7 +1,7 @@
 import { business } from "@/content/business";
 import type { Dictionary } from "@/content/i18n/schema";
 
-export const zh = {
+export const cn = {
   localeLabel: "中文",
   meta: {
     siteDescription: "面向墨尔本及全澳客户的精品会计与税务服务网站，适合个人、投资者与小型企业客户。",
@@ -729,9 +729,9 @@ export const zh = {
       eyebrow: "洞察文章",
       title: "为未来 SEO 增长预留好的内容中心。",
       description:
-        "洞察文章区域现在已经接入本地内容注册方式，后续新增文章时无需改动页面组件结构。"
+        "洞察文章区域现在会自动读取本地文章文件，后续新增内容时无需再维护文章注册数组。"
     },
-    intro: "未来新增文章时，只需在本地内容文件中声明文章内容，即可继续扩展报税知识、企业合规指南与双语教育内容。",
+    intro: "未来新增文章时，只需添加一个本地文章文件，文章列表、详情页路由与 sitemap 都会自动更新。",
     cards: [
       {
         title: "报税前应该先准备哪些资料",
@@ -752,6 +752,19 @@ export const zh = {
         status: "占位草稿"
       }
     ],
+    archive: {
+      resultsTitle: "最新文章",
+      resultsDescription: "文章会从本地内容目录自动读取，并按日期排序、筛选与分页，方便后续持续扩展。",
+      yearLabel: "年份",
+      monthLabel: "月份",
+      allDatesLabel: "全部日期",
+      clearFiltersLabel: "清除筛选",
+      noResultsTitle: "当前筛选下还没有文章。",
+      noResultsDescription: "可以切换其他月份或年份，或返回完整文章列表。",
+      previousPageLabel: "上一页",
+      nextPageLabel: "下一页",
+      pageLabel: "第"
+    },
     cta: {
       title: "在知识内容尚未完善之前，你仍然可以直接联系我们。",
       description: "网站已经具备服务页与验证表单，方便客户直接发起咨询。",

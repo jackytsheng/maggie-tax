@@ -1,0 +1,100 @@
+{
+  "slug": "bas-gst-foundations-for-growing-businesses",
+  "publishedAt": "2026-02-14",
+  "translations": {
+    "en": {
+      "metaTitle": "BAS and GST Foundations for Growing Businesses",
+      "metaDescription": "A practical guide to building a steadier BAS and GST process as a small business grows.",
+      "title": "BAS and GST foundations for growing businesses",
+      "excerpt": "A sample business-tax article showing how the archive can scale with practical guidance for quarterly compliance.",
+      "description": "Business tax",
+      "category": "Business tax",
+      "status": "Sample article",
+      "publishedLabel": "14 February 2026",
+      "readTimeLabel": "5 min read",
+      "intro": "BAS pressure often comes from inconsistent records rather than the BAS itself. A calmer quarterly process usually starts with clearer habits between lodgements.",
+      "sections": [
+        {
+          "title": "Keep bookkeeping close to real time",
+          "paragraphs": [
+            "The longer records sit untouched, the more BAS review turns into cleanup. A regular rhythm for coding transactions, reconciling accounts, and filing tax invoices reduces quarter-end pressure.",
+            "This becomes especially important once sales volume grows, new suppliers are added, or payroll complexity increases."
+          ]
+        },
+        {
+          "title": "Separate reporting issues from business decisions",
+          "paragraphs": [
+            "Some BAS issues are purely about record quality, while others reflect broader business choices such as pricing, contractor structure, or software setup.",
+            "When those are separated clearly, it becomes easier to decide what needs fixing now and what should be improved over the next quarter."
+          ],
+          "bullets": [
+            "Uncoded or duplicated transactions",
+            "Missing source documents",
+            "GST treatment inconsistencies",
+            "Timing differences between invoices and cash flow"
+          ]
+        },
+        {
+          "title": "Use each BAS cycle to strengthen the next one",
+          "paragraphs": [
+            "A useful BAS process does more than produce a lodgement. It should also show where recurring friction is happening so the next cycle runs more smoothly.",
+            "That is often where small process changes create the biggest long-term benefit."
+          ]
+        }
+      ],
+      "takeawayTitle": "Quarterly focus points",
+      "takeawayItems": [
+        "Reconcile more regularly, not only at BAS time",
+        "Separate cleanup issues from structural issues",
+        "Use each quarter to reduce repeat friction"
+      ]
+    },
+    "cn": {
+      "metaTitle": "成长型企业如何把 BAS 与 GST 基础流程建立稳",
+      "metaDescription": "一篇面向成长型小企业的示例文章，帮助读者把 BAS 与 GST 流程建立得更稳定。",
+      "title": "成长型企业如何把 BAS 与 GST 基础流程建立稳",
+      "excerpt": "这是一篇企业税务方向的示例文章，用来展示季度合规内容如何持续扩展。",
+      "description": "企业税务",
+      "category": "企业税务",
+      "status": "示例文章",
+      "publishedLabel": "2026年2月14日",
+      "readTimeLabel": "约 5 分钟",
+      "intro": "很多企业觉得 BAS 压力大，真正的问题往往不只是申报本身，而是平时账务记录不够稳定。季度流程越清楚，临近截止时越不容易慌乱。",
+      "sections": [
+        {
+          "title": "尽量把记账节奏拉近到日常经营",
+          "paragraphs": [
+            "如果交易长期没有及时整理，到了 BAS 阶段就容易变成集中清理。建立更规律的编码、对账与发票归档习惯，通常能明显降低季度末压力。",
+            "尤其当业务量增加、供应商变多或 payroll 更复杂时，这一点会更重要。"
+          ]
+        },
+        {
+          "title": "把申报问题和经营决策问题分开看",
+          "paragraphs": [
+            "有些 BAS 困难只是资料质量问题，有些则反映更大的经营安排，例如定价、承包结构或系统设置。",
+            "如果能先把这两类问题分开，后续就更容易判断哪些需要立刻修正，哪些适合放到下一个季度逐步优化。"
+          ],
+          "bullets": [
+            "交易未分类或重复分类",
+            "缺少原始凭证",
+            "GST 处理口径不一致",
+            "发票时间与现金流时间差异"
+          ]
+        },
+        {
+          "title": "把每次 BAS 当成下一次更顺的起点",
+          "paragraphs": [
+            "一个好的 BAS 流程不只是完成申报，也应该帮助你看清重复出现的卡点，让下一次处理更轻松。",
+            "很多时候，真正有价值的提升来自几个小但持续的流程调整。"
+          ]
+        }
+      ],
+      "takeawayTitle": "每季度可先关注的几点",
+      "takeawayItems": [
+        "不要只在 BAS 前集中对账",
+        "把临时清理和结构问题分开",
+        "每季度都减少一点重复摩擦"
+      ]
+    }
+  }
+}

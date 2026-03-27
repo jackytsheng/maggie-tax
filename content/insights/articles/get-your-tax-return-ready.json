@@ -1,32 +1,27 @@
-import type { InsightArticle } from "@/content/insights/types";
-
-export const getYourTaxReturnReadyArticle: InsightArticle = {
-  slug: "get-your-tax-return-ready",
-  publishedAt: "2026-03-26",
-  featured: true,
-  translations: {
-    en: {
-      metaTitle: "What to Prepare Before Lodging Your Tax Return",
-      metaDescription:
-        "A sample insights article covering practical preparation steps before lodging an Australian tax return.",
-      title: "What to prepare before lodging your tax return",
-      excerpt:
-        "A practical sample article showing how the site can publish future educational content in a clean, declarative structure.",
-      description: "Individual tax",
-      category: "Individual tax",
-      status: "Sample article",
-      publishedLabel: "26 March 2026",
-      readTimeLabel: "4 min read",
-      intro:
-        "Good tax preparation starts before lodgement day. When documents are gathered early and the main questions are clear, the return process becomes faster, calmer, and less likely to miss details.",
-      sections: [
+{
+  "slug": "get-your-tax-return-ready",
+  "publishedAt": "2026-03-26",
+  "featured": true,
+  "translations": {
+    "en": {
+      "metaTitle": "What to Prepare Before Lodging Your Tax Return",
+      "metaDescription": "A sample insights article covering practical preparation steps before lodging an Australian tax return.",
+      "title": "What to prepare before lodging your tax return",
+      "excerpt": "A practical sample article showing how the site can publish future educational content in a clean, declarative structure.",
+      "description": "Individual tax",
+      "category": "Individual tax",
+      "status": "Sample article",
+      "publishedLabel": "26 March 2026",
+      "readTimeLabel": "4 min read",
+      "intro": "Good tax preparation starts before lodgement day. When documents are gathered early and the main questions are clear, the return process becomes faster, calmer, and less likely to miss details.",
+      "sections": [
         {
-          title: "Start with your income records",
-          paragraphs: [
+          "title": "Start with your income records",
+          "paragraphs": [
             "Most clients think first about deductions, but income records should be confirmed before anything else. Salary, interest, dividends, managed fund statements, rental income, and any government payments all affect how the return should be reviewed.",
             "If the year involved a job change, extra contract work, investment activity, or a property sale, it is helpful to flag that early so the return can be scoped correctly."
           ],
-          bullets: [
+          "bullets": [
             "PAYG income statements",
             "Bank interest and dividend summaries",
             "Managed fund or ETF annual tax statements",
@@ -35,48 +30,47 @@ export const getYourTaxReturnReadyArticle: InsightArticle = {
           ]
         },
         {
-          title: "Separate likely deductions from unclear ones",
-          paragraphs: [
+          "title": "Separate likely deductions from unclear ones",
+          "paragraphs": [
             "A cleaner process usually comes from grouping records by type rather than sending through a single large folder. Work-related expenses, charitable donations, investment costs, and rental property expenses should be kept distinct.",
             "Where the treatment of an expense is uncertain, it is still worth noting it. The important thing is to label it clearly so it can be reviewed properly instead of being mixed into confirmed claims."
           ]
         },
         {
-          title: "Keep a short summary of changes during the year",
-          paragraphs: [
+          "title": "Keep a short summary of changes during the year",
+          "paragraphs": [
             "A simple written note can save time. Changes in employment, family circumstances, investment activity, property ownership, or residency position often affect how the return should be reviewed.",
             "This is also the easiest place to mention if you received ATO correspondence, started a business activity, or want advice beyond the return itself."
           ]
         }
       ],
-      takeawayTitle: "A practical checklist",
-      takeawayItems: [
+      "takeawayTitle": "A practical checklist",
+      "takeawayItems": [
         "Gather income records first",
         "Sort deduction records by type",
         "Note any major changes during the year",
         "Flag anything uncertain instead of leaving it out silently"
       ]
     },
-    zh: {
-      metaTitle: "报税前应该先准备哪些资料",
-      metaDescription: "一篇示例洞察文章，展示未来如何以声明式内容结构维护澳洲报税知识内容。",
-      title: "报税前应该先准备哪些资料",
-      excerpt: "这是一篇示例文章，用来展示网站未来如何以更清晰、可维护的方式发布税务内容。",
-      description: "个人税务",
-      category: "个人税务",
-      status: "示例文章",
-      publishedLabel: "2026年3月26日",
-      readTimeLabel: "约 4 分钟",
-      intro:
-        "顺畅的报税流程，往往不是从提交那一天开始，而是从资料准备开始。越早把收入、支出与关键变化整理清楚，后续申报就越高效，也更不容易遗漏细节。",
-      sections: [
+    "cn": {
+      "metaTitle": "报税前应该先准备哪些资料",
+      "metaDescription": "一篇示例洞察文章，展示未来如何以声明式内容结构维护澳洲报税知识内容。",
+      "title": "报税前应该先准备哪些资料",
+      "excerpt": "这是一篇示例文章，用来展示网站未来如何以更清晰、可维护的方式发布税务内容。",
+      "description": "个人税务",
+      "category": "个人税务",
+      "status": "示例文章",
+      "publishedLabel": "2026年3月26日",
+      "readTimeLabel": "约 4 分钟",
+      "intro": "顺畅的报税流程，往往不是从提交那一天开始，而是从资料准备开始。越早把收入、支出与关键变化整理清楚，后续申报就越高效，也更不容易遗漏细节。",
+      "sections": [
         {
-          title: "先整理收入相关资料",
-          paragraphs: [
+          "title": "先整理收入相关资料",
+          "paragraphs": [
             "很多客户一想到报税，第一反应是找 deductible expense，但更稳妥的顺序其实是先确认收入资料。工资、银行利息、分红、基金税表、租金收入，以及政府补助，都可能影响申报的审阅方式。",
             "如果这一年有换工作、兼职、投资交易、房产出售或其他变化，最好在一开始就说明，这样更容易判断申报范围。"
           ],
-          bullets: [
+          "bullets": [
             "PAYG 收入记录",
             "银行利息与分红汇总",
             "基金或 ETF 年度税表",
@@ -85,22 +79,22 @@ export const getYourTaxReturnReadyArticle: InsightArticle = {
           ]
         },
         {
-          title: "把较明确的扣除项目与不确定项目分开",
-          paragraphs: [
+          "title": "把较明确的扣除项目与不确定项目分开",
+          "paragraphs": [
             "资料整理越有结构，后续处理越轻松。与其把所有票据一次性混在一起，不如按类别分组，例如工作相关支出、捐赠、投资费用、出租房支出等。",
             "如果某些支出你不确定能否申报，也可以先标记出来。关键不是立刻判断对错，而是先让资料结构更清楚，方便后续审阅。"
           ]
         },
         {
-          title: "用简短说明记录这一年的重要变化",
-          paragraphs: [
+          "title": "用简短说明记录这一年的重要变化",
+          "paragraphs": [
             "一小段文字说明往往比想象中更有帮助。工作变化、家庭情况变化、投资调整、房产买卖、税务居民身份变化，都可能影响申报逻辑。",
             "如果这一年收到了 ATO 来信、开始经营业务，或除了报税之外还希望获得进一步建议，也建议在一开始说明。"
           ]
         }
       ],
-      takeawayTitle: "实用准备清单",
-      takeawayItems: [
+      "takeawayTitle": "实用准备清单",
+      "takeawayItems": [
         "先收集收入资料",
         "按类别整理扣除项目",
         "记录本年度的重要变化",
@@ -108,4 +102,4 @@ export const getYourTaxReturnReadyArticle: InsightArticle = {
       ]
     }
   }
-};
+}

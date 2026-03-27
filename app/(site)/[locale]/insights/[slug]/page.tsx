@@ -7,8 +7,10 @@ import { buildMetadata } from "@/lib/metadata";
 import { getLocaleDictionary } from "@/lib/get-locale-dictionary";
 import { locales } from "@/lib/i18n";
 
-export function generateStaticParams() {
-  return locales.flatMap((locale) => getAllInsightArticles().map((article) => ({ locale, slug: article.slug })));
+export async function generateStaticParams() {
+  const articles = await getAllInsightArticles();
+
+  return locales.flatMap((locale) => articles.map((article) => ({ locale, slug: article.slug })));
 }
 
 export async function generateMetadata({
@@ -22,7 +24,7 @@ export async function generateMetadata({
     }))
   );
   const { slug } = await params;
-  const article = getInsightArticleBySlug(slug);
+  const article = await getInsightArticleBySlug(slug);
 
   if (!article) {
     return {};
@@ -50,7 +52,7 @@ export default async function InsightArticlePage({
     }))
   );
   const { slug } = await params;
-  const article = getInsightArticleBySlug(slug);
+  const article = await getInsightArticleBySlug(slug);
 
   if (!article) {
     notFound();

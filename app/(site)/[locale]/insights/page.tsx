@@ -1,8 +1,8 @@
 import { CTASection } from "@/components/CTASection";
 import { Container } from "@/components/Container";
-import { InsightCard } from "@/components/InsightCard";
+import { InsightsArchive } from "@/components/InsightsArchive";
 import { PageHero } from "@/components/PageHero";
-import { getLocalizedInsightSummaries } from "@/content/insights";
+import { getInsightArchive } from "@/content/insights";
 import { buildMetadata } from "@/lib/metadata";
 import { getLocaleDictionary } from "@/lib/get-locale-dictionary";
 
@@ -20,9 +20,27 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   });
 }
 
-export default async function InsightsPage({ params }: { params: Promise<{ locale: string }> }) {
+function parsePositiveInteger(value: string | string[] | undefined) {
+  const candidate = Array.isArray(value) ? value[0] : value;
+  const parsed = Number(candidate);
+
+  return Number.isInteger(parsed) && parsed > 0 ? parsed : undefined;
+}
+
+export default async function InsightsPage({
+  params,
+  searchParams
+}: {
+  params: Promise<{ locale: string }>;
+  searchParams: Promise<{ page?: string | string[]; year?: string | string[]; month?: string | string[] }>;
+}) {
   const { locale, dictionary } = await getLocaleDictionary(params);
-  const articles = getLocalizedInsightSummaries(locale);
+  const resolvedSearchParams = await searchParams;
+  const archive = await getInsightArchive(locale, {
+    page: parsePositiveInteger(resolvedSearchParams.page),
+    year: parsePositiveInteger(resolvedSearchParams.year),
+    month: parsePositiveInteger(resolvedSearchParams.month)
+  });
 
   return (
     <>
@@ -42,11 +60,12 @@ export default async function InsightsPage({ params }: { params: Promise<{ local
           <div className="section-card px-6 py-7 sm:px-8">
             <p className="max-w-4xl text-base leading-8 sm:text-lg">{dictionary.insightsPage.intro}</p>
           </div>
-          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-            {articles.map((card) => (
-              <InsightCard card={card} key={card.slug} locale={locale} readMoreLabel={dictionary.common.readMore} />
-            ))}
-          </div>
+          <InsightsArchive
+            archive={archive}
+            copy={dictionary.insightsPage.archive}
+            locale={locale}
+            readMoreLabel={dictionary.common.readMore}
+          />
         </Container>
       </section>
 

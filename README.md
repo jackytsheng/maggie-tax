@@ -75,14 +75,13 @@ Articles now live in a file-based content layer:
 - Article types:
   [`content/insights/types.ts`](/Users/jiajinzheng/Desktop/github-repo/Maggie-Web/content/insights/types.ts)
 - Sample article:
-  [`content/insights/articles/get-your-tax-return-ready.ts`](/Users/jiajinzheng/Desktop/github-repo/Maggie-Web/content/insights/articles/get-your-tax-return-ready.ts)
+  [`content/insights/articles/get-your-tax-return-ready.json`](/Users/jiajinzheng/Desktop/github-repo/Maggie-Web/content/insights/articles/get-your-tax-return-ready.json)
 
 To add another article:
 
-1. Create a new file in `content/insights/articles/`.
-2. Export one `InsightArticle` object with the same structure as the sample article.
-3. Add that export to the array in `content/insights/index.ts`.
-4. Run `npm run build`.
+1. Create a new `.json` file in `content/insights/articles/`.
+2. Follow the same structure as the sample article file.
+3. Run `npm run build`.
 
 Each article file contains:
 
@@ -91,7 +90,7 @@ Each article file contains:
 - Metadata, excerpt, category, and status
 - Intro, sections, optional bullet lists, and takeaway items
 
-This keeps the blog declarative and easy to maintain without introducing a CMS yet.
+The insights loader auto-discovers article files, sorts them by `publishedAt`, includes them in the sitemap, and powers date filtering plus pagination on the insights page without a manual registry file.
 
 ## Locale routing
 
@@ -121,7 +120,4 @@ To go live, update the placeholder domain in [`content/business.ts`](/Users/jiaj
 
 ## Future integrations
 
-- Replace the placeholder contact route with Resend, Formspree, or your preferred email workflow.
-- Expand `content/i18n/*` with suburb landing pages, detailed FAQ content, or insights articles.
-- Add real business credentials, founder biography, and policy wording before launch.
-# maggie-tax
+- Add Pro Analytics Event if needed (20$/month vercel hosting)
