@@ -2,7 +2,7 @@
   "slug": "responding-to-an-ato-information-request",
   "translations": {
     "en": {
-      "card": {
+      "card: {
         "title": "How to respond to an ATO information request",
         "excerpt": "A sample ATO-support article showing how content can be filtered by date and automatically published from a single file.",
         "category": "ATO support",
