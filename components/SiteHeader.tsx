@@ -96,7 +96,7 @@ export function SiteHeader({
         <div
           className={cn(
             "overflow-hidden transition-[max-height,opacity,padding] duration-200 lg:hidden",
-            menuOpen ? "max-h-[28rem] pb-5 opacity-100" : "max-h-0 pb-0 opacity-0"
+            menuOpen ? "max-h-[30rem] pb-5 opacity-100" : "max-h-0 pb-0 opacity-0"
           )}
           id="mobile-navigation"
         >
