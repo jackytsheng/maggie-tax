@@ -14,6 +14,7 @@ GPT should return:
 - no explanation before or after the JSON
 - both `en` and `zh` translations completed
 - content ready to save as `content/insights/articles/<slug>.json`
+- all keys and string values quoted correctly
 
 ## Authoring goals
 
@@ -205,6 +206,8 @@ Avoid:
 
 Before returning the JSON, check that:
 - the output is valid JSON
+- every key is wrapped in double quotes
+- every string value is wrapped in double quotes
 - both `en` and `zh` exist
 - the filename can be `<slug>.json`
 - `title` and `excerpt` are strong enough to be used as SEO metadata
@@ -218,7 +221,7 @@ Before returning the JSON, check that:
 You can pair this file with a prompt like:
 
 ```text
-Read the article below and convert it into the exact JSON format required by insight-article-Schema.md.
+Read the article below and convert it into the exact JSON format required by insight-article-schema.md.
 
 Requirements:
 - output raw JSON only

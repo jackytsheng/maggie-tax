@@ -45,23 +45,57 @@ async function loadArticleEntries() {
     .sort((left, right) => left.name.localeCompare(right.name));
 }
 
-async function loadParsedArticles() {
-  const entries = await loadArticleEntries();
-
-  return Promise.all(
-    entries.map(async (entry) => {
-      const fullPath = path.join(articlesDirectory, entry.name);
-      const raw = await fs.readFile(fullPath, "utf8");
-      const parsedJson = JSON.parse(raw);
-      const article = articleSchema.parse(parsedJson);
-
-      return {
-        entry,
-        fullPath,
-        article
-      };
+function formatZodIssues(fullPath, error) {
+  return error.issues
+    .map((issue) => {
+      const fieldPath = issue.path.length ? issue.path.join(".") : "(root)";
+      return `${fullPath}: ${fieldPath} - ${issue.message}`;
     })
-  );
+    .join("\n");
+}
+
+let parsedArticlesPromise;
+
+async function loadParsedArticles() {
+  if (!parsedArticlesPromise) {
+    parsedArticlesPromise = (async () => {
+      const entries = await loadArticleEntries();
+
+      return Promise.all(
+        entries.map(async (entry) => {
+          const fullPath = path.join(articlesDirectory, entry.name);
+
+          console.log(`[insight-validator] checking ${entry.name}`);
+
+          const raw = await fs.readFile(fullPath, "utf8");
+          let parsedJson;
+
+          try {
+            parsedJson = JSON.parse(raw);
+          } catch (error) {
+            const message = error instanceof Error ? error.message : String(error);
+            throw new Error(`${fullPath}: invalid JSON syntax - ${message}`);
+          }
+
+          const parsedArticle = articleSchema.safeParse(parsedJson);
+
+          if (!parsedArticle.success) {
+            throw new Error(formatZodIssues(fullPath, parsedArticle.error));
+          }
+
+          console.log(`[insight-validator] passed ${entry.name}`);
+
+          return {
+            entry,
+            fullPath,
+            article: parsedArticle.data
+          };
+        })
+      );
+    })();
+  }
+
+  return parsedArticlesPromise;
 }
 
 function assertEquivalentStructure(left, right, fieldLabel, fullPath) {
