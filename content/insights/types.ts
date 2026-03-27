@@ -17,8 +17,6 @@ export interface InsightArticleCardMeta {
 }
 
 export interface InsightArticleTranslation {
-  metaTitle: string;
-  metaDescription: string;
   card: InsightArticleCardMeta;
   intro: string;
   sections: InsightArticleSection[];
@@ -77,8 +75,6 @@ const insightArticleSectionSchema = z.object({
 });
 
 const insightArticleTranslationSchema = z.object({
-  metaTitle: z.string().min(1),
-  metaDescription: z.string().min(1),
   card: z.object({
     title: z.string().min(1),
     excerpt: z.string().min(1),

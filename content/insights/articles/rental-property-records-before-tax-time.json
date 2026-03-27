@@ -3,8 +3,6 @@
   "publishedAt": "2025-07-04",
   "translations": {
     "en": {
-      "metaTitle": "Rental Property Records to Prepare Before Tax Time",
-      "metaDescription": "A sample article for investors on organising rental property records before tax season.",
       "card": {
         "title": "Rental property records to prepare before tax time",
         "excerpt": "A sample investor-focused article that helps demonstrate multi-year archives, pagination, and date-based filtering.",
@@ -50,8 +48,6 @@
       ]
     },
     "zh": {
-      "metaTitle": "报税前出租房资料可以先怎么整理",
-      "metaDescription": "一篇面向投资者的示例文章，帮助在税季前整理出租房相关资料。",
       "card": {
         "title": "报税前出租房资料可以先怎么整理",
         "excerpt": "这是一篇面向投资者的示例文章，也用来展示多年份归档、分页与按日期筛选。",

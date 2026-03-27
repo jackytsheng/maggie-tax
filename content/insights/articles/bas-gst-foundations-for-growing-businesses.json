@@ -3,8 +3,6 @@
   "publishedAt": "2026-02-14",
   "translations": {
     "en": {
-      "metaTitle": "BAS and GST Foundations for Growing Businesses",
-      "metaDescription": "A practical guide to building a steadier BAS and GST process as a small business grows.",
       "card": {
         "title": "BAS and GST foundations for growing businesses",
         "excerpt": "A sample business-tax article showing how the archive can scale with practical guidance for quarterly compliance.",
@@ -54,8 +52,6 @@
       ]
     },
     "zh": {
-      "metaTitle": "成长型企业如何把 BAS 与 GST 基础流程建立稳",
-      "metaDescription": "一篇面向成长型小企业的示例文章，帮助读者把 BAS 与 GST 流程建立得更稳定。",
       "card": {
         "title": "成长型企业如何把 BAS 与 GST 基础流程建立稳",
         "excerpt": "这是一篇企业税务方向的示例文章，用来展示季度合规内容如何持续扩展。",

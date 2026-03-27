@@ -4,8 +4,6 @@
   "featured": true,
   "translations": {
     "en": {
-      "metaTitle": "What to Prepare Before Lodging Your Tax Return",
-      "metaDescription": "A sample insights article covering practical preparation steps before lodging an Australian tax return.",
       "card": {
         "title": "What to prepare before lodging your tax return",
         "excerpt": "A practical sample article showing how the site can publish future educational content in a clean, declarative structure.",
@@ -52,8 +50,6 @@
       ]
     },
     "zh": {
-      "metaTitle": "报税前应该先准备哪些资料",
-      "metaDescription": "一篇示例洞察文章，展示未来如何以声明式内容结构维护澳洲报税知识内容。",
       "card": {
         "title": "报税前应该先准备哪些资料",
         "excerpt": "这是一篇示例文章，用来展示网站未来如何以更清晰、可维护的方式发布税务内容。",

@@ -3,8 +3,6 @@
   "publishedAt": "2025-11-18",
   "translations": {
     "en": {
-      "metaTitle": "How to Respond to an ATO Information Request",
-      "metaDescription": "A sample article outlining the first practical steps to take when the ATO asks for information or documents.",
       "card": {
         "title": "How to respond to an ATO information request",
         "excerpt": "A sample ATO-support article showing how content can be filtered by date and automatically published from a single file.",
@@ -49,8 +47,6 @@
       ]
     },
     "zh": {
-      "metaTitle": "收到 ATO 资料要求后，应该怎么开始处理",
-      "metaDescription": "一篇示例文章，说明当 ATO 要求提供资料时，第一步该如何更稳妥地回应。",
       "card": {
         "title": "收到 ATO 资料要求后，应该怎么开始处理",
         "excerpt": "这是一篇 ATO 协助方向的示例文章，用来展示文章如何自动发布并按日期筛选。",

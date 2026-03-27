@@ -35,8 +35,8 @@ export async function generateMetadata({
   return buildMetadata({
     locale,
     pathname: `/insights/${article.slug}`,
-    title: translation.metaTitle,
-    description: translation.metaDescription,
+    title: translation.card.title,
+    description: translation.card.excerpt,
     keywords: dictionary.meta.keywords
   });
 }
@@ -67,7 +67,7 @@ export default async function InsightArticlePage({
           "@context": "https://schema.org",
           "@type": "BlogPosting",
           headline: translation.card.title,
-          description: translation.metaDescription,
+          description: translation.card.excerpt,
           datePublished: article.publishedAt,
           articleSection: translation.card.category
         }}
