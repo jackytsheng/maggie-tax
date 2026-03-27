@@ -38,12 +38,39 @@ function buildArchiveHref(locale: Locale, params: { page?: number; year?: number
 
 export function InsightsArchive({ archive, copy, locale, readMoreLabel }: InsightsArchiveProps) {
   const hasFilters = Boolean(archive.filters.year || archive.filters.month);
+  const latestItem = archive.latestItem;
+  const latestHref = latestItem ? localizePath(locale, `/insights/${latestItem.slug}`) : null;
+  const headerDescription = latestItem?.excerpt ?? copy.resultsDescription;
 
   return (
     <div className="space-y-6">
       <div className="section-card px-6 py-7 sm:px-8">
-        <h2 className="text-2xl font-semibold tracking-tight text-[var(--foreground)]">{copy.resultsTitle}</h2>
-        <p className="mt-3 max-w-4xl text-base leading-8 sm:text-lg">{copy.resultsDescription}</p>
+        {latestHref && latestItem ? (
+          <Link
+            className="group block max-w-4xl rounded-[1.4rem] transition"
+            href={latestHref}
+          >
+            <span className="inline-flex items-center gap-2 text-2xl font-semibold tracking-tight text-[var(--foreground)] transition group-hover:text-[var(--primary)]">
+              <span>{copy.resultsTitle}</span>
+              <span aria-hidden="true" className="text-lg transition group-hover:translate-x-0.5">
+                →
+              </span>
+            </span>
+            <span className="mt-3 block text-base leading-8 text-[var(--foreground)]/78 transition group-hover:text-[var(--foreground)] sm:text-lg">
+              {headerDescription}
+            </span>
+            <span className="mt-4 flex flex-wrap items-center gap-3 text-sm text-[var(--muted-soft)]">
+              <span>{latestItem.publishedLabel}</span>
+              <span aria-hidden="true">•</span>
+              <span>{latestItem.readTimeLabel}</span>
+            </span>
+          </Link>
+        ) : (
+          <>
+            <h2 className="text-2xl font-semibold tracking-tight text-[var(--foreground)]">{copy.resultsTitle}</h2>
+            <p className="mt-3 max-w-4xl text-base leading-8 sm:text-lg">{headerDescription}</p>
+          </>
+        )}
 
         <div className="mt-6 space-y-5 border-t border-[var(--border)] pt-5">
           <div className="space-y-3">

@@ -17,7 +17,7 @@ export function LocaleSwitcher({ currentLocale, label }: LocaleSwitcherProps) {
 
   return (
     <div aria-label={label} className="inline-flex items-center rounded-full border border-[var(--border)] bg-white p-1">
-      {(["cn", "en"] as const).map((locale) => (
+      {(["zh", "en"] as const).map((locale) => (
         <Link
           key={locale}
           className={cn(
@@ -27,8 +27,8 @@ export function LocaleSwitcher({ currentLocale, label }: LocaleSwitcherProps) {
               : "text-[var(--muted)] hover:text-[var(--primary)]"
           )}
           href={localizePath(locale, routeWithoutLocale)}
-          hrefLang={locale === "cn" ? "zh-Hans" : "en-AU"}
-          lang={locale === "cn" ? "zh-Hans" : "en-AU"}
+          hrefLang={locale === "zh" ? "zh-Hans" : "en-AU"}
+          lang={locale === "zh" ? "zh-Hans" : "en-AU"}
         >
           {locale}
         </Link>

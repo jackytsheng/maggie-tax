@@ -4,10 +4,10 @@ import { NextResponse } from "next/server";
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  if (pathname === "/zh" || pathname.startsWith("/zh/")) {
+  if (pathname === "/cn" || pathname.startsWith("/cn/")) {
     const url = request.nextUrl.clone();
 
-    url.pathname = pathname.replace(/^\/zh(?=\/|$)/, "/cn");
+    url.pathname = pathname.replace(/^\/cn(?=\/|$)/, "/zh");
     return NextResponse.redirect(url, 308);
   }
 
@@ -15,5 +15,5 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/zh/:path*"]
+  matcher: ["/cn/:path*"]
 };

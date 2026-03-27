@@ -5,13 +5,12 @@
     "en": {
       "metaTitle": "How to Respond to an ATO Information Request",
       "metaDescription": "A sample article outlining the first practical steps to take when the ATO asks for information or documents.",
-      "title": "How to respond to an ATO information request",
-      "excerpt": "A sample ATO-support article showing how content can be filtered by date and automatically published from a single file.",
-      "description": "ATO support",
-      "category": "ATO support",
-      "status": "Sample article",
-      "publishedLabel": "18 November 2025",
-      "readTimeLabel": "4 min read",
+      "card": {
+        "title": "How to respond to an ATO information request",
+        "excerpt": "A sample ATO-support article showing how content can be filtered by date and automatically published from a single file.",
+        "category": "ATO support",
+        "tag": "Explainer"
+      },
       "intro": "ATO correspondence usually feels urgent, but the first priority is not speed alone. It is understanding exactly what has been requested, by when, and what records are actually relevant.",
       "sections": [
         {
@@ -49,16 +48,15 @@
         "Escalate early when the issue is complex"
       ]
     },
-    "cn": {
+    "zh": {
       "metaTitle": "收到 ATO 资料要求后，应该怎么开始处理",
       "metaDescription": "一篇示例文章，说明当 ATO 要求提供资料时，第一步该如何更稳妥地回应。",
-      "title": "收到 ATO 资料要求后，应该怎么开始处理",
-      "excerpt": "这是一篇 ATO 协助方向的示例文章，用来展示文章如何自动发布并按日期筛选。",
-      "description": "ATO 协助",
-      "category": "ATO 协助",
-      "status": "示例文章",
-      "publishedLabel": "2025年11月18日",
-      "readTimeLabel": "约 4 分钟",
+      "card": {
+        "title": "收到 ATO 资料要求后，应该怎么开始处理",
+        "excerpt": "这是一篇 ATO 协助方向的示例文章，用来展示文章如何自动发布并按日期筛选。",
+        "category": "ATO 协助",
+        "tag": "解读"
+      },
       "intro": "收到 ATO 来信时，很多人第一反应是赶快回复。但真正更重要的第一步，是先弄清楚 ATO 具体要什么、截止日期是什么，以及哪些资料才真正相关。",
       "sections": [
         {

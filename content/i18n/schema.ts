@@ -49,13 +49,6 @@ export interface ContactFormFieldErrors {
   message: string;
 }
 
-export interface InsightCardCopy {
-  title: string;
-  excerpt: string;
-  category: string;
-  status: string;
-}
-
 export interface PrivacySection {
   title: string;
   body: string[];
@@ -112,14 +105,6 @@ export interface Dictionary {
     contactUs: string;
     readMore: string;
     viewAllFaqs: string;
-    processLabel: string;
-    serviceLabel: string;
-    emailLabel: string;
-    phoneLabel: string;
-    closeLabel: string;
-    openLabel: string;
-    comingSoon: string;
-    notProvided: string;
   };
   footer: {
     description: string;
@@ -292,8 +277,6 @@ export interface Dictionary {
     metaTitle: string;
     metaDescription: string;
     hero: PageHeroCopy;
-    intro: string;
-    cards: InsightCardCopy[];
     archive: {
       resultsTitle: string;
       resultsDescription: string;

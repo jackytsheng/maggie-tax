@@ -66,10 +66,10 @@ export default async function InsightArticlePage({
         data={{
           "@context": "https://schema.org",
           "@type": "BlogPosting",
-          headline: translation.title,
+          headline: translation.card.title,
           description: translation.metaDescription,
           datePublished: article.publishedAt,
-          articleSection: translation.category
+          articleSection: translation.card.category
         }}
       />
       <InsightArticleView article={article} dictionary={dictionary} locale={locale} />

@@ -57,9 +57,6 @@ export default async function InsightsPage({
 
       <section className="pb-10 sm:pb-14">
         <Container className="space-y-6">
-          <div className="section-card px-6 py-7 sm:px-8">
-            <p className="max-w-4xl text-base leading-8 sm:text-lg">{dictionary.insightsPage.intro}</p>
-          </div>
           <InsightsArchive
             archive={archive}
             copy={dictionary.insightsPage.archive}

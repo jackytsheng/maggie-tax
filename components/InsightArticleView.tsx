@@ -2,6 +2,7 @@ import { CTASection } from "@/components/CTASection";
 import { Container } from "@/components/Container";
 import { PageHero } from "@/components/PageHero";
 
+import { formatInsightPublishedLabel, formatInsightReadTimeLabel } from "@/content/insights";
 import type { InsightArticle } from "@/content/insights/types";
 import type { Dictionary } from "@/content/i18n/schema";
 import type { Locale } from "@/lib/i18n";
@@ -14,6 +15,8 @@ interface InsightArticleViewProps {
 
 export function InsightArticleView({ article, dictionary, locale }: InsightArticleViewProps) {
   const translation = article.translations[locale];
+  const publishedLabel = formatInsightPublishedLabel(locale, article.publishedAt);
+  const readTimeLabel = formatInsightReadTimeLabel(article, locale);
 
   return (
     <>
@@ -21,12 +24,12 @@ export function InsightArticleView({ article, dictionary, locale }: InsightArtic
         breadcrumbs={[
           { label: dictionary.common.homeLabel, href: "" },
           { label: dictionary.insightsPage.hero.eyebrow, href: "/insights" },
-          { label: translation.title }
+          { label: translation.card.title }
         ]}
-        description={translation.excerpt}
-        eyebrow={translation.category}
+        description={translation.card.excerpt}
+        eyebrow={translation.card.category}
         locale={locale}
-        title={translation.title}
+        title={translation.card.title}
       />
 
       <section className="pb-10 sm:pb-14">
@@ -34,11 +37,11 @@ export function InsightArticleView({ article, dictionary, locale }: InsightArtic
           <article className="section-card px-6 py-7 sm:px-8 lg:px-10">
             <div className="flex flex-wrap items-center gap-3 text-sm text-[var(--muted-soft)]">
               <span className="rounded-full bg-[var(--surface-sage)] px-3 py-1 font-semibold uppercase tracking-[0.14em] text-[var(--primary)]">
-                {translation.status}
+                {translation.card.tag}
               </span>
-              <span>{translation.publishedLabel}</span>
+              <span>{publishedLabel}</span>
               <span aria-hidden="true">•</span>
-              <span>{translation.readTimeLabel}</span>
+              <span>{readTimeLabel}</span>
             </div>
 
             <p className="mt-6 text-lg leading-8 text-[var(--foreground)]">{translation.intro}</p>
@@ -63,6 +66,21 @@ export function InsightArticleView({ article, dictionary, locale }: InsightArtic
                         </li>
                       ))}
                     </ul>
+                  ) : null}
+                  {section.numberedPoints?.length ? (
+                    <ol className="mt-5 space-y-3">
+                      {section.numberedPoints.map((point, index) => (
+                        <li
+                          className="flex gap-4 rounded-[1.4rem] border border-[var(--border)] bg-[var(--surface-soft)] px-4 py-4"
+                          key={point}
+                        >
+                          <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-2xl bg-[var(--primary)] text-sm font-semibold text-white">
+                            {String(index + 1).padStart(2, "0")}
+                          </span>
+                          <span className="text-sm leading-7 text-[var(--foreground)] sm:text-base">{point}</span>
+                        </li>
+                      ))}
+                    </ol>
                   ) : null}
                 </section>
               ))}

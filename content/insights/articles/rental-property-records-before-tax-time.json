@@ -5,13 +5,12 @@
     "en": {
       "metaTitle": "Rental Property Records to Prepare Before Tax Time",
       "metaDescription": "A sample article for investors on organising rental property records before tax season.",
-      "title": "Rental property records to prepare before tax time",
-      "excerpt": "A sample investor-focused article that helps demonstrate multi-year archives, pagination, and date-based filtering.",
-      "description": "Individual tax",
-      "category": "Individual tax",
-      "status": "Sample article",
-      "publishedLabel": "4 July 2025",
-      "readTimeLabel": "4 min read",
+      "card": {
+        "title": "Rental property records to prepare before tax time",
+        "excerpt": "A sample investor-focused article that helps demonstrate multi-year archives, pagination, and date-based filtering.",
+        "category": "Individual tax",
+        "tag": "Checklist"
+      },
       "intro": "Rental property returns often become messy when expenses, loan records, and agent statements are scattered across different places. A little structure before tax time makes review much easier.",
       "sections": [
         {
@@ -50,16 +49,15 @@
         "Note any ownership or usage changes early"
       ]
     },
-    "cn": {
+    "zh": {
       "metaTitle": "报税前出租房资料可以先怎么整理",
       "metaDescription": "一篇面向投资者的示例文章，帮助在税季前整理出租房相关资料。",
-      "title": "报税前出租房资料可以先怎么整理",
-      "excerpt": "这是一篇面向投资者的示例文章，也用来展示多年份归档、分页与按日期筛选。",
-      "description": "个人税务",
-      "category": "个人税务",
-      "status": "示例文章",
-      "publishedLabel": "2025年7月4日",
-      "readTimeLabel": "约 4 分钟",
+      "card": {
+        "title": "报税前出租房资料可以先怎么整理",
+        "excerpt": "这是一篇面向投资者的示例文章，也用来展示多年份归档、分页与按日期筛选。",
+        "category": "个人税务",
+        "tag": "清单"
+      },
       "intro": "出租房报税之所以容易变复杂，往往不是因为规则本身，而是因为支出、贷款记录和中介报表散落在不同地方。税季前先做一点结构整理，后续会轻松很多。",
       "sections": [
         {

@@ -17,6 +17,10 @@ import { insightArticleSchema } from "@/content/insights/types";
 
 const ARTICLES_DIRECTORY = path.join(process.cwd(), "content/insights/articles");
 export const INSIGHTS_PAGE_SIZE = 3;
+const READING_SPEED_CHARACTERS_PER_MINUTE: Record<Locale, number> = {
+  zh: 320,
+  en: 900
+};
 
 function getYearAndMonth(publishedAt: string) {
   const [year, month] = publishedAt.split("-").map((value) => Number(value));
@@ -30,6 +34,41 @@ function buildMonthLabel(locale: Locale, year: number, month: number) {
     year: "numeric",
     timeZone: "UTC"
   }).format(new Date(Date.UTC(year, month - 1, 1)));
+}
+
+export function formatInsightPublishedLabel(locale: Locale, publishedAt: string) {
+  const [year, month, day] = publishedAt.split("-").map((value) => Number(value));
+
+  return new Intl.DateTimeFormat(localeToHtmlLang[locale], {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC"
+  }).format(new Date(Date.UTC(year, month - 1, day)));
+}
+
+function countInsightCharacters(article: InsightArticle, locale: Locale) {
+  const translation = article.translations[locale];
+  const sectionsText = translation.sections
+    .flatMap((section) => [section.title, ...section.paragraphs, ...(section.bullets ?? []), ...(section.numberedPoints ?? [])])
+    .join("");
+
+  return [
+    translation.card.title,
+    translation.card.excerpt,
+    translation.intro,
+    sectionsText,
+    translation.takeawayTitle,
+    ...translation.takeawayItems
+  ].join("").length;
+}
+
+export function formatInsightReadTimeLabel(article: InsightArticle, locale: Locale) {
+  const characterCount = countInsightCharacters(article, locale);
+  const readingSpeed = READING_SPEED_CHARACTERS_PER_MINUTE[locale];
+  const minutes = Math.max(1, Math.ceil(characterCount / readingSpeed));
+
+  return locale === "zh" ? `约 ${minutes} 分钟` : `${minutes} min read`;
 }
 
 const loadInsightArticles = cache(async (): Promise<InsightArticle[]> => {
@@ -64,11 +103,15 @@ export async function getInsightArticleBySlug(slug: string) {
 }
 
 function localizeInsightSummary(article: InsightArticle, locale: Locale): LocalizedInsightSummary {
+  const translation = article.translations[locale];
+
   return {
     slug: article.slug,
     publishedAt: article.publishedAt,
     featured: article.featured ?? false,
-    ...article.translations[locale]
+    ...translation.card,
+    publishedLabel: formatInsightPublishedLabel(locale, article.publishedAt),
+    readTimeLabel: formatInsightReadTimeLabel(article, locale)
   };
 }
 
@@ -83,6 +126,7 @@ export async function getInsightArchive(
   options: InsightArchiveFilter & { page?: number; pageSize?: number } = {}
 ): Promise<InsightArchiveResult> {
   const articles = await loadInsightArticles();
+  const latestItem = articles[0] ? localizeInsightSummary(articles[0], locale) : null;
   const pageSize = Math.max(1, options.pageSize ?? INSIGHTS_PAGE_SIZE);
   const selectedYear = options.year;
   const selectedMonth = selectedYear ? options.month : undefined;
@@ -138,6 +182,7 @@ export async function getInsightArchive(
 
   return {
     items,
+    latestItem,
     page,
     pageSize,
     totalItems,

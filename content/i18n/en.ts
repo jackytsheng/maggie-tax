@@ -35,15 +35,7 @@ export const en = {
     exploreServices: "Explore services",
     contactUs: "Contact us",
     readMore: "Read more",
-    viewAllFaqs: "View all FAQs",
-    processLabel: "Process",
-    serviceLabel: "Service",
-    emailLabel: "Email",
-    phoneLabel: "Phone",
-    closeLabel: "Close",
-    openLabel: "Open",
-    comingSoon: "Coming soon",
-    notProvided: "To be added"
+    viewAllFaqs: "View all FAQs"
   },
   footer: {
     description:
@@ -756,38 +748,16 @@ export const en = {
   insightsPage: {
     metaTitle: "Insights",
     metaDescription:
-      "A future-ready insights hub for articles, FAQs, and educational content related to tax, accounting, and ATO matters.",
+      "Practical articles on Australian tax, BAS, GST, and ATO matters for individuals, investors, and small businesses.",
     hero: {
       eyebrow: "Insights",
-      title: "A content hub ready for future SEO growth.",
+      title: "Practical articles for common Australian tax situations.",
       description:
-        "The insights section now auto-discovers local article files, making future educational content easy to publish and maintain."
+        "Browse clear, client-friendly guidance across individual tax, business compliance, BAS, GST, and ATO matters."
     },
-    intro:
-      "Articles are maintained through local content files, so authors can add a new article file and have the archive, article routes, and sitemap update automatically.",
-    cards: [
-      {
-        title: "What to prepare before lodging your tax return",
-        excerpt: "A future article scaffold covering document collection, timing, and common mistakes before tax season.",
-        category: "Individual tax",
-        status: "Draft placeholder"
-      },
-      {
-        title: "BAS and GST basics for growing small businesses",
-        excerpt: "A future guide for founders who want a calmer, more reliable BAS workflow as the business becomes more complex.",
-        category: "Business tax",
-        status: "Draft placeholder"
-      },
-      {
-        title: "How to respond when the ATO requests information",
-        excerpt: "A future article outlining the first practical steps to take when correspondence arrives from the ATO.",
-        category: "ATO support",
-        status: "Draft placeholder"
-      }
-    ],
     archive: {
-      resultsTitle: "Latest articles",
-      resultsDescription: "Articles are discovered automatically from the local content folder, then sorted, filtered, and paginated for the archive view.",
+      resultsTitle: "Latest article",
+      resultsDescription: "Start with the newest article, or browse the archive by year and month below.",
       yearLabel: "Year",
       monthLabel: "Month",
       allDatesLabel: "All dates",

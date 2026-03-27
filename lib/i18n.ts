@@ -1,23 +1,23 @@
 import { en } from "@/content/i18n/en";
-import { cn } from "@/content/i18n/cn";
+import { zh } from "@/content/i18n/zh";
 import type { Dictionary } from "@/content/i18n/schema";
 
-export const locales = ["cn", "en"] as const;
+export const locales = ["zh", "en"] as const;
 export type Locale = (typeof locales)[number];
-export const defaultLocale: Locale = "cn";
+export const defaultLocale: Locale = "zh";
 
 const dictionaries: Record<Locale, Dictionary> = {
-  cn,
+  zh,
   en
 };
 
 export const localeToHtmlLang: Record<Locale, string> = {
-  cn: "zh-Hans",
+  zh: "zh-Hans",
   en: "en-AU"
 };
 
 export const localeToOpenGraphLocale: Record<Locale, string> = {
-  cn: "zh_CN",
+  zh: "zh_CN",
   en: "en_AU"
 };
 

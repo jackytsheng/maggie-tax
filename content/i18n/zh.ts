@@ -1,7 +1,7 @@
 import { business } from "@/content/business";
 import type { Dictionary } from "@/content/i18n/schema";
 
-export const cn = {
+export const zh = {
   localeLabel: "中文",
   meta: {
     siteDescription: "面向墨尔本及全澳客户的精品会计与税务服务网站，适合个人、投资者与小型企业客户。",
@@ -34,15 +34,7 @@ export const cn = {
     exploreServices: "查看服务",
     contactUs: "联系我们",
     readMore: "继续阅读",
-    viewAllFaqs: "查看全部问答",
-    processLabel: "流程",
-    serviceLabel: "服务",
-    emailLabel: "邮箱",
-    phoneLabel: "电话",
-    closeLabel: "关闭",
-    openLabel: "展开",
-    comingSoon: "即将上线",
-    notProvided: "待补充"
+    viewAllFaqs: "查看全部问答"
   },
   footer: {
     description: "为个人与成长型企业提供清晰、细致、可信赖的会计与税务支持，帮助客户更从容地处理税务事务。",
@@ -724,37 +716,16 @@ export const cn = {
   },
   insightsPage: {
     metaTitle: "洞察文章",
-    metaDescription: "为未来的税务知识文章、常见问题解答与双语内容营销预留的内容中心结构。",
+    metaDescription: "围绕澳洲个人税务、企业合规、BAS、GST 与 ATO 事项整理的实用文章，适合个人、投资者与小企业客户。",
     hero: {
       eyebrow: "洞察文章",
-      title: "为未来 SEO 增长预留好的内容中心。",
+      title: "围绕澳洲常见税务场景整理的实用文章。",
       description:
-        "洞察文章区域现在会自动读取本地文章文件，后续新增内容时无需再维护文章注册数组。"
+        "从个人税务到企业合规与 ATO 沟通，这里会持续整理更清楚、也更容易理解的重点内容。"
     },
-    intro: "未来新增文章时，只需添加一个本地文章文件，文章列表、详情页路由与 sitemap 都会自动更新。",
-    cards: [
-      {
-        title: "报税前应该先准备哪些资料",
-        excerpt: "未来可扩展为个人客户报税准备清单，帮助读者在税季前更高效地整理资料。",
-        category: "个人税务",
-        status: "占位草稿"
-      },
-      {
-        title: "成长型小企业如何把 BAS 与 GST 流程理顺",
-        excerpt: "未来可扩展为面向创业者的基础指南，帮助企业在季度流程中减少混乱。",
-        category: "企业税务",
-        status: "占位草稿"
-      },
-      {
-        title: "收到 ATO 来信后，第一步应该做什么",
-        excerpt: "未来可扩展为更实用的应对文章，帮助客户先稳定节奏，再整理重点资料。",
-        category: "ATO 协助",
-        status: "占位草稿"
-      }
-    ],
     archive: {
-      resultsTitle: "最新文章",
-      resultsDescription: "文章会从本地内容目录自动读取，并按日期排序、筛选与分页，方便后续持续扩展。",
+      resultsTitle: "最新发布",
+      resultsDescription: "先从最近发布的文章开始，也可以继续按年份和月份浏览下方归档。",
       yearLabel: "年份",
       monthLabel: "月份",
       allDatesLabel: "全部日期",

@@ -5,13 +5,12 @@
     "en": {
       "metaTitle": "BAS and GST Foundations for Growing Businesses",
       "metaDescription": "A practical guide to building a steadier BAS and GST process as a small business grows.",
-      "title": "BAS and GST foundations for growing businesses",
-      "excerpt": "A sample business-tax article showing how the archive can scale with practical guidance for quarterly compliance.",
-      "description": "Business tax",
-      "category": "Business tax",
-      "status": "Sample article",
-      "publishedLabel": "14 February 2026",
-      "readTimeLabel": "5 min read",
+      "card": {
+        "title": "BAS and GST foundations for growing businesses",
+        "excerpt": "A sample business-tax article showing how the archive can scale with practical guidance for quarterly compliance.",
+        "category": "Business tax",
+        "tag": "Guide"
+      },
       "intro": "BAS pressure often comes from inconsistent records rather than the BAS itself. A calmer quarterly process usually starts with clearer habits between lodgements.",
       "sections": [
         {
@@ -39,6 +38,11 @@
           "paragraphs": [
             "A useful BAS process does more than produce a lodgement. It should also show where recurring friction is happening so the next cycle runs more smoothly.",
             "That is often where small process changes create the biggest long-term benefit."
+          ],
+          "numberedPoints": [
+            "Review what caused last-minute cleanup this quarter.",
+            "Decide one workflow change to apply before the next BAS period.",
+            "Check whether staff, software, or document habits need adjusting."
           ]
         }
       ],
@@ -49,16 +53,15 @@
         "Use each quarter to reduce repeat friction"
       ]
     },
-    "cn": {
+    "zh": {
       "metaTitle": "成长型企业如何把 BAS 与 GST 基础流程建立稳",
       "metaDescription": "一篇面向成长型小企业的示例文章，帮助读者把 BAS 与 GST 流程建立得更稳定。",
-      "title": "成长型企业如何把 BAS 与 GST 基础流程建立稳",
-      "excerpt": "这是一篇企业税务方向的示例文章，用来展示季度合规内容如何持续扩展。",
-      "description": "企业税务",
-      "category": "企业税务",
-      "status": "示例文章",
-      "publishedLabel": "2026年2月14日",
-      "readTimeLabel": "约 5 分钟",
+      "card": {
+        "title": "成长型企业如何把 BAS 与 GST 基础流程建立稳",
+        "excerpt": "这是一篇企业税务方向的示例文章，用来展示季度合规内容如何持续扩展。",
+        "category": "企业税务",
+        "tag": "指南"
+      },
       "intro": "很多企业觉得 BAS 压力大，真正的问题往往不只是申报本身，而是平时账务记录不够稳定。季度流程越清楚，临近截止时越不容易慌乱。",
       "sections": [
         {
@@ -86,6 +89,11 @@
           "paragraphs": [
             "一个好的 BAS 流程不只是完成申报，也应该帮助你看清重复出现的卡点，让下一次处理更轻松。",
             "很多时候，真正有价值的提升来自几个小但持续的流程调整。"
+          ],
+          "numberedPoints": [
+            "回顾本季度最容易拖慢进度的环节。",
+            "决定下一季度先落实哪一个小改动。",
+            "检查是否需要调整人员分工、系统设置或资料习惯。"
           ]
         }
       ],
