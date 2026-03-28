@@ -80,7 +80,7 @@ export const en = {
       eyebrow: "Services",
       title: "Focused support for the work that matters most.",
       description:
-        "The initial service structure is designed for strong SEO foundations today and service-page expansion later.",
+        "Core services are organised around the tax and compliance matters clients most commonly need help with.",
       cards: [
         {
           title: "Individual Tax",
@@ -148,7 +148,7 @@ export const en = {
       eyebrow: "Who we help",
       title: "Built for the clients most likely to need steady tax support.",
       description:
-        "The site structure is intentionally ready for future suburb, service, and audience-specific landing pages.",
+        "We work with individuals, investors, and small businesses who value practical guidance and clear communication.",
       items: [
         {
           title: "Individuals with growing complexity",
@@ -194,7 +194,7 @@ export const en = {
     faqPreview: {
       eyebrow: "FAQ preview",
       title: "Helpful answers before you enquire.",
-      description: "A concise preview for common questions. The full FAQ page can expand later for SEO content and service-specific answers.",
+      description: "A concise preview of common questions before you get in touch.",
       items: [
         {
           question: "Do you work with clients outside Melbourne?",
@@ -226,7 +226,7 @@ export const en = {
       eyebrow: "About",
       title: "A boutique accounting practice built around clarity, care, and long-term trust.",
       description:
-        "This page is designed to introduce the founder, explain the working style of the practice, and provide space for future qualifications and credentials."
+        "Learn about the practice approach, service philosophy, and the style of support clients can expect."
     },
     founder: {
       title: business.founderName,
@@ -234,10 +234,10 @@ export const en = {
       summary: [
         `The practice is led by ${business.founderName}, with a focus on delivering thoughtful accounting and tax support that feels calm, clear, and dependable.`,
         "The tone of the firm is intentionally professional without being cold, so clients feel comfortable asking questions and understanding what happens next.",
-        "This section is structured to make it easy to replace placeholder text with the founder's real story, background, and areas of expertise."
+        "The practice is built around careful advice, clear communication, and work that remains useful beyond a single lodgement."
       ],
       warmNote:
-        "A short personal note can sit here later to add warmth and trust, while still keeping the overall impression polished and professional."
+        "Clients can expect a professional and approachable working style that makes tax matters easier to understand and manage."
     },
     philosophy: {
       title: "Practice philosophy",
@@ -259,11 +259,11 @@ export const en = {
     },
     qualifications: {
       title: "Qualifications and registrations",
-      description: "This block is intentionally ready for real credentials to be added later without restructuring the page.",
+      description: "Professional credentials and service focus are presented here to give clients a clearer sense of the practice.",
       items: [
         business.qualifications,
-        "[Professional memberships to be added]",
-        "[Licence, registration, or public practice details if applicable]"
+        "Support for individuals, investors, and small businesses",
+        "Bilingual-friendly communication in English and Chinese"
       ]
     },
     reasons: {
@@ -276,7 +276,7 @@ export const en = {
         },
         {
           title: "Bilingual-friendly communication",
-          description: "The site is built from day one with Chinese and English support in mind, which helps reduce friction for many households."
+          description: "Chinese and English communication can help many households and founders discuss tax matters with greater ease."
         },
         {
           title: "Long-term usefulness",
@@ -299,10 +299,10 @@ export const en = {
       eyebrow: "Services",
       title: "Accounting and tax services designed for clarity, compliance, and practical support.",
       description:
-        "The service architecture balances immediate launch needs with future expansion into richer service pages, suburbs, and educational content."
+        "The service offering is organised to help clients quickly find the area most relevant to their situation."
     },
     intro:
-      "The practice focuses on a small set of core service areas first, while keeping the site easy to expand into more detailed SEO-friendly pages later.",
+      "These service areas cover the most common matters we handle for individuals, investors, and small businesses.",
     cards: [
       {
         title: "Individual Tax",
@@ -338,18 +338,18 @@ export const en = {
         title: "Planning and Ongoing Guidance",
         description: "Useful for clients who want a steadier tax process instead of only reacting at deadline time.",
         href: "/contact",
-        tag: "Next phase"
+        tag: "Advisory support"
       }
     ],
     supportAreas: {
-      title: "How the service scope can grow later",
+      title: "Additional support areas",
       description:
-        "The structure already supports future pages for service niches, suburbs, and client-specific journeys without a major rewrite.",
+        "These service themes also support related tax questions, ongoing advisory conversations, and recurring compliance needs.",
       items: [
-        "Chinese-speaking client advisory pages",
-        "Melbourne suburb landing pages",
-        "Tax return FAQs and knowledge content",
-        "Service pages for property investors and business owners"
+        "Chinese-speaking client support",
+        "Melbourne and remote advisory",
+        "Tax questions for investors and property owners",
+        "Ongoing guidance for growing businesses"
       ]
     },
     process: {
@@ -457,7 +457,7 @@ export const en = {
       overview: {
         title: "What this service covers",
         body:
-          "The page focuses on the core work many Australian small businesses need first, while leaving room for future service-page expansion.",
+          "The service focuses on the core work many Australian small businesses need in order to stay organised and compliant.",
         bullets: [
           "Support for sole traders, companies, and trusts",
           "BAS and GST review or coordination",
@@ -584,7 +584,7 @@ export const en = {
       eyebrow: "FAQ",
       title: "Frequently asked questions",
       description:
-        "The FAQ structure is grouped so it can grow later into a stronger content hub for both user experience and search visibility."
+        "Browse practical answers about services, process, and what to prepare before getting in touch."
     },
     groups: [
       {
@@ -611,7 +611,7 @@ export const en = {
         items: [
           {
             question: "Do you handle both individual and business tax matters?",
-            answer: "Yes. The service structure covers individual tax, business tax, and ATO support, with room to expand into more specialised pages later."
+            answer: "Yes. The current service offering covers individual tax, business tax, and ATO support."
           },
           {
             question: "Can you help with BAS and GST?",
@@ -633,11 +633,11 @@ export const en = {
           },
           {
             question: "How quickly will I hear back?",
-            answer: "The contact page includes a placeholder response note that can be tailored later once the practice sets its preferred turnaround standard."
+            answer: "Most enquiries are reviewed within 1 to 2 business days."
           },
           {
             question: "Do you offer bilingual support?",
-            answer: "Yes. The website is structured from the beginning for Chinese and English content, which supports a more bilingual-friendly client experience."
+            answer: "Yes. Chinese and English communication is available where it helps clients feel clearer and more comfortable."
           }
         ]
       }
@@ -652,7 +652,7 @@ export const en = {
   contactPage: {
     metaTitle: "Contact the Practice",
     metaDescription:
-      "Send an enquiry about individual tax, business tax, or ATO support. Built with a clear, validated contact flow ready for future integrations.",
+      "Send an enquiry about individual tax, business tax, BAS, GST, or ATO support.",
     hero: {
       eyebrow: "Contact",
       title: "Start with a clear enquiry.",
@@ -660,9 +660,9 @@ export const en = {
         "Use the contact form to outline your situation and we can advise on likely scope, next steps, and whether the service is the right fit."
     },
     intro:
-      "The form is intentionally simple and conversion-friendly, while still gathering enough detail to support a useful first response.",
+      "The form is simple to complete while still gathering enough detail for a useful first response.",
     detailsTitle: "Practice details",
-    detailsDescription: "Replace the placeholders below once the final business details are ready.",
+    detailsDescription: "Use the details below to get in touch directly or send an enquiry through the form.",
     details: [
       { label: "Business name", value: business.name },
       { label: "Email", value: business.email, href: `mailto:${business.email}` },
@@ -673,7 +673,7 @@ export const en = {
     serviceAreaText: `${business.city}, ${business.state}, with remote support for clients across Australia.`,
     formTitle: "Send an enquiry",
     formDescription: "Tell us what you need help with and share any timing or complexity that may be relevant.",
-    responseNote: "Placeholder response standard: reply within 1 to 2 business days."
+    responseNote: "Most enquiries receive a response within 1 to 2 business days."
   },
   contactForm: {
     nameLabel: "Name",
@@ -691,7 +691,7 @@ export const en = {
     submitLabel: "Submit enquiry",
     submittingLabel: "Submitting...",
     successTitle: "Thanks for getting in touch.",
-    successBody: "Your enquiry has been received. This placeholder workflow is ready to connect to email delivery later.",
+    successBody: "Your enquiry has been received. We will review the details and get back to you as soon as possible.",
     errorTitle: "Something went wrong.",
     errorBody: "Please try again in a moment or contact the practice directly by email.",
     privacyNotice: "By submitting this form, you agree that your details can be used to respond to your enquiry.",
@@ -706,14 +706,14 @@ export const en = {
   privacyPage: {
     metaTitle: "Privacy Policy",
     metaDescription:
-      "Placeholder privacy policy for an Australian accounting and tax practice, structured for future legal review and final business details.",
+      "Privacy information explaining how enquiry details are collected, used, and stored through this website.",
     hero: {
       eyebrow: "Privacy",
       title: "Privacy policy",
-      description: "A simple but professional placeholder policy ready to be updated with the final practice details and legal review."
+      description: "How enquiry information is handled through this website and the practice communication process."
     },
     intro:
-      "This policy scaffold is intentionally formatted for readability and future legal refinement. It should be reviewed before launch with real business details.",
+      "This policy explains how enquiry information is collected, used, and managed when you contact the practice through the website.",
     sections: [
       {
         title: "Information we collect",
@@ -739,7 +739,7 @@ export const en = {
       {
         title: "Updates to this policy",
         body: [
-          "This privacy policy may be updated from time to time as the practice finalises its systems, providers, and compliance wording.",
+          "This privacy policy may be updated from time to time to reflect operational, legal, or compliance changes.",
           "The latest version should always be published on this page."
         ]
       }
@@ -770,15 +770,15 @@ export const en = {
       pageLabel: "Page"
     },
     cta: {
-      title: "Need help before the knowledge base is expanded?",
-      description: "The site already includes service pages and a validated enquiry form so clients can still reach out directly.",
+      title: "Need help with a tax or accounting matter?",
+      description: "If your situation needs more direct guidance, you are welcome to contact the practice.",
       primary: { label: "Contact the practice", href: "/contact" },
       secondary: { label: "Browse services", href: "/services" }
     }
   },
   notFound: {
     title: "Page not found",
-    description: "The page you are looking for may have moved, or it may not exist yet in this early website scaffold.",
+    description: "The page you are looking for may have moved or is no longer available.",
     primary: { label: "Go home", href: "" },
     secondary: { label: "View services", href: "/services" }
   }

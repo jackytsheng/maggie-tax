@@ -75,7 +75,7 @@ export const zh = {
       eyebrow: "核心服务",
       title: "围绕真实客户需求建立的重点服务结构。",
       description:
-        "首版网站先覆盖最关键的税务服务，同时保留后续扩展 suburb 页面、专题服务页与内容营销页面的空间。",
+        "核心服务围绕客户最常见的税务与合规需求展开，方便快速找到合适的入口。",
       cards: [
         {
           title: "个人税务",
@@ -141,7 +141,7 @@ export const zh = {
     audiences: {
       eyebrow: "我们服务哪些客户",
       title: "围绕最常见、也最需要稳定支持的客户群体展开。",
-      description: "网站结构从一开始就为未来的细分服务页、地区页与内容页留好扩展空间。",
+      description: "我们主要服务个人客户、投资者与小型企业，尤其适合重视清晰沟通与稳妥处理的人群。",
       items: [
         {
           title: "情况逐渐复杂的个人客户",
@@ -187,7 +187,7 @@ export const zh = {
     faqPreview: {
       eyebrow: "常见问题预览",
       title: "在联系之前，先快速了解几个常见问题。",
-      description: "FAQ 页面后续也可以继续扩展，逐步形成更完整的 SEO 内容基础。",
+      description: "先用几个常见问题帮助你快速判断当前需求与下一步方向。",
       items: [
         {
           question: "你们只服务墨尔本客户吗？",
@@ -195,7 +195,7 @@ export const zh = {
         },
         {
           question: "如果我的税务情况比普通报税复杂，你们也能处理吗？",
-          answer: "可以。网站结构特别为投资、房产、资本利得与更复杂收入情况预留了清晰的服务入口。"
+          answer: "可以。个人税务服务覆盖投资、房产、资本利得以及较复杂的收入情况。"
         },
         {
           question: "联系前我需要先准备好全部资料吗？",
@@ -217,7 +217,7 @@ export const zh = {
       eyebrow: "关于我们",
       title: "以清晰、细致与长期信任为核心的精品会计与税务事务所。",
       description:
-        "这一页用于介绍事务所负责人、服务理念，以及未来可补充的执业资质、注册信息与个人背景内容。"
+        "了解事务所的服务理念、沟通方式，以及客户可以期待的合作体验。"
     },
     founder: {
       title: business.founderName,
@@ -225,9 +225,9 @@ export const zh = {
       summary: [
         `事务所由 ${business.founderName} 负责，专注于提供更有条理、更值得信赖的会计与税务支持。`,
         "我们希望客户在接触服务时感受到的是专业与安心，而不是过度销售、复杂术语或沟通上的距离感。",
-        "目前此区块保留为高质量占位内容，未来可以无缝替换为真实创办人故事、背景与专业方向。"
+        "事务所重视清晰解释、审慎判断与长期有用的建议，而不只是完成一次性提交。"
       ],
-      warmNote: "后续也可以在这里加入一段简短而克制的个人说明，增加温度感，但不影响整体专业形象。"
+      warmNote: "客户可以期待专业、温和且容易沟通的合作方式，让税务事项更容易理解和推进。"
     },
     philosophy: {
       title: "服务理念",
@@ -249,8 +249,8 @@ export const zh = {
     },
     qualifications: {
       title: "资质与注册信息",
-      description: "这一部分预留给正式上线前补充的真实执业资质、协会会员信息与注册细节。",
-      items: [business.qualifications, "[协会或专业会员信息待补充]","[Maggie]", "[执业或注册详情待补充]"]
+      description: "这里概述事务所的专业定位与客户最关心的服务背景信息。",
+      items: [business.qualifications, "服务个人、投资者与小型企业客户", "支持中文与英文沟通"]
     },
     reasons: {
       title: "为什么客户愿意选择精品事务所",
@@ -262,7 +262,7 @@ export const zh = {
         },
         {
           title: "更适合双语沟通",
-          description: "网站从第一版开始就支持中文与英文，方便未来为华语客户提供更一致的沟通体验。"
+          description: "中英文沟通有助于许多家庭与创业者更轻松地讨论税务事项。"
         },
         {
           title: "更适合建立长期关系",
@@ -284,10 +284,10 @@ export const zh = {
       eyebrow: "服务项目",
       title: "围绕清晰度、合规性与实际支持而设计的服务结构。",
       description:
-        "当前版本先覆盖最核心的三类服务，同时保留未来细分专题页、地区页与教育内容页的扩展能力。"
+        "服务分类的目的，是让客户更快找到与自己情况最接近的支持方向。"
     },
     intro:
-      "服务页面保持简洁，但已具备继续扩展为更强 SEO 架构的基础，方便未来加入更多专题服务与长尾内容。",
+      "当前服务范围覆盖个人税务、企业税务、BAS、GST 与 ATO 相关事项中的常见需求。",
     cards: [
       {
         title: "个人税务",
@@ -323,13 +323,13 @@ export const zh = {
         title: "税务规划与持续建议",
         description: "适合希望在截止日期之前就更早掌握税务方向与准备节奏的客户。",
         href: "/contact",
-        tag: "未来扩展"
+        tag: "顾问支持"
       }
     ],
     supportAreas: {
-      title: "后续可以继续扩展的方向",
-      description: "网站架构已经预留多语言与 SEO 基础，后续增加页面时不需要大幅重做。",
-      items: ["墨尔本地区 suburb 页面", "华人客户专题页面", "投资者与房东专题内容", "报税问答与知识文章"]
+      title: "相关支持方向",
+      description: "除核心服务外，也可围绕相关税务问题、持续咨询与日常合规需求提供支持。",
+      items: ["中文客户沟通支持", "墨尔本及全澳远程服务", "投资者与房东常见税务问题", "成长型企业的持续税务支持"]
     },
     process: {
       title: "所有服务都遵循同样清晰的合作逻辑",
@@ -471,7 +471,7 @@ export const zh = {
         },
         {
           question: "你们可以和现有 bookkeeper 配合吗？",
-          answer: "可以。企业税务服务已预留与 bookkeeping 协调的工作场景。"
+          answer: "可以。企业税务服务可以根据需要与现有 bookkeeping 流程配合，帮助提升申报与记录衔接。"
         },
         {
           question: "适合新成立或正在成长的小企业吗？",
@@ -556,7 +556,7 @@ export const zh = {
     hero: {
       eyebrow: "常见问题",
       title: "先了解几个客户最常问的问题",
-      description: "FAQ 结构已经预留好多语言与 SEO 扩展空间，未来可以持续增加更细分的问题内容。"
+      description: "这里整理了关于服务范围、合作方式与咨询准备的常见问题。"
     },
     groups: [
       {
@@ -605,11 +605,11 @@ export const zh = {
           },
           {
             question: "多久会收到回复？",
-            answer: "当前页面放置的是占位回复时间说明，正式上线前可以根据事务所实际标准再调整。"
+            answer: "大多数咨询会在 1 至 2 个工作日内收到回复。"
           },
           {
             question: "网站支持中文与英文吗？",
-            answer: "支持。网站从架构开始就为中文与英文双语内容做了准备，方便未来持续扩展。"
+            answer: "支持。中文与英文沟通都可以帮助客户更清楚地说明情况并理解下一步。"
           }
         ]
       }
@@ -623,7 +623,7 @@ export const zh = {
   },
   contactPage: {
     metaTitle: "联系我们",
-    metaDescription: "联系事务所，咨询个人税务、企业税务或 ATO 相关支持。表单已具备验证与后续集成能力。",
+    metaDescription: "联系事务所，咨询个人税务、企业税务、BAS、GST 或 ATO 相关支持。",
     hero: {
       eyebrow: "联系我们",
       title: "从一次清楚的咨询开始。",
@@ -632,7 +632,7 @@ export const zh = {
     },
     intro: "表单保持简洁，但足够收集做出第一轮判断所需的关键信息，适合移动端和桌面端填写。",
     detailsTitle: "事务所信息",
-    detailsDescription: "以下内容为占位信息，正式上线前可统一在配置文件中替换。",
+    detailsDescription: "你可以直接使用以下方式联系事务所，或通过表单提交咨询。",
     details: [
       { label: "事务所名称", value: business.name },
       { label: "邮箱", value: business.email, href: `mailto:${business.email}` },
@@ -642,7 +642,7 @@ export const zh = {
     serviceAreaText: `${business.city}, ${business.state}，并可支持全澳远程客户。`,
     formTitle: "发送咨询",
     formDescription: "告诉我们你需要帮助的事项，以及是否有时间点、复杂情况或 ATO 相关背景。",
-    responseNote: "占位说明：预计 1 至 2 个工作日内回复。"
+    responseNote: "大多数咨询会在 1 至 2 个工作日内收到回复。"
   },
   contactForm: {
     nameLabel: "姓名",
@@ -660,7 +660,7 @@ export const zh = {
     submitLabel: "提交咨询",
     submittingLabel: "提交中...",
     successTitle: "已收到你的咨询。",
-    successBody: "当前为可接入邮箱服务的占位流程，后续可直接连接 Resend 或其他表单服务。",
+    successBody: "我们已收到你的咨询，并会尽快查看相关内容后回复你。",
     errorTitle: "提交失败，请稍后再试。",
     errorBody: "你也可以改用页面上的邮箱方式直接联系事务所。",
     privacyNotice: "提交表单即表示你同意我们使用所填写的信息来回复你的咨询。",
@@ -674,14 +674,14 @@ export const zh = {
   },
   privacyPage: {
     metaTitle: "隐私政策",
-    metaDescription: "适用于澳洲会计税务事务所网站的隐私政策占位页，便于后续补充正式业务信息与法律审阅。",
+    metaDescription: "说明网站咨询信息如何被收集、使用与保存的隐私说明。",
     hero: {
       eyebrow: "隐私政策",
       title: "隐私政策",
-      description: "这是一个专业但简洁的占位版隐私政策，正式上线前建议结合真实业务流程进行审阅。"
+      description: "说明通过网站提交咨询时，相关信息会如何被处理与保存。"
     },
     intro:
-      "此页面为首版占位内容，目的是在网站结构、SEO 与合规展示上先具备基础格式，后续再补充正式法律文本。",
+      "本政策用于说明你通过网站提交咨询时，相关信息如何被收集、使用与管理。",
     sections: [
       {
         title: "我们收集哪些信息",
@@ -707,7 +707,7 @@ export const zh = {
       {
         title: "政策更新",
         body: [
-          "随着事务所正式确认系统、服务商与业务流程，本政策内容可能会更新。",
+          "本政策可能会根据业务流程、法律要求或合规安排的变化进行更新。",
           "网站上发布的版本应始终视为最新版本。"
         ]
       }
@@ -737,15 +737,15 @@ export const zh = {
       pageLabel: "第"
     },
     cta: {
-      title: "在知识内容尚未完善之前，你仍然可以直接联系我们。",
-      description: "网站已经具备服务页与验证表单，方便客户直接发起咨询。",
+      title: "如果你的情况需要更直接的建议，也欢迎联系我们。",
+      description: "如果你希望结合自身情况进一步判断下一步，可以直接向事务所发起咨询。",
       primary: { label: "联系事务所", href: "/contact" },
       secondary: { label: "查看服务", href: "/services" }
     }
   },
   notFound: {
     title: "页面不存在",
-    description: "你访问的页面可能已经移动，或者在当前网站版本中尚未上线。",
+    description: "你访问的页面可能已经移动，或暂时无法使用。",
     primary: { label: "返回首页", href: "" },
     secondary: { label: "查看服务", href: "/services" }
   }
