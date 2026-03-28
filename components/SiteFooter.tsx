@@ -71,7 +71,6 @@ export function SiteFooter({ locale, dictionary }: SiteFooterProps) {
                 {dictionary.footer.contactTitle}
               </h2>
               <ul className="space-y-3 text-sm text-[var(--muted)]">
-                <li>{business.name}</li>
                 <li>
                   <TrackedContactLink
                     className="transition hover:text-[var(--primary)]"
@@ -79,18 +78,13 @@ export function SiteFooter({ locale, dictionary }: SiteFooterProps) {
                     eventParameters={{ locale, placement: "footer" }}
                     href={`mailto:${business.email}`}
                   >
-                    {business.email}
+                    {dictionary.contactPage.details.filter(detail=>detail.value===business.email)[0]?.label || "Email"}: {business.email}
                   </TrackedContactLink>
                 </li>
                 <li>
-                  <TrackedContactLink
-                    className="transition hover:text-[var(--primary)]"
-                    eventName="click_phone"
-                    eventParameters={{ locale, placement: "footer" }}
-                    href={`tel:${business.phone.replace(/\s+/g, "")}`}
-                  >
-                    {business.phone}
-                  </TrackedContactLink>
+                  <p>
+                    {dictionary.contactPage.details.filter(detail=>detail.value===business.weChat)[0]?.label || "WeChat"}: {business.weChat}
+                  </p>
                 </li>
                 <li>
                   <span className="font-medium text-[var(--foreground)]">{dictionary.footer.serviceAreaLabel}: </span>

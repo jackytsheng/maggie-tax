@@ -636,7 +636,7 @@ export const zh = {
     details: [
       { label: "事务所名称", value: business.name },
       { label: "邮箱", value: business.email, href: `mailto:${business.email}` },
-      { label: "电话", value: business.phone, href: `tel:${business.phone.replace(/\s+/g, "")}` }
+      { label: "微信", value: business.weChat, href: `https://weChat.com/${business.weChat}` }
     ],
     serviceAreaTitle: "服务范围",
     serviceAreaText: `${business.city}, ${business.state}，并可支持全澳远程客户。`,

@@ -10,7 +10,7 @@ export function buildOrganizationSchema(locale: Locale, description: string) {
     legalName: business.legalName,
     url: business.domain,
     email: business.email,
-    telephone: business.phone,
+    weChat: business.weChat,
     description,
     areaServed: "Australia",
     address: {

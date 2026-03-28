@@ -666,7 +666,8 @@ export const en = {
     details: [
       { label: "Business name", value: business.name },
       { label: "Email", value: business.email, href: `mailto:${business.email}` },
-      { label: "Phone", value: business.phone, href: `tel:${business.phone.replace(/\s+/g, "")}` }
+      // { label: "Phone", value: business.phone, href: `tel:${business.phone.replace(/\s+/g, "")}` }
+      { label: "weChat", value: business.weChat }
     ],
     serviceAreaTitle: "Service area",
     serviceAreaText: `${business.city}, ${business.state}, with remote support for clients across Australia.`,

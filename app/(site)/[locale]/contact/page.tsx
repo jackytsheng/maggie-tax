@@ -49,7 +49,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                     {detail.href ? (
                       <TrackedContactLink
                         className="mt-2 inline-flex text-base font-semibold text-[var(--foreground)] transition hover:text-[var(--primary)]"
-                        eventName={detail.href.startsWith("mailto:") ? "click_email" : "click_phone"}
+                        eventName={detail.href.startsWith("mailto:") ? "click_email" : ""}
                         eventParameters={{ locale, placement: "contact_page" }}
                         href={detail.href}
                       >

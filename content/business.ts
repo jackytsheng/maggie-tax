@@ -1,10 +1,10 @@
 export const business = {
-  name: "Maggie Tax",
+  name: "Maggie Xing Tax",
   founderName: "Maggie Xing",
   founderRole: "Registered Tax Agent",
   qualifications: "[Qualifications and registrations to be added]",
-  email: "qiyun9728@gmail.com",
-  phone: "03 9000 0000",
+  email: "maggiexingtax@gmail.com",
+  weChat: "maggie_tax",
   city: "Melbourne",
   state: "Victoria",
   country: "Australia",
