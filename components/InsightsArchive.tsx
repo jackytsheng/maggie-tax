@@ -174,7 +174,7 @@ export function InsightsArchive({ archive, copy, locale, readMoreLabel }: Insigh
                     className={cn(
                       "focus-ring inline-flex h-11 min-w-11 items-center justify-center rounded-full border px-4 text-sm font-semibold transition",
                       pageNumber === archive.page
-                        ? "border-[var(--primary)] bg-[var(--primary)] text-white"
+                        ? "primary-button border-[var(--primary)] bg-[var(--primary)] "
                         : "border-[var(--border)] bg-white text-[var(--foreground)] hover:border-[var(--primary)] hover:text-[var(--primary)]"
                     )}
                     href={buildArchiveHref(locale, {
