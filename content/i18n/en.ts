@@ -230,7 +230,7 @@ export const en = {
     },
     founder: {
       title: business.founderName,
-      role: business.founderRole,
+      role: "Founder",
       summary: [
         `The practice is led by ${business.founderName}, with a focus on delivering thoughtful accounting and tax support that feels calm, clear, and dependable.`,
         "The tone of the firm is intentionally professional without being cold, so clients feel comfortable asking questions and understanding what happens next.",
@@ -259,11 +259,10 @@ export const en = {
     },
     qualifications: {
       title: "Qualifications and registrations",
-      description: "Professional credentials and service focus are presented here to give clients a clearer sense of the practice.",
+      description: "Professional qualifications are listed here for quick reference.",
       items: [
-        business.qualifications,
-        "Support for individuals, investors, and small businesses",
-        "Bilingual-friendly communication in English and Chinese"
+        "Registered Tax Agent",
+        "Chartered Accountant"
       ]
     },
     reasons: {

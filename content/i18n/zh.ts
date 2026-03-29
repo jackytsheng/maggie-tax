@@ -221,7 +221,7 @@ export const zh = {
     },
     founder: {
       title: business.founderName,
-      role: business.founderRole,
+      role: "创始人",
       summary: [
         `事务所由 ${business.founderName} 负责，专注于提供更有条理、更值得信赖的会计与税务支持。`,
         "我们希望客户在接触服务时感受到的是专业与安心，而不是过度销售、复杂术语或沟通上的距离感。",
@@ -249,8 +249,8 @@ export const zh = {
     },
     qualifications: {
       title: "资质与注册信息",
-      description: "这里概述事务所的专业定位与客户最关心的服务背景信息。",
-      items: [business.qualifications, "服务个人、投资者与小型企业客户", "支持中文与英文沟通"]
+      description: "这里列出事务所的专业资质，方便客户快速了解。",
+      items: ["澳洲注册税务代理（Registered Tax Agent）", "澳洲特许会计师（Chartered Accountant）"]
     },
     reasons: {
       title: "为什么客户愿意选择精品事务所",

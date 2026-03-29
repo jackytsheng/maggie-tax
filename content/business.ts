@@ -1,8 +1,6 @@
 export const business = {
   name: "Maggie Xing Tax",
   founderName: "Maggie Xing",
-  founderRole: "Registered Tax Agent",
-  qualifications: "Registered Tax Agent",
   email: "maggiexingtax@gmail.com",
   weChat: "maggie_tax",
   city: "Melbourne",
@@ -12,6 +10,6 @@ export const business = {
   domain: "https://www.practice-domain.com.au",
   consultationCta: "Book a Consultation",
   legalName: "Maggie Xing Tax",
-  abn: "Available on request",
+  abn: "90 737 652 644",
   socialImagePath: "/og-default.png"
 } as const;
