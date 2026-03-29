@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -27,7 +28,7 @@ export function SiteHeader({
   links,
   ctaLabel,
   mobileMenuLabel,
-  languageSwitcherLabel
+  languageSwitcherLabel,
 }: SiteHeaderProps) {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -40,13 +41,19 @@ export function SiteHeader({
     <header className="sticky top-0 z-50 border-b border-[var(--border)] bg-[rgba(246,241,235,0.82)] backdrop-blur-xl">
       <Container>
         <div className="flex min-h-20 items-center justify-between gap-4">
-          <Link className="focus-ring inline-flex items-center gap-3" href={localizePath(locale, "")}>
-            <span className="primary-surface inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-[var(--primary)] text-sm font-semibold text-white">
-              M
-            </span>
-            <div className="hidden sm:block">
-              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--primary)]">Melbourne</p>
-              <p className="text-base font-semibold text-[var(--foreground)]">{business.name}</p>
+          <Link
+            className="focus-ring inline-flex items-center gap-3"
+            href={localizePath(locale, "")}
+          >
+            <div className="relative h-[80px] w-[160px] shrink-0">
+              <Image
+                alt={`${business.name} logo`}
+                className="object-cover object-center"
+                fill
+                priority
+                sizes="250px"
+                src="/images/logo-svg.svg"
+              />
             </div>
           </Link>
 
@@ -60,7 +67,9 @@ export function SiteHeader({
                   key={link.href}
                   className={cn(
                     "focus-ring text-sm font-medium transition hover:text-[var(--primary)]",
-                    isActive ? "text-[var(--primary)]" : "text-[var(--foreground)]"
+                    isActive
+                      ? "text-[var(--primary)]"
+                      : "text-[var(--foreground)]",
                   )}
                   href={href}
                 >
@@ -71,11 +80,19 @@ export function SiteHeader({
           </nav>
 
           <div className="hidden items-center gap-3 lg:flex">
-            <LocaleSwitcher currentLocale={locale} label={languageSwitcherLabel} />
+            <LocaleSwitcher
+              currentLocale={locale}
+              label={languageSwitcherLabel}
+            />
             <Link
               className="primary-button focus-ring inline-flex min-h-11 items-center justify-center rounded-full bg-[var(--primary)] px-5 text-sm font-semibold text-white transition hover:bg-[var(--primary-deep)]"
               href={localizePath(locale, "/contact")}
-              onClick={() => trackEvent("consultation_cta_click", { locale, placement: "header" })}
+              onClick={() =>
+                trackEvent("consultation_cta_click", {
+                  locale,
+                  placement: "header",
+                })
+              }
             >
               {ctaLabel}
             </Link>
@@ -96,7 +113,9 @@ export function SiteHeader({
         <div
           className={cn(
             "overflow-hidden transition-[max-height,opacity,padding] duration-200 lg:hidden",
-            menuOpen ? "max-h-[30rem] pb-5 opacity-100" : "max-h-0 pb-0 opacity-0"
+            menuOpen
+              ? "max-h-[30rem] pb-5 opacity-100"
+              : "max-h-0 pb-0 opacity-0",
           )}
           id="mobile-navigation"
         >
@@ -111,11 +130,19 @@ export function SiteHeader({
               </Link>
             ))}
             <div className="flex items-center justify-between gap-3 border-t border-[var(--border)] pt-4">
-              <LocaleSwitcher currentLocale={locale} label={languageSwitcherLabel} />
+              <LocaleSwitcher
+                currentLocale={locale}
+                label={languageSwitcherLabel}
+              />
               <Link
                 className="primary-button focus-ring inline-flex min-h-11 items-center justify-center rounded-full bg-[var(--primary)] px-5 text-sm font-semibold text-white transition hover:bg-[var(--primary-deep)]"
                 href={localizePath(locale, "/contact")}
-                onClick={() => trackEvent("consultation_cta_click", { locale, placement: "mobile_header" })}
+                onClick={() =>
+                  trackEvent("consultation_cta_click", {
+                    locale,
+                    placement: "mobile_header",
+                  })
+                }
               >
                 {ctaLabel}
               </Link>

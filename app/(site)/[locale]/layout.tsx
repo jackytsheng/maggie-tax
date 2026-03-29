@@ -29,6 +29,18 @@ export async function generateMetadata({
   return {
     metadataBase: new URL(business.domain),
     applicationName: business.name,
+    icons: {
+      icon: [
+        { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+        { url: "/favicon.svg", type: "image/svg+xml" }
+      ],
+      shortcut: "/favicon.ico",
+      apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }]
+    },
+    manifest: "/site.webmanifest",
+    appleWebApp: {
+      title: "MaggieXingTax"
+    },
     verification: {
       google: process.env.NEXT_PUBLIC_GSC_VERIFICATION || undefined
     }
