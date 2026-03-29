@@ -635,6 +635,7 @@ export const zh = {
     detailsDescription: "你可以直接使用以下方式联系事务所，或通过表单提交咨询。",
     details: [
       { label: "事务所名称", value: business.name },
+      { label: "ABN", value: business.abn },
       { label: "邮箱", value: business.email, href: `mailto:${business.email}` },
       { label: "微信", value: business.weChat, href: `https://weChat.com/${business.weChat}` }
     ],

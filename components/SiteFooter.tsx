@@ -72,6 +72,9 @@ export function SiteFooter({ locale, dictionary }: SiteFooterProps) {
               </h2>
               <ul className="space-y-3 text-sm text-[var(--muted)]">
                 <li>
+                  <p>ABN: {business.abn}</p>
+                </li>
+                <li>
                   <TrackedContactLink
                     className="transition hover:text-[var(--primary)]"
                     eventName="click_email"

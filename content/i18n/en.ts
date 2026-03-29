@@ -664,6 +664,7 @@ export const en = {
     detailsDescription: "Use the details below to get in touch directly or send an enquiry through the form.",
     details: [
       { label: "Business name", value: business.name },
+      { label: "ABN", value: business.abn },
       { label: "Email", value: business.email, href: `mailto:${business.email}` },
       // { label: "Phone", value: business.phone, href: `tel:${business.phone.replace(/\s+/g, "")}` }
       { label: "weChat", value: business.weChat }
