@@ -64,7 +64,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
             </div>
           </div>
 
-          <div className="section-card px-6 py-7 sm:px-8">
+          <div className="section-card self-start px-6 py-7 sm:px-8">
             <SectionHeading description={dictionary.about.qualifications.description} title={dictionary.about.qualifications.title} />
             <ul className="mt-5 space-y-3">
               {dictionary.about.qualifications.items.map((item) => (
