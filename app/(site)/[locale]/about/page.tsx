@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { CTASection } from "@/components/CTASection";
 import { Container } from "@/components/Container";
 import { PageHero } from "@/components/PageHero";
@@ -20,6 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale, dictionary } = await getLocaleDictionary(params);
+  const founderPhotoAlt = locale === "zh" ? `${dictionary.about.founder.title} 形象照` : `Portrait of ${dictionary.about.founder.title}`;
 
   return (
     <>
@@ -39,6 +42,16 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
           <div className="section-card px-6 py-7 sm:px-8">
             <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[var(--primary)]">{dictionary.about.founder.role}</p>
             <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[var(--foreground)]">{dictionary.about.founder.title}</h2>
+            <div className="mt-6 flex items-center justify-center">
+              <Image
+                alt={founderPhotoAlt}
+                className="h-auto max-h-[500px] w-auto max-w-full rounded-[1.4rem] border border-[var(--border)] bg-[var(--surface-soft)]"
+                height={1536}
+                priority
+                src="/images/founder-maggie.jpg"
+                width={1024}
+              />
+            </div>
             <div className="mt-5 space-y-4">
               {dictionary.about.founder.summary.map((paragraph) => (
                 <p key={paragraph} className="text-base leading-8">

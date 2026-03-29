@@ -17,10 +17,11 @@ export function Breadcrumbs({ locale, items }: BreadcrumbsProps) {
       <ol className="flex flex-wrap items-center gap-2 text-sm text-[var(--muted-soft)]">
         {items.map((item, index) => {
           const isLast = index === items.length - 1;
+          const isClickable = item.href !== undefined && !isLast;
 
           return (
             <li key={`${item.label}-${index}`} className="flex items-center gap-2">
-              {item.href && !isLast ? (
+              {isClickable ? (
                 <Link className="transition hover:text-[var(--primary)]" href={localizePath(locale, item.href)}>
                   {item.label}
                 </Link>
