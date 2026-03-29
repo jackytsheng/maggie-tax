@@ -11,5 +11,4 @@ export const business = {
   consultationCta: "Book a Consultation",
   legalName: "Maggie Xing Tax",
   abn: "90 737 652 644",
-  socialImagePath: "/og-default.png"
 } as const;

@@ -45,7 +45,7 @@ export function SiteHeader({
             className="focus-ring inline-flex items-center gap-3"
             href={localizePath(locale, "")}
           >
-            <div className="relative h-[80px] w-[160px] shrink-0">
+            <div className="relative h-[80px] w-[160px] shrink-0 top-2">
               <Image
                 alt={`${business.name} logo`}
                 className="object-cover object-center"
