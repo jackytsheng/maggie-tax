@@ -7,7 +7,11 @@
         "title": "10 Common Tax Return Mistakes Australian Employees Make",
         "excerpt": "Commuting Costs, Duplicate Claims, Cash Income and More — What the ATO Watches For",
         "category": "Individual tax",
-        "tag": "Checklist"
+        "tags": [
+          "Tax returns",
+          "Deductions",
+          "Employees"
+        ]
       },
       "intro": "Most Australian employees are entitled to a tax refund — but many either overclaim (which can trigger an audit) or underclaim (leaving money on the table). Here are the ten most common mistakes, and what the correct position actually is.",
       "sections": [
@@ -85,7 +89,11 @@
         "title": "澳洲打工人最常犯的 10 个报税错误",
         "excerpt": "通勤费、重复申报、现金收入……ATO 盯着的那些坑",
         "category": "个人税务",
-        "tag": "清单"
+        "tags": [
+          "报税",
+          "抵扣",
+          "雇员税务"
+        ]
       },
       "intro": "大多数澳洲员工有权申请退税——但很多人要么多报（可能触发审计），要么少报（白白损失钱）。以下是十个最常见的错误，以及正确的处理方式。",
       "sections": [

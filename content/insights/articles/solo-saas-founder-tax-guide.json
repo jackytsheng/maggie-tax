@@ -7,7 +7,11 @@
         "title": "Solo SaaS Founder & Indie App Developer Tax in Australia",
         "excerpt": "Stripe Income, Overseas Revenue, ABN, GST, Company Structure & PSI Rules",
         "category": "Business tax",
-        "tag": "Guide"
+        "tags": [
+          "Digital income",
+          "GST",
+          "Business structure"
+        ]
       },
       "intro": "You have built a product that generates recurring revenue — subscriptions, one-time purchases, or usage-based billing. Whether it is a web app, a mobile app, a browser extension, or an API, the ATO treats that income as business income from day one. And the way you structure and report it matters enormously as it scales. This guide addresses the specific tax questions that solo founders and indie developers ask us most — particularly around international revenue, GST registration, and when a company makes sense.",
       "sections": [
@@ -116,7 +120,11 @@
         "title": "澳洲独立 SaaS 创始人与 App 开发者税务指南",
         "excerpt": "Stripe 收入、海外收款、ABN、GST、公司架构与 PSI 规则",
         "category": "企业税务",
-        "tag": "指南"
+        "tags": [
+          "线上收入",
+          "GST",
+          "经营架构"
+        ]
       },
       "intro": "你构建了一个产生持续性收入的产品——订阅、一次性购买或按用量计费。无论是 Web 应用、移动 App、浏览器插件还是 API，ATO 从第一天起就将其视为商业收入。随着规模扩大，你如何申报和架构这些收入，影响极其显著。 这篇指南专门解答独立创始人和开发者最常问我们的税务问题——尤其是关于国际收入、GST 注册以及何时注册公司。",
       "sections": [

@@ -11,9 +11,10 @@ import type {
   InsightArticle,
   InsightArchiveFilter,
   InsightArchiveResult,
+  InsightArchiveTermOption,
   LocalizedInsightSummary
 } from "@/content/insights/types";
-import { insightArticleSchema } from "@/content/insights/types";
+import { INSIGHT_CATEGORY_DEFINITIONS, insightArticleSchema } from "@/content/insights/types";
 
 const ARTICLES_DIRECTORY = path.join(process.cwd(), "content/insights/articles");
 export const INSIGHTS_PAGE_SIZE = 3;
@@ -21,6 +22,7 @@ const READING_SPEED_CHARACTERS_PER_MINUTE: Record<Locale, number> = {
   zh: 320,
   en: 900
 };
+const insightCategoryKeys = Object.keys(INSIGHT_CATEGORY_DEFINITIONS) as Array<keyof typeof INSIGHT_CATEGORY_DEFINITIONS>;
 
 function getYearAndMonth(publishedAt: string) {
   const [year, month] = publishedAt.split("-").map((value) => Number(value));
@@ -45,6 +47,136 @@ export function formatInsightPublishedLabel(locale: Locale, publishedAt: string)
     year: "numeric",
     timeZone: "UTC"
   }).format(new Date(Date.UTC(year, month - 1, day)));
+}
+
+function createInsightFilterKey(value: string) {
+  return value
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .replace(/-{2,}/g, "-");
+}
+
+function getInsightCategoryKey(article: InsightArticle) {
+  const englishCategory = article.translations.en.card.category;
+  const matchedKey = insightCategoryKeys.find((key) => INSIGHT_CATEGORY_DEFINITIONS[key].en === englishCategory);
+
+  if (!matchedKey) {
+    throw new Error(`Unsupported insight category for article "${article.slug}": ${englishCategory}`);
+  }
+
+  return matchedKey;
+}
+
+function getInsightTagOptionsForArticle(article: InsightArticle, locale: Locale) {
+  const englishTags = article.translations.en.card.tags;
+  const localizedTags = article.translations[locale].card.tags;
+
+  return englishTags.map((englishTag, index) => ({
+    value: createInsightFilterKey(englishTag),
+    label: localizedTags[index] ?? englishTag
+  }));
+}
+
+function articleMatchesCategory(article: InsightArticle, selectedCategory?: string) {
+  return !selectedCategory || getInsightCategoryKey(article) === selectedCategory;
+}
+
+function articleMatchesTag(article: InsightArticle, selectedTag?: string) {
+  return !selectedTag || article.translations.en.card.tags.some((tag) => createInsightFilterKey(tag) === selectedTag);
+}
+
+function articleMatchesDate(article: InsightArticle, selectedYear?: number, selectedMonth?: number) {
+  const { year, month } = getYearAndMonth(article.publishedAt);
+
+  if (selectedYear && year !== selectedYear) {
+    return false;
+  }
+
+  if (selectedMonth && month !== selectedMonth) {
+    return false;
+  }
+
+  return true;
+}
+
+function buildCategoryOptions(articles: InsightArticle[], locale: Locale): InsightArchiveTermOption[] {
+  const counts = articles.reduce((accumulator, article) => {
+    const categoryKey = getInsightCategoryKey(article);
+
+    accumulator.set(categoryKey, (accumulator.get(categoryKey) ?? 0) + 1);
+    return accumulator;
+  }, new Map<keyof typeof INSIGHT_CATEGORY_DEFINITIONS, number>());
+  const options: InsightArchiveTermOption[] = [];
+
+  for (const key of insightCategoryKeys) {
+    const count = counts.get(key) ?? 0;
+
+    if (!count) {
+      continue;
+    }
+
+    options.push({
+      value: key,
+      label: INSIGHT_CATEGORY_DEFINITIONS[key][locale],
+      count
+    });
+  }
+
+  return options;
+}
+
+function buildTagOptions(articles: InsightArticle[], locale: Locale): InsightArchiveTermOption[] {
+  const options = new Map<string, InsightArchiveTermOption>();
+
+  for (const article of articles) {
+    for (const tag of getInsightTagOptionsForArticle(article, locale)) {
+      const current = options.get(tag.value);
+
+      options.set(tag.value, {
+        value: tag.value,
+        label: current?.label ?? tag.label,
+        count: (current?.count ?? 0) + 1
+      });
+    }
+  }
+
+  return Array.from(options.values()).sort(
+    (left, right) => right.count - left.count || left.label.localeCompare(right.label, localeToHtmlLang[locale])
+  );
+}
+
+function buildYearOptions(articles: InsightArticle[]) {
+  return Array.from(
+    articles.reduce((accumulator, article) => {
+      const { year } = getYearAndMonth(article.publishedAt);
+
+      accumulator.set(year, (accumulator.get(year) ?? 0) + 1);
+      return accumulator;
+    }, new Map<number, number>())
+  )
+    .sort((left, right) => right[0] - left[0])
+    .map(([value, count]) => ({ value, count }));
+}
+
+function buildMonthOptions(articles: InsightArticle[], locale: Locale, year: number) {
+  return Array.from(
+    articles.reduce((accumulator, article) => {
+      const { month } = getYearAndMonth(article.publishedAt);
+      const current = accumulator.get(month) ?? { count: 0, label: buildMonthLabel(locale, year, month) };
+
+      accumulator.set(month, {
+        count: current.count + 1,
+        label: current.label
+      });
+      return accumulator;
+    }, new Map<number, { count: number; label: string }>())
+  )
+    .sort((left, right) => right[0] - left[0])
+    .map(([value, option]) => ({ value, ...option }));
 }
 
 function countInsightCharacters(article: InsightArticle, locale: Locale) {
@@ -136,53 +268,41 @@ export async function getInsightArchive(
   options: InsightArchiveFilter & { page?: number; pageSize?: number } = {}
 ): Promise<InsightArchiveResult> {
   const articles = await loadInsightArticles();
-  const latestItem = articles[0] ? localizeInsightSummary(articles[0], locale) : null;
   const pageSize = Math.max(1, options.pageSize ?? INSIGHTS_PAGE_SIZE);
+  const selectedCategory = options.category;
+  const selectedTag = options.tag;
   const selectedYear = options.year;
   const selectedMonth = selectedYear ? options.month : undefined;
 
-  const filteredArticles = articles.filter((article) => {
-    const { year, month } = getYearAndMonth(article.publishedAt);
+  const filteredArticles = articles.filter(
+    (article) =>
+      articleMatchesCategory(article, selectedCategory) &&
+      articleMatchesTag(article, selectedTag) &&
+      articleMatchesDate(article, selectedYear, selectedMonth)
+  );
+  const latestSourceArticle = filteredArticles[0] ?? articles[0] ?? null;
+  const latestItem = latestSourceArticle ? localizeInsightSummary(latestSourceArticle, locale) : null;
 
-    if (selectedYear && year !== selectedYear) {
-      return false;
-    }
-
-    if (selectedMonth && month !== selectedMonth) {
-      return false;
-    }
-
-    return true;
-  });
-
-  const availableYears = Array.from(
-    articles.reduce((accumulator, article) => {
-      const { year } = getYearAndMonth(article.publishedAt);
-
-      accumulator.set(year, (accumulator.get(year) ?? 0) + 1);
-      return accumulator;
-    }, new Map<number, number>())
-  )
-    .sort((left, right) => right[0] - left[0])
-    .map(([value, count]) => ({ value, count }));
-
+  const availableCategories = buildCategoryOptions(
+    articles.filter(
+      (article) => articleMatchesTag(article, selectedTag) && articleMatchesDate(article, selectedYear, selectedMonth)
+    ),
+    locale
+  );
+  const availableTags = buildTagOptions(
+    articles.filter(
+      (article) => articleMatchesCategory(article, selectedCategory) && articleMatchesDate(article, selectedYear, selectedMonth)
+    ),
+    locale
+  );
+  const yearSourceArticles = articles.filter(
+    (article) => articleMatchesCategory(article, selectedCategory) && articleMatchesTag(article, selectedTag)
+  );
+  const availableYears = buildYearOptions(yearSourceArticles);
   const monthSourceArticles = selectedYear
-    ? articles.filter((article) => getYearAndMonth(article.publishedAt).year === selectedYear)
+    ? yearSourceArticles.filter((article) => getYearAndMonth(article.publishedAt).year === selectedYear)
     : [];
-  const availableMonths = Array.from(
-    monthSourceArticles.reduce((accumulator, article) => {
-      const { year, month } = getYearAndMonth(article.publishedAt);
-      const current = accumulator.get(month) ?? { count: 0, label: buildMonthLabel(locale, selectedYear ?? year, month) };
-
-      accumulator.set(month, {
-        count: current.count + 1,
-        label: current.label
-      });
-      return accumulator;
-    }, new Map<number, { count: number; label: string }>())
-  )
-    .sort((left, right) => right[0] - left[0])
-    .map(([value, option]) => ({ value, ...option }));
+  const availableMonths = selectedYear ? buildMonthOptions(monthSourceArticles, locale, selectedYear) : [];
 
   const totalItems = filteredArticles.length;
   const totalPages = Math.max(1, Math.ceil(totalItems / pageSize));
@@ -198,9 +318,13 @@ export async function getInsightArchive(
     totalItems,
     totalPages,
     filters: {
+      category: selectedCategory,
+      tag: selectedTag,
       year: selectedYear,
       month: selectedMonth
     },
+    availableCategories,
+    availableTags,
     availableYears,
     availableMonths
   };

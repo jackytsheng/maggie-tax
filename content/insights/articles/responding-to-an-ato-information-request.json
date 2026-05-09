@@ -7,7 +7,10 @@
         "title": "How to respond to an ATO information request",
         "excerpt": "A practical guide to responding more calmly and clearly when the ATO asks for information or documents.",
         "category": "ATO support",
-        "tag": "Explainer"
+        "tags": [
+          "ATO reviews",
+          "Record keeping"
+        ]
       },
       "intro": "ATO correspondence usually feels urgent, but the first priority is not speed alone. It is understanding exactly what has been requested, by when, and what records are actually relevant.",
       "sections": [
@@ -51,7 +54,10 @@
         "title": "收到 ATO 资料要求后，应该怎么开始处理",
         "excerpt": "帮助客户在收到 ATO 资料要求后更清楚地整理回应思路与相关文件的一篇实用文章。",
         "category": "ATO 协助",
-        "tag": "解读"
+        "tags": [
+          "ATO 审查",
+          "资料留存"
+        ]
       },
       "intro": "收到 ATO 来信时，很多人第一反应是赶快回复。但真正更重要的第一步，是先弄清楚 ATO 具体要什么、截止日期是什么，以及哪些资料才真正相关。",
       "sections": [

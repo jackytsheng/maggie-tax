@@ -7,7 +7,11 @@
         "title": "Allied Health Professional Tax in Australia",
         "excerpt": "Physiotherapists, Psychologists & Optometrists — GST, ABN, Contractor Rules & Deductions",
         "category": "Business tax",
-        "tag": "Guide"
+        "tags": [
+          "Health services",
+          "GST",
+          "Contractors"
+        ]
       },
       "intro": "Allied health professionals — whether working in private practice, in a clinic, or as independent contractors billing under Medicare or private health — face a specific and often misunderstood set of tax obligations. Two questions come up more than any other: 'Are my services GST-free?' and 'Am I a contractor or an employee?' Both have answers that depend on the details — and both are worth getting right before your next tax return.",
       "sections": [
@@ -105,7 +109,11 @@
         "title": "澳洲专职医疗从业者税务指南",
         "excerpt": "物理治疗师 · 心理咨询师 · 视光师——GST · ABN · 承包商规则 · 扣税",
         "category": "企业税务",
-        "tag": "指南"
+        "tags": [
+          "健康服务",
+          "GST",
+          "承包接案"
+        ]
       },
       "intro": "专职医疗从业者——无论是在私人诊所、在诊所内执业，还是以独立承包商身份通过 Medicare 或私人健康保险开具发票——都面临着一套特定且常常被误解的税务义务。两个问题比其他所有问题都出现得更频繁：\"我的服务免 GST 吗？\"和\"我是承包商还是员工？\" 两个问题的答案都取决于具体情况——在下次报税前弄清楚，都是值得的。",
       "sections": [

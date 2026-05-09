@@ -15,14 +15,73 @@ interface InsightsArchiveProps {
   readMoreLabel: string;
 }
 
-function buildArchiveHref(locale: Locale, params: { page?: number; year?: number; month?: number }) {
+const MAX_VISIBLE_TAG_FILTERS = 6;
+
+function buildPaginationItems(currentPage: number, totalPages: number) {
+  if (totalPages <= 7) {
+    return Array.from({ length: totalPages }, (_, index) => index + 1);
+  }
+
+  const pages = new Set<number>([1, totalPages]);
+
+  if (currentPage <= 3) {
+    pages.add(2);
+    pages.add(3);
+    pages.add(4);
+  } else if (currentPage >= totalPages - 2) {
+    pages.add(totalPages - 3);
+    pages.add(totalPages - 2);
+    pages.add(totalPages - 1);
+  } else {
+    pages.add(currentPage - 1);
+    pages.add(currentPage);
+    pages.add(currentPage + 1);
+  }
+
+  const sortedPages = Array.from(pages)
+    .filter((pageNumber) => pageNumber >= 1 && pageNumber <= totalPages)
+    .sort((left, right) => left - right);
+  const items: Array<number | string> = [];
+
+  for (let index = 0; index < sortedPages.length; index += 1) {
+    const pageNumber = sortedPages[index];
+    const previousPageNumber = sortedPages[index - 1];
+
+    if (previousPageNumber) {
+      const gap = pageNumber - previousPageNumber;
+
+      if (gap === 2) {
+        items.push(previousPageNumber + 1);
+      } else if (gap > 2) {
+        items.push(`ellipsis-${previousPageNumber}-${pageNumber}`);
+      }
+    }
+
+    items.push(pageNumber);
+  }
+
+  return items;
+}
+
+function buildArchiveHref(
+  locale: Locale,
+  params: { page?: number; category?: string; tag?: string; year?: number; month?: number }
+) {
   const searchParams = new URLSearchParams();
+
+  if ("category" in params && params.category) {
+    searchParams.set("category", String(params.category));
+  }
+
+  if ("tag" in params && params.tag) {
+    searchParams.set("tag", String(params.tag));
+  }
 
   if (params.year) {
     searchParams.set("year", String(params.year));
   }
 
-  if (params.month) {
+  if (params.year && params.month) {
     searchParams.set("month", String(params.month));
   }
 
@@ -37,10 +96,19 @@ function buildArchiveHref(locale: Locale, params: { page?: number; year?: number
 }
 
 export function InsightsArchive({ archive, copy, locale, readMoreLabel }: InsightsArchiveProps) {
-  const hasFilters = Boolean(archive.filters.year || archive.filters.month);
+  const hasFilters = Boolean(archive.filters.category || archive.filters.tag || archive.filters.year || archive.filters.month);
   const latestItem = archive.latestItem;
   const latestHref = latestItem ? localizePath(locale, `/insights/${latestItem.slug}`) : null;
   const headerDescription = latestItem?.excerpt ?? copy.resultsDescription;
+  const paginationItems = buildPaginationItems(archive.page, archive.totalPages);
+  const visibleTagValues = new Set(archive.availableTags.slice(0, MAX_VISIBLE_TAG_FILTERS).map((tag) => tag.value));
+
+  if (archive.filters.tag) {
+    visibleTagValues.add(archive.filters.tag);
+  }
+
+  const visibleTags = archive.availableTags.filter((tag) => visibleTagValues.has(tag.value));
+  const hiddenTags = archive.availableTags.filter((tag) => !visibleTagValues.has(tag.value));
 
   return (
     <div className="space-y-6">
@@ -73,6 +141,127 @@ export function InsightsArchive({ archive, copy, locale, readMoreLabel }: Insigh
         )}
 
         <div className="mt-6 space-y-5 border-t border-[var(--border)] pt-5">
+          {hasFilters ? (
+            <div className="flex justify-end">
+              <Link
+                className="focus-ring text-sm font-semibold text-[var(--primary)] transition hover:text-[var(--primary-deep)]"
+                href={buildArchiveHref(locale, {})}
+              >
+                {copy.clearFiltersLabel}
+              </Link>
+            </div>
+          ) : null}
+
+          <div className="space-y-3">
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--primary)]">{copy.categoryLabel}</p>
+            <div className="flex flex-wrap gap-2">
+              <Link
+                className={cn(
+                  "focus-ring rounded-full border px-4 py-2 text-sm font-medium transition",
+                  !archive.filters.category
+                    ? "border-[var(--primary)] bg-[var(--surface-sage)] text-[var(--primary)]"
+                    : "border-[var(--border)] bg-white text-[var(--foreground)] hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                )}
+                href={buildArchiveHref(locale, {
+                  tag: archive.filters.tag,
+                  year: archive.filters.year,
+                  month: archive.filters.month
+                })}
+              >
+                {copy.allCategoriesLabel}
+              </Link>
+              {archive.availableCategories.map((category) => (
+                <Link
+                  key={category.value}
+                  className={cn(
+                    "focus-ring rounded-full border px-4 py-2 text-sm font-medium transition",
+                    archive.filters.category === category.value
+                      ? "border-[var(--primary)] bg-[var(--surface-sage)] text-[var(--primary)]"
+                      : "border-[var(--border)] bg-white text-[var(--foreground)] hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                  )}
+                  href={buildArchiveHref(locale, {
+                    category: category.value,
+                    tag: archive.filters.tag,
+                    year: archive.filters.year,
+                    month: archive.filters.month
+                  })}
+                >
+                  {category.label} ({category.count})
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {archive.availableTags.length ? (
+            <div className="space-y-3">
+              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--primary)]">{copy.tagLabel}</p>
+              <div className="flex flex-wrap gap-2">
+                <Link
+                  className={cn(
+                    "focus-ring rounded-full border px-4 py-2 text-sm font-medium transition",
+                    !archive.filters.tag
+                      ? "border-[var(--primary)] bg-[var(--surface-sage)] text-[var(--primary)]"
+                      : "border-[var(--border)] bg-white text-[var(--foreground)] hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                  )}
+                  href={buildArchiveHref(locale, {
+                    category: archive.filters.category,
+                    year: archive.filters.year,
+                    month: archive.filters.month
+                  })}
+                >
+                  {copy.allTagsLabel}
+                </Link>
+                {visibleTags.map((tag) => (
+                  <Link
+                    key={tag.value}
+                    className={cn(
+                      "focus-ring rounded-full border px-4 py-2 text-sm font-medium transition",
+                      archive.filters.tag === tag.value
+                        ? "border-[var(--primary)] bg-[var(--surface-sage)] text-[var(--primary)]"
+                        : "border-[var(--border)] bg-white text-[var(--foreground)] hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                    )}
+                    href={buildArchiveHref(locale, {
+                      category: archive.filters.category,
+                      tag: tag.value,
+                      year: archive.filters.year,
+                      month: archive.filters.month
+                    })}
+                  >
+                    {tag.label} ({tag.count})
+                  </Link>
+                ))}
+              </div>
+              {hiddenTags.length ? (
+                <details className="group">
+                  <summary className="cursor-pointer list-none text-sm font-semibold text-[var(--primary)] transition hover:text-[var(--primary-deep)]">
+                    {copy.moreTagsLabel} ({hiddenTags.length})
+                  </summary>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {hiddenTags.map((tag) => (
+                      <Link
+                        key={tag.value}
+                        className={cn(
+                          "focus-ring rounded-full border px-4 py-2 text-sm font-medium transition",
+                          archive.filters.tag === tag.value
+                            ? "border-[var(--primary)] bg-[var(--surface-sage)] text-[var(--primary)]"
+                            : "border-[var(--border)] bg-white text-[var(--foreground)] hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                        )}
+                        href={buildArchiveHref(locale, {
+                          category: archive.filters.category,
+                          tag: tag.value,
+                          year: archive.filters.year,
+                          month: archive.filters.month
+                        })}
+                      >
+                        {tag.label} ({tag.count})
+                      </Link>
+                    ))}
+                  </div>
+                </details>
+              ) : null}
+            </div>
+          ) : null}
+
           <div className="space-y-3">
             <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--primary)]">{copy.yearLabel}</p>
             <div className="flex flex-wrap gap-2">
@@ -83,7 +272,10 @@ export function InsightsArchive({ archive, copy, locale, readMoreLabel }: Insigh
                     ? "border-[var(--primary)] bg-[var(--surface-sage)] text-[var(--primary)]"
                     : "border-[var(--border)] bg-white text-[var(--foreground)] hover:border-[var(--primary)] hover:text-[var(--primary)]"
                 )}
-                href={buildArchiveHref(locale, {})}
+                href={buildArchiveHref(locale, {
+                  category: archive.filters.category,
+                  tag: archive.filters.tag
+                })}
               >
                 {copy.allDatesLabel}
               </Link>
@@ -96,7 +288,11 @@ export function InsightsArchive({ archive, copy, locale, readMoreLabel }: Insigh
                       ? "border-[var(--primary)] bg-[var(--surface-sage)] text-[var(--primary)]"
                       : "border-[var(--border)] bg-white text-[var(--foreground)] hover:border-[var(--primary)] hover:text-[var(--primary)]"
                   )}
-                  href={buildArchiveHref(locale, { year: year.value })}
+                  href={buildArchiveHref(locale, {
+                    category: archive.filters.category,
+                    tag: archive.filters.tag,
+                    year: year.value
+                  })}
                 >
                   {year.value} ({year.count})
                 </Link>
@@ -106,17 +302,7 @@ export function InsightsArchive({ archive, copy, locale, readMoreLabel }: Insigh
 
           {archive.availableMonths.length ? (
             <div className="space-y-3">
-              <div className="flex flex-wrap items-center justify-between gap-3">
-                <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--primary)]">{copy.monthLabel}</p>
-                {hasFilters ? (
-                  <Link
-                    className="focus-ring text-sm font-semibold text-[var(--primary)] transition hover:text-[var(--primary-deep)]"
-                    href={buildArchiveHref(locale, {})}
-                  >
-                    {copy.clearFiltersLabel}
-                  </Link>
-                ) : null}
-              </div>
+              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--primary)]">{copy.monthLabel}</p>
               <div className="flex flex-wrap gap-2">
                 {archive.availableMonths.map((month) => (
                   <Link
@@ -128,6 +314,8 @@ export function InsightsArchive({ archive, copy, locale, readMoreLabel }: Insigh
                         : "border-[var(--border)] bg-white text-[var(--foreground)] hover:border-[var(--primary)] hover:text-[var(--primary)]"
                     )}
                     href={buildArchiveHref(locale, {
+                      category: archive.filters.category,
+                      tag: archive.filters.tag,
                       year: archive.filters.year,
                       month: month.value
                     })}
@@ -160,6 +348,8 @@ export function InsightsArchive({ archive, copy, locale, readMoreLabel }: Insigh
                     : "border-[var(--border)] bg-white text-[var(--foreground)] hover:border-[var(--primary)] hover:text-[var(--primary)]"
                 )}
                 href={buildArchiveHref(locale, {
+                  category: archive.filters.category,
+                  tag: archive.filters.tag,
                   year: archive.filters.year,
                   month: archive.filters.month,
                   page: archive.page - 1
@@ -168,25 +358,38 @@ export function InsightsArchive({ archive, copy, locale, readMoreLabel }: Insigh
                 {copy.previousPageLabel}
               </Link>
               <div className="flex flex-wrap justify-center gap-2">
-                {Array.from({ length: archive.totalPages }, (_, index) => index + 1).map((pageNumber) => (
-                  <Link
-                    aria-label={`${copy.pageLabel} ${pageNumber}`}
-                    className={cn(
-                      "focus-ring inline-flex h-11 min-w-11 items-center justify-center rounded-full border px-4 text-sm font-semibold transition",
-                      pageNumber === archive.page
-                        ? "primary-button border-[var(--primary)] bg-[var(--primary)] "
-                        : "border-[var(--border)] bg-white text-[var(--foreground)] hover:border-[var(--primary)] hover:text-[var(--primary)]"
-                    )}
-                    href={buildArchiveHref(locale, {
-                      year: archive.filters.year,
-                      month: archive.filters.month,
-                      page: pageNumber
-                    })}
-                    key={pageNumber}
-                  >
-                    {pageNumber}
-                  </Link>
-                ))}
+                {paginationItems.map((item) =>
+                  typeof item === "number" ? (
+                    <Link
+                      aria-current={item === archive.page ? "page" : undefined}
+                      aria-label={`${copy.pageLabel} ${item}`}
+                      className={cn(
+                        "focus-ring inline-flex h-11 min-w-11 items-center justify-center rounded-full border px-4 text-sm font-semibold transition",
+                        item === archive.page
+                          ? "primary-button border-[var(--primary)] bg-[var(--primary)] "
+                          : "border-[var(--border)] bg-white text-[var(--foreground)] hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                      )}
+                      href={buildArchiveHref(locale, {
+                        category: archive.filters.category,
+                        tag: archive.filters.tag,
+                        year: archive.filters.year,
+                        month: archive.filters.month,
+                        page: item
+                      })}
+                      key={item}
+                    >
+                      {item}
+                    </Link>
+                  ) : (
+                    <span
+                      aria-hidden="true"
+                      className="inline-flex h-11 min-w-11 items-center justify-center px-2 text-sm font-semibold text-[var(--muted-soft)]"
+                      key={item}
+                    >
+                      …
+                    </span>
+                  )
+                )}
               </div>
               <Link
                 aria-disabled={archive.page >= archive.totalPages}
@@ -197,6 +400,8 @@ export function InsightsArchive({ archive, copy, locale, readMoreLabel }: Insigh
                     : "border-[var(--border)] bg-white text-[var(--foreground)] hover:border-[var(--primary)] hover:text-[var(--primary)]"
                 )}
                 href={buildArchiveHref(locale, {
+                  category: archive.filters.category,
+                  tag: archive.filters.tag,
                   year: archive.filters.year,
                   month: archive.filters.month,
                   page: archive.page + 1

@@ -7,7 +7,11 @@
         "title": "RSU and Employee Share Schemes in Australia: When Vesting Means a Tax Bill Before You See the Money",
         "excerpt": "How Share Vesting Is Taxed, the Stock Price Drop Problem, and What to Do About It",
         "category": "Individual tax",
-        "tag": "Explainer"
+        "tags": [
+          "Shares",
+          "Employees",
+          "Tax planning"
+        ]
       },
       "intro": "If you work at a technology company that offers RSUs (Restricted Stock Units) or other employee equity, the tax consequences can be significant — and can create a situation where you owe tax on income you have never actually received in cash. Here is what you need to understand.",
       "sections": [
@@ -70,7 +74,11 @@
         "title": "澳洲 RSU 与员工股权：为什么解锁当天就可能产生税单，而你还没收到现金",
         "excerpt": "股权解锁如何征税、股价下跌困境，以及应对方法",
         "category": "个人税务",
-        "tag": "解读"
+        "tags": [
+          "员工持股",
+          "雇员税务",
+          "税务规划"
+        ]
       },
       "intro": "如果你在科技公司工作并持有 RSU（受限股票单元）或其他员工股权，税务影响可能相当显著——甚至可能出现你从未实际收到现金却要先交税的局面。以下是你需要了解的核心内容。",
       "sections": [

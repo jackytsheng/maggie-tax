@@ -15,6 +15,7 @@ Before writing any article JSON, inspect these repo files:
 - `content/insights/index.ts`
 - `insight-article-schema.md`
 - `tests/insight-articles.test.mjs`
+- `.agents/skills/article-dump-to-insight-json/insight-taxonomy-reference.md`
 
 Those files define the required JSON shape, the bilingual structure rules, and the validation checks.
 
@@ -55,6 +56,7 @@ The extractor is meant to get clean working text into the prompt or editing cont
 - `translations.en` and `translations.zh` must both exist.
 - `intro` must be a real introductory paragraph in both languages, not an empty string.
 - Keep the same section order and structure across both languages.
+- Keep `card.tags` aligned across both languages in both count and order.
 - Do not emit empty `bullets` or `numberedPoints` arrays.
 - Use natural Simplified Chinese for `zh`. Match structure, not literal wording.
 - Keep the tone practical, calm, and appropriate for an Australian accounting website.
@@ -77,9 +79,18 @@ The extractor is meant to get clean working text into the prompt or editing cont
 - Keep it concise and readable.
 - The saved file must be `content/insights/articles/<slug>.json`.
 
-### Category and tag
+### Category and tags
 
-Prefer the vocabulary already used in the repo unless the article clearly needs another value.
+Read `.agents/skills/article-dump-to-insight-json/insight-taxonomy-reference.md` before assigning categories or tags.
+
+Use the existing broad categories already established in the repo. If a tax article is about a niche topic like crypto, property, creators, BAS, or trusts, keep the category broad and express the niche through `tags` instead of inventing a new category.
+
+Category policy:
+
+- Reuse an existing category by default.
+- Only create a new category when it is truly necessary for the repo, or when the user explicitly asks for one.
+- If an article is tax-related but niche, prefer an existing category plus more specific tags.
+- If you do create a new category, update `.agents/skills/article-dump-to-insight-json/insight-taxonomy-reference.md` in the same task so the reference stays current.
 
 Common categories:
 
@@ -87,13 +98,33 @@ Common categories:
 - `Business tax` / `企业税务`
 - `ATO support` / `ATO 协助`
 
-Common tags:
+Rules for `tags`:
 
-- `Guide` / `指南`
-- `Checklist` / `清单`
-- `Explainer` / `解读`
-- `FAQ` / `问答`
-- `Update` / `更新`
+- Use `card.tags`, not `card.tag`.
+- Add 1 to 3 tags only.
+- Use at least 1 existing tag from the taxonomy reference file for every new article.
+- Keep the English and Chinese tag arrays aligned in count and order.
+- Prefer short topic tags that help archive filtering.
+- Reuse existing tag wording when possible.
+- You do not need to use every relevant tag, only the most useful 1 to 3.
+- Only create a new tag when the topic cannot be labelled clearly with the current tag list, or when the user explicitly asks for one.
+- If you do create a new tag, update `.agents/skills/article-dump-to-insight-json/insight-taxonomy-reference.md` in the same task so the reference stays current.
+
+Common tags already used in the repo:
+
+- `GST` / `GST`
+- `BAS` / `BAS`
+- `Deductions` / `抵扣`
+- `Record keeping` / `资料留存`
+- `Tax returns` / `报税`
+- `Business structure` / `经营架构`
+- `Contractors` / `承包接案`
+- `Digital income` / `线上收入`
+- `Tax planning` / `税务规划`
+- `Family` / `家庭`
+- `Property` / `房产`
+- `Investments` / `投资`
+- `ATO reviews` / `ATO 审查`
 
 ### `featured`
 
@@ -139,6 +170,10 @@ Before wrapping up:
 - confirm `publishedAt` is a real calendar date
 - confirm both locales exist
 - confirm each locale has a non-empty `intro`
+- confirm category selection matches the existing taxonomy unless a new one was truly necessary
+- confirm `card.tags` exists in both locales with 1 to 3 items
+- confirm at least 1 tag came from the existing taxonomy list unless the user explicitly requested new labels
+- if you introduced any new category or tag, update `.agents/skills/article-dump-to-insight-json/insight-taxonomy-reference.md` before finishing
 - confirm each section title is concise and looks like a heading rather than a copied paragraph
 - confirm zh/en structures align
 - confirm the JSON parses cleanly

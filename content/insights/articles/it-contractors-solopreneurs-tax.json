@@ -7,7 +7,11 @@
         "title": "IT Contractor & Solopreneur Tax in Australia",
         "excerpt": "PSI Rules, ABN, GST & Company Structure — What You Actually Need to Know",
         "category": "Business tax",
-        "tag": "Guide"
+        "tags": [
+          "Contractors",
+          "Business structure",
+          "GST"
+        ]
       },
       "intro": "Many IT contractors and independent developers believe their tax situation is straightforward — until an ATO review, a missed BAS, or an unexpected tax bill reveals otherwise. Whether you are a developer, engineer, consultant or IT freelancer, this guide addresses the specific tax issues most relevant to your situation.",
       "sections": [
@@ -109,7 +113,11 @@
         "title": "IT 承包商与独立开发者澳洲税务指南",
         "excerpt": "PSI 规则 · ABN · GST · 公司结构——你真正需要了解的内容",
         "category": "企业税务",
-        "tag": "指南"
+        "tags": [
+          "承包接案",
+          "经营架构",
+          "GST"
+        ]
       },
       "intro": "很多 IT 承包商和独立开发者认为自己的税务情况很简单——直到遭遇 ATO 审查、错过 BAS 截止日，或者收到一笔意料之外的税单。无论你是开发者、工程师、顾问还是 IT 自由职业者，这篇指南专门针对你这个群体最常遇到的税务问题。",
       "sections": [

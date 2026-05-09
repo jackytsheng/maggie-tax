@@ -758,7 +758,12 @@ export const en = {
     },
     archive: {
       resultsTitle: "Latest article",
-      resultsDescription: "Start with the newest article, or browse the archive by year and month below.",
+      resultsDescription: "Start with the newest article, or narrow the archive by category, tags, year, and month below.",
+      categoryLabel: "Category",
+      tagLabel: "Tags",
+      allCategoriesLabel: "All categories",
+      allTagsLabel: "All tags",
+      moreTagsLabel: "More tags",
       yearLabel: "Year",
       monthLabel: "Month",
       allDatesLabel: "All dates",

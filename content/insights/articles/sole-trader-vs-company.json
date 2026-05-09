@@ -7,7 +7,11 @@
         "title": "Sole Trader vs Company in Australia: Which Structure Is Right for Your Business?",
         "excerpt": "Tax Rates, Liability, Setup Costs and When to Make the Switch",
         "category": "Business tax",
-        "tag": "Explainer"
+        "tags": [
+          "Business structure",
+          "Tax planning",
+          "Contractors"
+        ]
       },
       "intro": "When you start a business in Australia, the first decision you make — whether intentionally or by default — is your business structure. Most people begin as a sole trader because it is simple. But as income grows, the tax and liability implications of staying as a sole trader become increasingly costly. This guide explains the real differences between the two most common structures, and gives you a practical framework for deciding when a company makes sense.",
       "sections": [
@@ -83,7 +87,11 @@
         "title": "澳洲个体户 vs 公司：哪种商业架构适合你？",
         "excerpt": "税率、责任保护、注册成本与何时切换的实用框架",
         "category": "企业税务",
-        "tag": "解读"
+        "tags": [
+          "经营架构",
+          "税务规划",
+          "承包接案"
+        ]
       },
       "intro": "在澳洲开始做生意时，你做的第一个决定——无论有意还是无意——就是选择商业结构。大多数人一开始选择个体户，因为简单。但随着收入增长，继续以个体户身份运营的税务和责任代价会越来越高。 这篇指南解释两种最常见结构的真实区别，并给出一个判断何时注册公司合适的实用框架。",
       "sections": [

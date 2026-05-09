@@ -280,6 +280,11 @@ export interface Dictionary {
     archive: {
       resultsTitle: string;
       resultsDescription: string;
+      categoryLabel: string;
+      tagLabel: string;
+      allCategoriesLabel: string;
+      allTagsLabel: string;
+      moreTagsLabel: string;
       yearLabel: string;
       monthLabel: string;
       allDatesLabel: string;

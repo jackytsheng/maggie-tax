@@ -8,7 +8,11 @@
         "title": "What to prepare before lodging your tax return",
         "excerpt": "A practical guide to preparing records and key information before lodging an Australian tax return.",
         "category": "Individual tax",
-        "tag": "Guide"
+        "tags": [
+          "Tax returns",
+          "Record keeping",
+          "Employees"
+        ]
       },
       "intro": "Good tax preparation starts before lodgement day. When documents are gathered early and the main questions are clear, the return process becomes faster, calmer, and less likely to miss details.",
       "sections": [
@@ -54,7 +58,11 @@
         "title": "报税前应该先准备哪些资料",
         "excerpt": "帮助个人客户在报税前更清楚地整理资料、收入信息与年度变化的一篇实用指南。",
         "category": "个人税务",
-        "tag": "指南"
+        "tags": [
+          "报税",
+          "资料留存",
+          "雇员税务"
+        ]
       },
       "intro": "顺畅的报税流程，往往不是从提交那一天开始，而是从资料准备开始。越早把收入、支出与关键变化整理清楚，后续申报就越高效，也更不容易遗漏细节。",
       "sections": [

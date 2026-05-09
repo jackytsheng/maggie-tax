@@ -7,7 +7,11 @@
         "title": "High-Ticket E-Commerce & Dropshipping Tax in Australia",
         "excerpt": "GST on Imports, Income Structure, Business Registration & Deductions",
         "category": "Business tax",
-        "tag": "Guide"
+        "tags": [
+          "E-commerce",
+          "GST",
+          "Business structure"
+        ]
       },
       "intro": "Running a high-ticket e-commerce or dropshipping business comes with a distinct set of tax challenges — particularly around GST on imported goods, income reporting across platforms, and choosing the right business structure to protect profits and manage risk. Whether you are selling through Shopify, Amazon FBA, TikTok Shop, or your own website, here is what you need to understand.",
       "sections": [
@@ -103,7 +107,11 @@
         "title": "高客单价跨境电商与 Dropshipping 澳洲税务指南",
         "excerpt": "进口 GST · 收入申报 · 公司结构 · 扣税项目",
         "category": "企业税务",
-        "tag": "指南"
+        "tags": [
+          "电商",
+          "GST",
+          "经营架构"
+        ]
       },
       "intro": "经营高客单价跨境电商或代发货（Dropshipping）业务，面临着一套独特的税务挑战——尤其是进口商品的 GST 处理、跨平台收入申报，以及选择合适的商业结构来保护利润、管理风险。 无论你是通过 Shopify、Amazon FBA、TikTok Shop，还是自建独立站销售，以下是你需要了解的核心内容。",
       "sections": [

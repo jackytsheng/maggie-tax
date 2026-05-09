@@ -7,6 +7,8 @@ import { z } from "zod";
 
 const articlesDirectory = path.join(process.cwd(), "content/insights/articles");
 const supportedLocales = ["zh", "en"];
+const englishInsightCategories = ["Individual tax", "Business tax", "ATO support"];
+const chineseInsightCategories = ["个人税务", "企业税务", "ATO 协助"];
 
 const localizedSectionSchema = z.object({
   title: z.string().trim().min(1),
@@ -15,26 +17,36 @@ const localizedSectionSchema = z.object({
   numberedPoints: z.array(z.string().trim().min(1)).optional()
 });
 
-const localizedArticleSchema = z.object({
-  card: z.object({
-    title: z.string().trim().min(1),
-    excerpt: z.string().trim().min(1),
-    category: z.string().trim().min(1),
-    tag: z.string().trim().min(1)
-  }),
-  intro: z.string().trim().min(1),
-  sections: z.array(localizedSectionSchema).min(1),
-  takeawayTitle: z.string().trim().min(1),
-  takeawayItems: z.array(z.string().trim().min(1)).min(1)
-});
+const localizedTagSchema = z
+  .array(z.string().trim().min(1))
+  .min(1)
+  .max(3)
+  .refine((tags) => new Set(tags.map((tag) => tag.toLocaleLowerCase())).size === tags.length, {
+    message: "Tags must be unique."
+  });
+
+function buildLocalizedArticleSchema(categories) {
+  return z.object({
+    card: z.object({
+      title: z.string().trim().min(1),
+      excerpt: z.string().trim().min(1),
+      category: z.enum(categories),
+      tags: localizedTagSchema
+    }),
+    intro: z.string().trim().min(1),
+    sections: z.array(localizedSectionSchema).min(1),
+    takeawayTitle: z.string().trim().min(1),
+    takeawayItems: z.array(z.string().trim().min(1)).min(1)
+  });
+}
 
 const articleSchema = z.object({
   slug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
   publishedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   featured: z.boolean().optional(),
   translations: z.object({
-    zh: localizedArticleSchema,
-    en: localizedArticleSchema
+    zh: buildLocalizedArticleSchema(chineseInsightCategories),
+    en: buildLocalizedArticleSchema(englishInsightCategories)
   })
 });
 
@@ -153,6 +165,7 @@ test("every insight article keeps zh and en structurally aligned", async () => {
     const zhTranslation = article.translations.zh;
     const enTranslation = article.translations.en;
 
+    assertEquivalentStructure(zhTranslation.card.tags.length, enTranslation.card.tags.length, "tag", fullPath);
     assertEquivalentStructure(zhTranslation.sections.length, enTranslation.sections.length, "section", fullPath);
     assertEquivalentStructure(zhTranslation.takeawayItems.length, enTranslation.takeawayItems.length, "takeaway item", fullPath);
 

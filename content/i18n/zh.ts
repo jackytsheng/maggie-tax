@@ -726,7 +726,12 @@ export const zh = {
     },
     archive: {
       resultsTitle: "最新发布",
-      resultsDescription: "先从最近发布的文章开始，也可以继续按年份和月份浏览下方归档。",
+      resultsDescription: "先从最近发布的文章开始，也可以按分类、标签、年份和月份继续筛选下方归档。",
+      categoryLabel: "分类",
+      tagLabel: "标签",
+      allCategoriesLabel: "全部分类",
+      allTagsLabel: "全部标签",
+      moreTagsLabel: "更多标签",
       yearLabel: "年份",
       monthLabel: "月份",
       allDatesLabel: "全部日期",

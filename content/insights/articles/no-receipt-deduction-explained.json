@@ -7,7 +7,11 @@
         "title": "The $1,000 No-Receipt Deduction: What It Actually Means for Your Tax Return",
         "excerpt": "It Is Not $1,000 Back in Your Pocket — And for Many People It Could Cost Them Money",
         "category": "Individual tax",
-        "tag": "Explainer"
+        "tags": [
+          "Deductions",
+          "Tax returns",
+          "Record keeping"
+        ]
       },
       "intro": "The new $1,000 instant deduction for work-related expenses has been widely discussed — and widely misunderstood. Many people believe it means the ATO sends them $1,000. It does not. This article explains what the policy actually does, who benefits, and why some workers will be worse off using it.",
       "sections": [
@@ -64,7 +68,11 @@
         "title": "澳洲 $1,000 免收据扣税：这笔钱到底是怎么回事？",
         "excerpt": "不是退给你 $1,000——对很多人来说，用这个方法反而可能亏",
         "category": "个人税务",
-        "tag": "解读"
+        "tags": [
+          "抵扣",
+          "报税",
+          "资料留存"
+        ]
       },
       "intro": "关于 $1,000 工作相关支出即时扣除的讨论铺天盖地，误解也随之而来。很多人以为 ATO 直接退给他们 $1,000——并非如此。这篇文章解释这项政策的真实含义、谁会受益，以及为什么对某些打工人来说，用这种方式申报反而吃亏。",
       "sections": [

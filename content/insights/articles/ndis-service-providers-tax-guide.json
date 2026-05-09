@@ -7,7 +7,11 @@
         "title": "NDIS Provider Tax in Australia (Non-Medical)",
         "excerpt": "Is All Your NDIS Income Really GST-Free? Most Providers Get This Wrong",
         "category": "Business tax",
-        "tag": "Guide"
+        "tags": [
+          "Health services",
+          "GST",
+          "Record keeping"
+        ]
       },
       "intro": "NDIS service providers are commonly under the impression that their income is straightforward — or entirely exempt from GST. In practice, NDIS tax is one of the most misunderstood areas we deal with, and errors in GST classification can result in significant underpayment penalties or overpayment of taxes. This guide addresses the specific tax issues faced by non-medical NDIS service providers, including support workers, community participation coordinators, plan managers and support coordinators.",
       "sections": [
@@ -115,7 +119,11 @@
         "title": "NDIS 服务提供商澳洲税务指南（非医护类）",
         "excerpt": "你的 NDIS 收入真的都免 GST 吗？大多数服务商第一步就做错了",
         "category": "企业税务",
-        "tag": "指南"
+        "tags": [
+          "健康服务",
+          "GST",
+          "资料留存"
+        ]
       },
       "intro": "NDIS 服务提供商普遍认为他们的收入结构简单——或完全免除 GST。实际上，NDIS 税务是我们处理的最容易被误解的领域之一，GST 分类错误可能导致大额少缴税罚款或不必要的多缴税。 这篇指南专门针对非医护类 NDIS 服务提供商面临的具体税务问题，包括支持工作者、社区参与协调员、计划管理者及支持协调员。",
       "sections": [

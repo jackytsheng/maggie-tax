@@ -27,17 +27,32 @@ function parsePositiveInteger(value: string | string[] | undefined) {
   return Number.isInteger(parsed) && parsed > 0 ? parsed : undefined;
 }
 
+function parseFilterValue(value: string | string[] | undefined) {
+  const candidate = Array.isArray(value) ? value[0] : value;
+  const normalizedCandidate = candidate?.trim();
+
+  return normalizedCandidate ? normalizedCandidate : undefined;
+}
+
 export default async function InsightsPage({
   params,
   searchParams
 }: {
   params: Promise<{ locale: string }>;
-  searchParams: Promise<{ page?: string | string[]; year?: string | string[]; month?: string | string[] }>;
+  searchParams: Promise<{
+    page?: string | string[];
+    category?: string | string[];
+    tag?: string | string[];
+    year?: string | string[];
+    month?: string | string[];
+  }>;
 }) {
   const { locale, dictionary } = await getLocaleDictionary(params);
   const resolvedSearchParams = await searchParams;
   const archive = await getInsightArchive(locale, {
     page: parsePositiveInteger(resolvedSearchParams.page),
+    category: parseFilterValue(resolvedSearchParams.category),
+    tag: parseFilterValue(resolvedSearchParams.tag),
     year: parsePositiveInteger(resolvedSearchParams.year),
     month: parsePositiveInteger(resolvedSearchParams.month)
   });

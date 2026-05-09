@@ -7,7 +7,11 @@
         "title": "Freelance Designer, Copywriter & Creative Professional Tax in Australia",
         "excerpt": "ABN, GST, PSI Rules, Deductions & When to Consider a Company",
         "category": "Business tax",
-        "tag": "Guide"
+        "tags": [
+          "Contractors",
+          "Deductions",
+          "Business structure"
+        ]
       },
       "intro": "Freelance creative professionals — designers, UX researchers, copywriters, brand strategists, videographers, photographers — are one of the fastest-growing groups of self-employed Australians. Many start freelancing while still employed, then gradually transition to full-time. By the time income is substantial, tax obligations have quietly accumulated. This guide cuts through the confusion and addresses the questions most freelance creatives actually face.",
       "sections": [
@@ -124,7 +128,11 @@
         "title": "澳洲自由职业设计师、文案与创意从业者税务指南",
         "excerpt": "ABN、GST、PSI 规则、扣税项目及何时考虑注册公司",
         "category": "企业税务",
-        "tag": "指南"
+        "tags": [
+          "承包接案",
+          "抵扣",
+          "经营架构"
+        ]
       },
       "intro": "自由职业创意从业者——设计师、UX 研究员、文案、品牌策略师、视频制作人、摄影师——是澳洲增长最快的自雇群体之一。很多人在受雇期间开始兼职接单，然后逐步过渡到全职自由职业。当收入规模可观时，税务义务往往已经悄然积累。 这篇指南直击自由创意从业者实际面临的问题，不绕弯子。",
       "sections": [

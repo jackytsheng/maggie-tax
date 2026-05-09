@@ -7,7 +7,11 @@
         "title": "BAS and GST foundations for growing businesses",
         "excerpt": "A practical article on building a steadier BAS and GST process as a business grows.",
         "category": "Business tax",
-        "tag": "Guide"
+        "tags": [
+          "BAS",
+          "GST",
+          "Record keeping"
+        ]
       },
       "intro": "BAS pressure often comes from inconsistent records rather than the BAS itself. A calmer quarterly process usually starts with clearer habits between lodgements.",
       "sections": [
@@ -56,7 +60,11 @@
         "title": "成长型企业如何把 BAS 与 GST 基础流程建立稳",
         "excerpt": "帮助成长型企业建立更稳定 BAS 与 GST 节奏的一篇实用文章。",
         "category": "企业税务",
-        "tag": "指南"
+        "tags": [
+          "BAS",
+          "GST",
+          "资料留存"
+        ]
       },
       "intro": "很多企业觉得 BAS 压力大，真正的问题往往不只是申报本身，而是平时账务记录不够稳定。季度流程越清楚，临近截止时越不容易慌乱。",
       "sections": [

@@ -44,7 +44,10 @@ The content should avoid:
         "title": "English article title",
         "excerpt": "English summary used for cards, archive header, and SEO description.",
         "category": "One broad topic label",
-        "tag": "One short content-type label"
+        "tags": [
+          "One short topic tag",
+          "Optional second tag"
+        ]
       },
       "intro": "Short introductory paragraph.",
       "sections": [
@@ -75,7 +78,10 @@ The content should avoid:
         "title": "中文标题",
         "excerpt": "中文摘要，会用于文章卡片、归档头部与 SEO 描述。",
         "category": "一个较宽泛的主题分类",
-        "tag": "一个简短内容标签"
+        "tags": [
+          "一个简短主题标签",
+          "可选的第二个标签"
+        ]
       },
       "intro": "中文引言。",
       "sections": [
@@ -141,18 +147,33 @@ The content should avoid:
 - Keep it concise and useful
 
 ### `category`
-Use one broad topic such as:
+Use one existing broad topic such as:
 - `Individual tax` / `个人税务`
 - `Business tax` / `企业税务`
 - `ATO support` / `ATO 协助`
 
-### `tag`
-Use one reader-facing content label such as:
-- `Guide` / `指南`
-- `Checklist` / `清单`
-- `Explainer` / `解读`
-- `FAQ` / `问答`
-- `Update` / `更新`
+Do not invent narrow categories like `Crypto tax`, `Creator tax`, or `Property tax`. Keep the category broad and use `tags` for specificity.
+
+### `tags`
+- Use `tags`, not `tag`
+- Include 1 to 3 short topic labels
+- Keep the English and Chinese arrays aligned in both count and order
+- Reuse existing repo wording when possible
+
+Common tag examples already used in this repo:
+- `GST` / `GST`
+- `BAS` / `BAS`
+- `Deductions` / `抵扣`
+- `Record keeping` / `资料留存`
+- `Tax returns` / `报税`
+- `Business structure` / `经营架构`
+- `Contractors` / `承包接案`
+- `Digital income` / `线上收入`
+- `Tax planning` / `税务规划`
+- `Family` / `家庭`
+- `Property` / `房产`
+- `Investments` / `投资`
+- `ATO reviews` / `ATO 审查`
 
 ## Section rules
 
@@ -173,6 +194,7 @@ Important:
 ## Bilingual consistency rules
 
 The English and Chinese versions should stay aligned:
+- same number of tags and the same tag order
 - same number of sections
 - same section order
 - same number of paragraphs in each corresponding section
@@ -228,7 +250,7 @@ Requirements:
 - include both English and Simplified Chinese
 - make the Chinese version natural, not literal
 - keep the same structure across both languages
-- choose an appropriate category and tag
+- choose an appropriate category and up to 3 tags
 - infer a good slug and excerpt
 
 Article:

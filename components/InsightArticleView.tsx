@@ -15,6 +15,11 @@ interface InsightArticleViewProps {
   locale: Locale;
 }
 
+const categoryPillClass =
+  "inline-flex min-h-8 items-center justify-center rounded-full bg-[var(--surface-sage)] px-3 py-1 text-xs font-semibold uppercase leading-none tracking-[0.14em] text-[var(--primary)]";
+const tagPillClass =
+  "inline-flex min-h-8 items-center justify-center rounded-full border border-[var(--border)] bg-white px-3 py-1 text-xs font-medium uppercase leading-none tracking-[0.14em] text-[var(--muted-soft)]";
+
 export function InsightArticleView({ article, dictionary, locale }: InsightArticleViewProps) {
   const translation = article.translations[locale];
   const publishedLabel = formatInsightPublishedLabel(locale, article.publishedAt);
@@ -37,13 +42,20 @@ export function InsightArticleView({ article, dictionary, locale }: InsightArtic
       <section className="pb-10 sm:pb-14">
         <Container className="grid gap-6 lg:grid-cols-[1fr_0.34fr]">
           <article className="section-card px-6 py-7 sm:px-8 lg:px-10">
-            <div className="flex flex-wrap items-center gap-3 text-sm text-[var(--muted-soft)]">
-              <span className="rounded-full bg-[var(--surface-sage)] px-3 py-1 font-semibold uppercase tracking-[0.14em] text-[var(--primary)]">
-                {translation.card.tag}
-              </span>
-              <span>{publishedLabel}</span>
-              <span aria-hidden="true">•</span>
-              <span>{readTimeLabel}</span>
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <div className="flex flex-wrap items-center gap-2">
+                <span className={categoryPillClass}>{translation.card.category}</span>
+                {translation.card.tags.map((tag) => (
+                  <span className={tagPillClass} key={tag}>
+                    {tag}
+                  </span>
+                ))}
+              </div>
+              <div className="flex flex-wrap items-center gap-3 text-sm text-[var(--muted-soft)]">
+                <span>{publishedLabel}</span>
+                <span aria-hidden="true">•</span>
+                <span>{readTimeLabel}</span>
+              </div>
             </div>
 
             <p className="mt-6 text-lg leading-8 text-[var(--foreground)]">{translation.intro}</p>
