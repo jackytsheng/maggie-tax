@@ -1,0 +1,220 @@
+{
+  "slug": "fitness-coaches-tax-guide",
+  "publishedAt": "2025-09-17",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "Fitness Coach Tax in Australia",
+        "excerpt": "ABN, GST, Income Reporting & Deductions — Are You Getting It Right?",
+        "category": "Business tax",
+        "tag": "Guide"
+      },
+      "intro": "Fitness coaching income is growing faster than most coaches realise they should be paying tax on it. Whether you offer in-person personal training, online coaching programs, subscription memberships, or group sessions — once you start charging clients, you are running a business in the eyes of the ATO. Many fitness coaches start out treating their income as casual or side income, lodge it incorrectly (or not at all), and end up facing a much larger tax problem down the track. This guide helps you get it right from the start.",
+      "sections": [
+        {
+          "title": "Do You Need an ABN?",
+          "paragraphs": [
+            "Yes — if you charge clients directly for your services, operate independently (not as an employee of a gym or studio), or run any kind of online coaching program or digital product, you need an ABN.",
+            "The key test is not how much you earn — it is whether you are operating with a profit-making intent and in a systematic way. Even at low income levels, this typically qualifies as a business rather than a hobby."
+          ]
+        },
+        {
+          "title": "What Counts as Income?",
+          "paragraphs": [
+            "All of the following must be declared:",
+            "Income received in cash is still taxable. The ATO cross-references digital platform data and bank deposits — underreporting cash income is a significant audit risk."
+          ],
+          "bullets": [
+            "Personal training sessions (in-person or online)",
+            "Group fitness classes (whether in a gym, park or online)",
+            "Online coaching programs, 6-week challenges, transformation programs",
+            "Monthly subscription memberships on Trainerize, Everfit, Kajabi or similar",
+            "Digital products — workout plans, nutrition guides, e-books",
+            "Revenue from fitness-related social media content",
+            "Equipment hire income"
+          ]
+        },
+        {
+          "title": "When Must You Register for GST?",
+          "paragraphs": [
+            "Once your annual turnover from all business activities exceeds $75,000, GST registration is compulsory. For fitness coaches with subscription programs and multiple income streams, this threshold is often reached more quickly than expected.",
+            "Fitness coaching services are generally subject to GST (unlike some allied health services). Once registered:"
+          ],
+          "bullets": [
+            "You must add 10% GST to invoices for Australian clients",
+            "You can claim GST credits on business expenses",
+            "You must lodge BAS quarterly or monthly"
+          ]
+        },
+        {
+          "title": "Online Programs and GST",
+          "paragraphs": [
+            "Many fitness coaches running online programs on international platforms (like Kajabi or Teachable) incorrectly assume their income is GST-free because the platform is overseas.",
+            "If the clients are based in Australia, GST obligations may still apply — the platform's location is not the determining factor."
+          ]
+        },
+        {
+          "title": "What Expenses Can Fitness Coaches Claim?",
+          "paragraphs": [
+            "The ATO scrutinises deductions for gym memberships and personal fitness equipment very carefully. The test is whether the expense is incurred in producing income — not simply whether it relates to fitness."
+          ],
+          "bullets": [
+            "Gym equipment used for client training or content creation",
+            "Fitness and coaching apps, software subscriptions (Trainerize, Everfit, MyFitnessPal Pro)",
+            "Professional liability and personal trainer insurance",
+            "Marketing — social media advertising, website hosting, photography",
+            "Travel between client locations (not home to first client)",
+            "Professional development — PT certifications, CPD, workshops",
+            "Work uniform with a business logo (not general activewear)",
+            "Home office expenses if coaching administration is done at home",
+            "Music streaming used during sessions (business portion)",
+            "Personal gym membership (only deductible if the gym is your primary workplace and you hold a genuine lease)",
+            "General activewear and sports clothing (worn off duty — not deductible)",
+            "Supplements and general nutrition (personal benefit — not deductible)",
+            "General fitness activities you participate in personally"
+          ]
+        },
+        {
+          "title": "The Most Common Tax Mistakes Fitness Coaches Make",
+          "paragraphs": [
+            "The key points are below:"
+          ],
+          "bullets": [
+            "Not declaring online program income (especially from international platforms)",
+            "Claiming personal gym membership as a 100% business expense",
+            "Treating cash payments as not taxable",
+            "Failing to register for GST once the $75,000 threshold is reached",
+            "Not lodging tax returns because 'the income is only small'"
+          ]
+        },
+        {
+          "title": "Should You Set Up a Company?",
+          "paragraphs": [
+            "For most fitness coaches just starting out or earning under $80,000–$100,000 net, a Sole Trader structure is the most practical and cost-effective option.",
+            "A company becomes worth considering when:"
+          ],
+          "bullets": [
+            "Net income consistently exceeds $120,000+",
+            "You are building a multi-coach business or fitness studio",
+            "You want to reinvest profits rather than draw them as personal income",
+            "You are managing significant business risk and want liability separation"
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "Do You Need an ABN?",
+        "What Counts as Income?",
+        "When Must You Register for GST?",
+        "Online Programs and GST"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "健身教练澳洲税务指南",
+        "excerpt": "ABN · GST · 收入申报 · 扣税——你做对了吗？",
+        "category": "企业税务",
+        "tag": "指南"
+      },
+      "intro": "健身教练的收入增速，往往超过很多人意识到自己需要缴税的时间。无论你提供面对面私教课、线上辅导计划、订阅会员，还是团体训练——一旦你开始向客户收费，在 ATO 眼中你就是在经营一门生意。 很多健身教练一开始把收入当作临时或副业收入，申报不正确（或根本不申报），结果日后面临更大的税务问题。这篇指南帮你从一开始就做对。",
+      "sections": [
+        {
+          "title": "需要申请 ABN 吗？",
+          "paragraphs": [
+            "是的——如果你直接向客户收费、独立运营（不是健身房或工作室的受雇员工），或者运营任何形式的线上辅导计划或数字产品，你都需要 ABN。",
+            "关键判断标准不是你赚了多少，而是你是否以盈利为目的、以系统化方式运营。即便收入不高，这通常也被认定为商业行为，而非个人爱好。"
+          ]
+        },
+        {
+          "title": "哪些收入需要申报？",
+          "paragraphs": [
+            "以下所有收入均需申报：",
+            "现金收入同样需要纳税。ATO 会与数字平台数据和银行存款进行交叉比对——少报现金收入是高风险的审计触发点。"
+          ],
+          "bullets": [
+            "私教课（面对面或线上）",
+            "团体健身课（健身房、公园或线上均适用）",
+            "线上辅导计划、六周挑战、转型训练营",
+            "通过 Trainerize、Everfit、Kajabi 等平台的月度订阅会员",
+            "数字产品——训练计划、营养指南、电子书",
+            "与健身相关的社交媒体内容收入",
+            "设备租用收入"
+          ]
+        },
+        {
+          "title": "什么时候必须注册 GST？",
+          "paragraphs": [
+            "一旦你所有商业活动的年营业额超过 $75,000，注册 GST 就是法律义务。对于拥有订阅计划和多条收入来源的健身教练而言，这个门槛往往比预期更快到来。",
+            "健身教练服务通常需要缴纳 GST（不同于部分专职医疗服务）。注册后："
+          ],
+          "bullets": [
+            "向澳洲客户开具的发票需附加 10% GST",
+            "可以申请业务费用的 GST 抵扣",
+            "需按季度或月度申报 BAS"
+          ]
+        },
+        {
+          "title": "线上计划与 GST",
+          "paragraphs": [
+            "很多在 Kajabi 或 Teachable 等国际平台运营线上计划的健身教练，错误地认为收入免 GST，因为平台在海外。",
+            "如果客户在澳洲，GST 义务仍可能适用——平台的地址不是决定性因素。"
+          ]
+        },
+        {
+          "title": "健身教练可以申报哪些扣税项目？",
+          "paragraphs": [
+            "ATO 对健身会员和个人健身器材的扣税申请审查非常严格。判断标准是费用是否用于产生收入——而不仅仅是与健身相关。"
+          ],
+          "bullets": [
+            "用于客户训练或内容创作的健身器材",
+            "健身和辅导应用、软件订阅（Trainerize、Everfit、MyFitnessPal Pro）",
+            "职业责任险和私教保险",
+            "营销费用——社交媒体广告、网站托管、摄影",
+            "客户地点间的差旅费（不包括从家到第一位客户的通勤）",
+            "专业发展——私教认证、继续教育学分、工作坊",
+            "印有品牌标志的工作服（不是普通运动服）",
+            "在家处理辅导行政工作的居家办公费用",
+            "课程中使用的音乐流媒体订阅（业务部分）",
+            "个人健身会员（仅在该健身房是主要工作场所且持有真实租约时可扣除）",
+            "一般运动服装（下班后穿——不可扣除）",
+            "营养补剂和一般膳食（个人受益——不可扣除）",
+            "你个人参与的一般健身活动"
+          ]
+        },
+        {
+          "title": "健身教练最常犯的税务错误",
+          "paragraphs": [
+            "重点如下："
+          ],
+          "bullets": [
+            "未申报线上计划收入（尤其是来自国际平台的）",
+            "将个人健身会员费作为 100% 业务费用申报",
+            "认为现金收款不需要纳税",
+            "营业额达到 $75,000 后未注册 GST",
+            "因为\"收入不多\"而不申报税表"
+          ]
+        },
+        {
+          "title": "应该注册公司吗？",
+          "paragraphs": [
+            "对大多数刚起步或净收入低于 $80,000–$100,000 的健身教练而言，Sole Trader 结构是最实际、成本最低的选择。",
+            "以下情况值得考虑公司结构："
+          ],
+          "bullets": [
+            "净收入稳定超过 $120,000 以上",
+            "你正在构建多教练业务或健身工作室",
+            "你想要留存利润用于再投资，而非以个人收入形式提取",
+            "你承担较大的业务风险，希望进行责任隔离"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "需要申请 ABN 吗？",
+        "哪些收入需要申报？",
+        "什么时候必须注册 GST？",
+        "线上计划与 GST"
+      ]
+    }
+  }
+}

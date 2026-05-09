@@ -1,0 +1,226 @@
+{
+  "slug": "content-creator-influencer-tax",
+  "publishedAt": "2025-07-08",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "Content Creator & Influencer Tax in Australia",
+        "excerpt": "ABN, GST, Income Tax & Company Registration — Everything You Need to Know",
+        "category": "Business tax",
+        "tag": "Guide"
+      },
+      "intro": "If you earn income from Instagram, TikTok, YouTube, or any other platform — even just from free products or occasional brand deals — you likely have Australian tax obligations right now. The ATO has invested heavily in identifying unreported digital income, and being proactive is far cheaper than being caught. This guide covers every key question we hear from content creators, whether you are just starting out or already earning a full-time income from your content.",
+      "sections": [
+        {
+          "title": "Do I Need an ABN?",
+          "paragraphs": [
+            "In most cases, yes. The ATO distinguishes between a hobby and a business based on your intent and how you operate:",
+            "If those apply, you should register an ABN as a Sole Trader and report your income accordingly. Operating without an ABN when you should have one is a compliance risk."
+          ],
+          "bullets": [
+            "You intend to make a profit (even if you haven't yet)",
+            "You post regularly and operate in a business-like manner",
+            "You have repeat transactions — sponsorships, affiliate links, platform payouts"
+          ]
+        },
+        {
+          "title": "What Counts as Taxable Income?",
+          "paragraphs": [
+            "More than you might expect. The following are all taxable:",
+            "Even if a brand 'gifts' you a $2,000 camera for a review, the ATO may treat the market value of that camera as assessable income."
+          ],
+          "bullets": [
+            "Sponsorship and brand deal payments",
+            "Platform payouts — TikTok creator fund, YouTube AdSense, Twitch revenue",
+            "Affiliate commissions from referral links",
+            "Free products or travel provided in exchange for promotion (at market value)",
+            "Subscription income from Patreon, Substack, or similar"
+          ]
+        },
+        {
+          "title": "When Must I Register for GST?",
+          "paragraphs": [
+            "Once your annual business turnover exceeds $75,000, GST registration is compulsory — not optional. Once registered:"
+          ],
+          "bullets": [
+            "You collect 10% GST on your invoices to Australian clients",
+            "You can claim GST credits on business purchases (equipment, software, etc.)",
+            "You must lodge a Business Activity Statement (BAS) quarterly or monthly"
+          ]
+        },
+        {
+          "title": "The Overseas Platform GST Trap",
+          "paragraphs": [
+            "Payments from overseas platforms (YouTube, TikTok, Patreon) often qualify as Exported Services and are GST-free.",
+            "However, this determination must be assessed carefully — getting it wrong means either overclaiming or underpaying GST.",
+            "Many creators incorrectly apply GST across the board. A registered tax agent should review your specific platform mix."
+          ]
+        },
+        {
+          "title": "What Deductions Can I Claim?",
+          "paragraphs": [
+            "Legitimate deductions can significantly reduce your taxable income. Common claimable expenses include:",
+            "The ATO requires substantiation for every claim. Keep receipts, invoices, and a log of how each expense relates to your content business."
+          ],
+          "bullets": [
+            "Camera, lighting, microphone and video equipment",
+            "Computer, tablet, editing monitor",
+            "Editing software subscriptions (Adobe, DaVinci, etc.)",
+            "Internet and phone — business portion only",
+            "Platform fees and transaction costs",
+            "Home office expenses (if you work from home)",
+            "Costumes, props or makeup used exclusively for filming content",
+            "General clothing or grooming (must be specific to the content, not everyday use)",
+            "Personal gym memberships (unless exclusively for filmed content)",
+            "Meals and entertainment (generally not deductible)"
+          ]
+        },
+        {
+          "title": "Should I Set Up a Company?",
+          "paragraphs": [
+            "This depends entirely on your income level and growth trajectory. Here is a rough guide:"
+          ]
+        },
+        {
+          "title": "Company vs Sole Trader — When Does It Make Sense?",
+          "paragraphs": [
+            "Under ~$80,000 net income: Sole Trader is usually simplest and cheapest",
+            "$80,000 – $150,000: Start considering a company or trust structure",
+            "Over $150,000+: A company (25% tax rate) may save significant tax vs personal rates (47%)",
+            "Important caveat: if the ATO determines your income is Personal Services Income (PSI) — meaning it is derived primarily from your personal skills and effort — certain income splitting strategies through a company may be restricted. This is an area where professional advice pays for itself many times over."
+          ]
+        },
+        {
+          "title": "Common Mistakes to Avoid",
+          "paragraphs": [
+            "The key points are below:"
+          ],
+          "bullets": [
+            "Not reporting income from overseas platforms — the ATO receives data from major digital platforms",
+            "Mixing personal and business bank accounts — always use a dedicated business account",
+            "Claiming private expenses as business deductions without proper records",
+            "Missing the GST registration threshold and lodging late BAS",
+            "Waiting until tax time to get organised — year-round bookkeeping saves stress and money"
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "Do I Need an ABN?",
+        "What Counts as Taxable Income?",
+        "When Must I Register for GST?",
+        "The Overseas Platform GST Trap"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "澳洲网红博主与内容创作者税务全攻略",
+        "excerpt": "ABN · GST · 所得税 · 公司注册，一篇读懂",
+        "category": "企业税务",
+        "tag": "指南"
+      },
+      "intro": "如果你通过 Instagram、TikTok、YouTube 或任何其他平台赚取收入——哪怕只是偶尔接到品牌赠品或一单合作——你很可能已经在澳洲产生了税务义务。ATO 已在数字经济领域投入大量资源追踪未申报收入，主动合规的成本远远低于被追查后的代价。 这篇指南涵盖了我们最常从内容创作者那里听到的每一个核心问题，无论你是刚刚起步还是已经靠创作实现全职收入。",
+      "sections": [
+        {
+          "title": "我需要申请 ABN 吗？",
+          "paragraphs": [
+            "大多数情况下，答案是肯定的。ATO 根据你的经营意图和运营方式来区分\"爱好\"与\"商业行为\"。以下情况通常被认定为商业行为：",
+            "如果以上条件符合，你应当以 Sole Trader（个体工商户）身份申请 ABN，并依法申报收入。在应当申请 ABN 时未申请，属于合规风险。"
+          ],
+          "bullets": [
+            "你的目的是盈利（即使目前还没有）",
+            "你定期发布内容，并以商业化方式运营",
+            "你有持续性的交易——赞助、联盟分佣、平台收益等"
+          ]
+        },
+        {
+          "title": "哪些收入需要申报？",
+          "paragraphs": [
+            "应税收入的范围往往超出预期，以下均需申报：",
+            "即便品牌以\"赠品\"名义送你一台价值 $2,000 的相机进行测评，ATO 也可能将其市场价值认定为应税收入。"
+          ],
+          "bullets": [
+            "赞助费与品牌合作付款",
+            "平台收益——TikTok 创作者基金、YouTube AdSense、Twitch 收入",
+            "推广链接的联盟佣金",
+            "品牌以推广为条件提供的免费产品或旅行（按市场价值计算）",
+            "来自 Patreon、Substack 等平台的订阅收入"
+          ]
+        },
+        {
+          "title": "什么时候需要注册 GST？",
+          "paragraphs": [
+            "一旦你的年营业额超过 $75,000，注册 GST 就是法律义务，而非选择。注册后："
+          ],
+          "bullets": [
+            "需在向澳洲客户开具的发票中收取 10% GST",
+            "可以对业务相关采购（设备、软件等）申请 GST 抵扣",
+            "需按季度或月度申报 Business Activity Statement（BAS）"
+          ]
+        },
+        {
+          "title": "海外平台 GST 陷阱",
+          "paragraphs": [
+            "来自 YouTube、TikTok、Patreon 等海外平台的收款，通常属于\"出口服务\"，可以免除 GST。",
+            "但这一判断需要逐项评估——处理错误可能导致多缴或少缴 GST。",
+            "许多创作者不加区分地对全部收入套用 GST，这是高频错误。建议由注册税代核查你的平台收入结构。"
+          ]
+        },
+        {
+          "title": "我可以申报哪些扣税项目？",
+          "paragraphs": [
+            "合理合法的税前扣除可以显著降低你的应税收入。常见可申报费用包括：",
+            "ATO 要求对每一笔扣税提供凭证。请保留收据、发票，并记录每项费用与内容业务的关联。"
+          ],
+          "bullets": [
+            "相机、补光灯、麦克风及视频设备",
+            "电脑、平板、剪辑显示器",
+            "剪辑软件订阅（Adobe、DaVinci 等）",
+            "网络和手机费用——仅限用于业务的比例",
+            "平台手续费及交易成本",
+            "居家办公费用（如在家工作）",
+            "专用于内容拍摄的服装、道具或化妆品",
+            "日常服装或美容消费（必须专用于内容创作，而非日常穿着）",
+            "个人健身会员（除非完全用于拍摄内容）",
+            "餐饮及娱乐消费（一般不可扣除）"
+          ]
+        },
+        {
+          "title": "我应该注册公司吗？",
+          "paragraphs": [
+            "这完全取决于你的收入水平和增长趋势。以下是一个参考框架："
+          ]
+        },
+        {
+          "title": "公司 vs Sole Trader——什么情况下有意义？",
+          "paragraphs": [
+            "净收入低于约 $80,000：Sole Trader 通常最简单、成本最低",
+            "净收入 $80,000 – $150,000：可以开始考虑公司或信托结构",
+            "净收入超过 $150,000：公司税率 25% 与个人最高税率 47% 之间的差距可节省可观税款",
+            "重要提示：如果 ATO 认定你的收入属于 Personal Services Income（PSI）——即主要来源于你个人的技能与劳动——通过公司进行收入分配的策略可能受到限制。这正是专业建议最能发挥价值的地方。"
+          ]
+        },
+        {
+          "title": "常见错误，提前规避",
+          "paragraphs": [
+            "重点如下："
+          ],
+          "bullets": [
+            "未申报来自海外平台的收入——ATO 与主要数字平台已建立数据交换机制",
+            "个人与业务银行账户混用——务必开立独立业务账户",
+            "在缺乏记录的情况下申报私人消费作为业务扣除",
+            "错过 GST 注册门槛，导致 BAS 逾期",
+            "等到报税季才开始整理账目——全年持续记账能省下大量时间和金钱"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "我需要申请 ABN 吗？",
+        "哪些收入需要申报？",
+        "什么时候需要注册 GST？",
+        "海外平台 GST 陷阱"
+      ]
+    }
+  }
+}

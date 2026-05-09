@@ -1,0 +1,214 @@
+{
+  "slug": "crypto-trader-investor-tax-guide",
+  "publishedAt": "2026-04-28",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "Crypto Tax in Australia: What Every Trader and Investor Must Know",
+        "excerpt": "ATO Data Matching, CGT vs Income Tax, DeFi, NFTs & How to Get Compliant",
+        "category": "Individual tax",
+        "tag": "Guide"
+      },
+      "intro": "The ATO has made crypto one of its highest compliance priorities. Through data sharing arrangements with Australian and international exchanges, the ATO already knows about most crypto activity conducted by Australian residents. If you have been active in crypto — trading, staking, DeFi, NFTs — and have not reported that activity, it is a matter of when, not if, the ATO notices. This guide explains how Australian crypto activity is taxed, what you must report, and how to get your tax position in order without unnecessary penalties.",
+      "sections": [
+        {
+          "title": "How Does the ATO Treat Crypto?",
+          "paragraphs": [
+            "The ATO does not treat cryptocurrency as currency — it treats it as a capital gains tax (CGT) asset. This means:"
+          ],
+          "bullets": [
+            "Every disposal of a crypto asset is a taxable event",
+            "A disposal includes: selling for AUD, trading one crypto for another, spending crypto on goods or services, gifting crypto",
+            "The taxable amount is the difference between the cost base and the market value at the time of disposal"
+          ]
+        },
+        {
+          "title": "Common Misconceptions That Lead to ATO Issues",
+          "paragraphs": [
+            "Swapping Bitcoin for Ethereum is a taxable disposal of Bitcoin — not a deferral.",
+            "Moving crypto between your own wallets is NOT a taxable event — but you must keep records.",
+            "Receiving crypto as salary or payment for services is income tax, not CGT.",
+            "The \"I didn't cash out to AUD\" argument does not work — ATO taxes each swap."
+          ]
+        },
+        {
+          "title": "CGT vs Income Tax — Which Applies?",
+          "paragraphs": [
+            "The classification of your crypto activity determines whether CGT or income tax rules apply:"
+          ]
+        },
+        {
+          "title": "Crypto Activity Classification",
+          "paragraphs": [
+            "Long-term investor (holds assets, sells occasionally): CGT rules apply. If held over 12 months, 50% CGT discount applies — only half the gain is taxable.",
+            "Active trader (frequent trading, profit-seeking): ATO may treat gains as ordinary income — no 50% discount. Trading gains are fully taxable at marginal rates.",
+            "Mining income: Treated as income at the market value on the date of receipt.",
+            "Staking rewards: Treated as income at the market value when received. A subsequent disposal of staked tokens is also a CGT event.",
+            "DeFi income (liquidity mining, yield farming): Income at the value when received. Complex — each protocol must be assessed individually."
+          ]
+        },
+        {
+          "title": "What Records Do You Need?",
+          "paragraphs": [
+            "The ATO requires records for every transaction. These records must include:",
+            "For traders with high volumes, manual records are impractical. Crypto tax software such as Koinly, CoinTracker, or CryptoTaxCalculator connects to your exchanges and wallets and automatically calculates your CGT and income positions. We work with these tools and can help you import and review your records."
+          ],
+          "bullets": [
+            "Date of each transaction",
+            "Value in AUD at the time of the transaction (at market exchange rate)",
+            "What was acquired and at what price (cost base)",
+            "What was disposed of and the proceeds received",
+            "Purpose of the transaction (investment, trading, payment for services)",
+            "Exchange transaction history exports",
+            "Wallet addresses associated with your activity"
+          ]
+        },
+        {
+          "title": "NFTs and Tax",
+          "paragraphs": [
+            "NFTs are treated the same as other crypto assets for CGT purposes. Creating and selling NFTs is treated as income (similar to running a business selling goods) for most creators. Buying and selling NFTs as investments is subject to CGT, with the 50% discount potentially applying if held over 12 months."
+          ]
+        },
+        {
+          "title": "What Expenses Can Crypto Traders Claim?",
+          "paragraphs": [
+            "The key points are below:"
+          ],
+          "bullets": [
+            "Exchange fees and transaction fees paid to buy or sell crypto",
+            "Crypto tax software subscription costs (Koinly, CoinTracker, etc.)",
+            "Trading tools and market data subscriptions",
+            "Accounting fees for crypto tax preparation",
+            "Losses from scams or rug pulls (complex — specific ATO guidance applies; not an automatic deduction)",
+            "Hardware wallet purchase (capital expense, not immediately deductible)"
+          ]
+        },
+        {
+          "title": "What If I Have Unreported Prior Years?",
+          "paragraphs": [
+            "If you have traded crypto in prior years and not reported the activity, the most advisable course of action is a voluntary disclosure to the ATO. A voluntary disclosure — handled correctly — results in significantly reduced penalties compared to an ATO-initiated audit finding. We have assisted clients in preparing voluntary disclosures and negotiating with the ATO on prior year positions."
+          ]
+        },
+        {
+          "title": "Voluntary Disclosure vs Doing Nothing",
+          "paragraphs": [
+            "Voluntary disclosure: Reduced penalties (typically 10-20% of shortfall vs up to 75% for concealment)",
+            "ATO-initiated audit: Higher penalties and interest, and potential referral for serious cases",
+            "Doing nothing: The ATO's data matching means prior year crypto activity is increasingly visible"
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "How Does the ATO Treat Crypto?",
+        "Common Misconceptions That Lead to ATO Issues",
+        "CGT vs Income Tax — Which Applies?",
+        "Crypto Activity Classification"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "澳洲加密货币税务全指南",
+        "excerpt": "ATO 数据匹配、CGT vs 所得税、DeFi、NFT 与合规处理",
+        "category": "个人税务",
+        "tag": "指南"
+      },
+      "intro": "ATO 已将加密货币列为最高合规优先级之一。通过与澳洲及国际交易所的数据共享安排，ATO 已掌握大多数澳洲居民的加密货币活动。如果你在加密货币领域活跃——交易、质押、DeFi、NFT——但未申报这些活动，ATO 注意到只是时间问题，而非是否会注意到。 这篇指南解释了澳洲加密货币活动如何征税、需要申报什么，以及如何在不产生不必要罚款的情况下理清你的税务状况。",
+      "sections": [
+        {
+          "title": "ATO 如何对待加密货币？",
+          "paragraphs": [
+            "ATO 不将加密货币视为货币，而是将其视为资本利得税（CGT）资产。这意味着："
+          ],
+          "bullets": [
+            "每次处置加密资产都是应税事件",
+            "处置包括：卖出换取澳元、一种加密货币换另一种、用加密货币支付商品或服务、赠送加密货币",
+            "应税金额是成本基础与处置时市场价值之间的差额"
+          ]
+        },
+        {
+          "title": "导致 ATO 问题的常见误解",
+          "paragraphs": [
+            "将比特币换成以太坊是一次比特币的应税处置——不是延迟纳税。",
+            "在自己的钱包之间转移加密货币不是应税事件——但必须保留记录。",
+            "收到加密货币作为薪水或服务报酬属于所得税，而非 CGT。",
+            "「我没有兑换成澳元」的说法行不通——ATO 对每次兑换都征税。"
+          ]
+        },
+        {
+          "title": "CGT vs 所得税 — 哪种适用？",
+          "paragraphs": [
+            "你的加密货币活动分类决定了适用 CGT 规则还是所得税规则："
+          ]
+        },
+        {
+          "title": "加密货币活动分类",
+          "paragraphs": [
+            "长期投资者（持有资产、偶尔出售）：适用 CGT 规则。持有超过 12 个月可享受 50% CGT 折扣——只有一半的收益需要纳税。",
+            "活跃交易者（频繁交易、以盈利为目的）：ATO 可能将收益视为普通收入——无 50% 折扣，交易收益按边际税率全额征税。",
+            "挖矿收入：按收到时的市场价值作为收入处理。",
+            "质押奖励：按收到时的市场价值作为收入处理。质押代币的后续处置也是 CGT 事件。",
+            "DeFi 收入（流动性挖矿、yield farming）：按收到时的价值计为收入。情况复杂——每个协议需单独评估。"
+          ]
+        },
+        {
+          "title": "需要保留哪些记录？",
+          "paragraphs": [
+            "ATO 要求保留每笔交易的记录。这些记录必须包括：",
+            "对于交易量大的人来说，手动记录不切实际。Koinly、CoinTracker 或 CryptoTaxCalculator 等加密货币税务软件可以连接你的交易所和钱包，自动计算你的 CGT 和收入状况。我们使用这些工具，可以帮你导入和审查记录。"
+          ],
+          "bullets": [
+            "每笔交易的日期",
+            "交易时的澳元价值（按市场汇率）",
+            "购入了什么，以什么价格（成本基础）",
+            "处置了什么，获得了多少",
+            "交易目的（投资、交易、服务支付）",
+            "交易所交易历史导出",
+            "与你的活动相关的钱包地址"
+          ]
+        },
+        {
+          "title": "NFT 与税务",
+          "paragraphs": [
+            "NFT 与其他加密资产的 CGT 处理方式相同。对大多数创作者而言，创建和销售 NFT 被视为收入（类似于经营销售商品的业务）。作为投资买卖 NFT 需要缴纳 CGT，持有超过 12 个月可能适用 50% CGT 折扣。"
+          ]
+        },
+        {
+          "title": "加密货币交易者可以申报哪些费用？",
+          "paragraphs": [
+            "重点如下："
+          ],
+          "bullets": [
+            "买卖加密货币时支付的交易所费用和交易费",
+            "加密货币税务软件订阅费（Koinly、CoinTracker 等）",
+            "交易工具和市场数据订阅",
+            "加密货币税务准备的会计费用",
+            "欺诈或 rug pull 造成的损失（情况复杂——适用特定 ATO 指引，并非自动可扣除）",
+            "硬件钱包购买（资本支出，不能立即扣除）"
+          ]
+        },
+        {
+          "title": "如果我有未申报的往年情况怎么办？",
+          "paragraphs": [
+            "如果你在往年交易过加密货币但未申报，最明智的做法是向 ATO 主动披露。主动披露——处理得当——产生的罚款远低于 ATO 主动审计发现的情况。我们曾协助客户准备主动披露材料并与 ATO 就往年情况进行沟通。"
+          ]
+        },
+        {
+          "title": "主动披露 vs 什么都不做",
+          "paragraphs": [
+            "主动披露：罚款较低（通常为欠税额的 10-20%，而非隐瞒情况下的高达 75%）",
+            "ATO 主动审计：更高的罚款和利息，严重情况可能被移送处理",
+            "什么都不做：ATO 的数据匹配意味着往年加密货币活动越来越难以隐匿"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "ATO 如何对待加密货币？",
+        "导致 ATO 问题的常见误解",
+        "CGT vs 所得税 — 哪种适用？",
+        "加密货币活动分类"
+      ]
+    }
+  }
+}

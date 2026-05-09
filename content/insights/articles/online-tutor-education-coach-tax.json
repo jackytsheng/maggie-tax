@@ -1,0 +1,206 @@
+{
+  "slug": "online-tutor-education-coach-tax",
+  "publishedAt": "2026-01-29",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "Online Tutor & Education Coach Tax in Australia",
+        "excerpt": "Private Tutoring, VCE Coaching, Language Teaching — ABN, GST & Income Tax Explained",
+        "category": "Business tax",
+        "tag": "Guide"
+      },
+      "intro": "Australia has one of the most active private tutoring markets in the world, and the shift to online delivery has made it easier than ever to build a substantial tutoring or educational coaching income. Whether you teach VCE subjects, primary school curriculum, adult English, music, coding, or professional skills — once you are charging students, you have tax obligations. Many tutors and education coaches underestimate their obligations because their income feels informal — cash payments, small transfers, occasional bookings. The ATO does not make this distinction.",
+      "sections": [
+        {
+          "title": "Is My Tutoring a Business or a Hobby?",
+          "paragraphs": [
+            "If you are regularly charging for your teaching services with the intent to make a profit, it is a business. The size of the income does not determine this — a tutor earning $400/week is operating a business in the same way as one earning $4,000/week.",
+            "Indicators of a business:"
+          ],
+          "bullets": [
+            "You have regular, repeat students",
+            "You set your own rates and issue invoices or receipts",
+            "You actively seek new students (advertising, word of mouth strategy)",
+            "You have structured lesson plans or course materials"
+          ]
+        },
+        {
+          "title": "Do I Need an ABN?",
+          "paragraphs": [
+            "Yes — if tutoring is your business, you need an ABN. This is true whether you tutor independently, through a tutoring agency (as a contractor), or via your own online platform.",
+            "If you work for a tutoring company as an employee, you do not need an ABN — your income goes through payroll. However, many tutoring agency relationships are contractor arrangements, which do require an ABN."
+          ]
+        },
+        {
+          "title": "What Counts as Taxable Income?",
+          "paragraphs": [
+            "Receiving payment in cash does not make it tax-free. The ATO's data matching with banks and digital platforms means cash underreporting carries genuine audit risk."
+          ],
+          "bullets": [
+            "All private tutoring fees, regardless of how they are paid",
+            "Cash payments (the ATO cross-references data — cash income is not invisible)",
+            "Bank transfers and digital wallet payments (PayID, PayPal)",
+            "Online platform payouts (Tutoroo, Cluey, Wyzant, iTutor)",
+            "Group class income",
+            "Income from selling lesson materials, worksheets or curriculum guides",
+            "Online course sales on platforms like Udemy or your own website"
+          ]
+        },
+        {
+          "title": "When Must I Register for GST?",
+          "paragraphs": [
+            "Once your annual business turnover from all tutoring and educational activities exceeds $75,000, GST registration is compulsory. For many full-time tutors or coaches with group programs, this threshold is reachable.",
+            "Educational services and GST: Most private tutoring is a taxable supply — you must charge and remit 10% GST once registered. However, certain school curriculum delivery by registered schools is GST-free; private tutoring by individuals is generally not."
+          ]
+        },
+        {
+          "title": "What Expenses Can Tutors Claim?",
+          "paragraphs": [
+            "The key points are below:"
+          ],
+          "bullets": [
+            "Textbooks, study guides and curriculum resources used for tutoring",
+            "Subscription to educational platforms — Khan Academy Pro, study resource platforms",
+            "Zoom, Teams, or other video conferencing subscriptions",
+            "Online whiteboard tools — Miro, Explain Everything, Bitpaper",
+            "Marketing costs — website, Google Ads, social media advertising",
+            "Home office expenses — proportional to hours spent on tutoring work",
+            "Professional development — teaching certifications, TEFL/TESOL qualifications",
+            "Professional memberships relevant to your teaching subject area",
+            "Stationery, printing and physical teaching materials",
+            "Accounting and bookkeeping costs",
+            "General household furniture or decoration (even if in a home office)",
+            "Personal entertainment, gaming or media subscriptions (unless directly used in lessons)",
+            "Travel from home to a student's home for the first lesson of the day"
+          ]
+        },
+        {
+          "title": "Tax on Tutoring Income — What Rate Do You Pay?",
+          "paragraphs": [
+            "As a Sole Trader, your net tutoring profit is added to all other income (salary, investment income, etc.) and taxed at your marginal rate. If your only income is tutoring and it is below $18,200, you pay no income tax. As income grows, marginal rates increase.",
+            "At $70k–$100k+ net tutoring income, a company structure may become worth investigating — particularly if you are building a tutoring business with students on recurring programs rather than casual one-off sessions."
+          ]
+        },
+        {
+          "title": "Working Through an Agency — Contractor or Employee?",
+          "paragraphs": [
+            "Many online tutoring platforms engage tutors as contractors. However, the ATO's employee vs contractor distinction depends on the actual working relationship, not the label. If the platform:",
+            "The ATO may classify the relationship as employment rather than contracting. This matters for super contributions, PAYG withholding, and your ABN obligations."
+          ],
+          "bullets": [
+            "Controls your rates and availability",
+            "Provides all the students and tools",
+            "Does not allow you to work for competing platforms"
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "Is My Tutoring a Business or a Hobby?",
+        "Do I Need an ABN?",
+        "What Counts as Taxable Income?",
+        "When Must I Register for GST?"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "澳洲线上补习老师与教育教练税务指南",
+        "excerpt": "私教补习、VCE 辅导、语言教学 — ABN、GST 与所得税详解",
+        "category": "企业税务",
+        "tag": "指南"
+      },
+      "intro": "澳洲拥有全球最活跃的私教市场之一，线上教学的普及让建立可观的补习或教育辅导收入比以往更容易。无论你教 VCE 科目、小学课程、成人英语、音乐、编程还是职业技能——一旦开始向学生收费，你就产生了税务义务。 很多补习老师和教育教练低估了自己的申报义务，因为收入感觉比较随意——现金支付、小额转账、偶尔的预约。ATO 不做这种区分。",
+      "sections": [
+        {
+          "title": "我的补习是\"生意\"还是\"爱好\"？",
+          "paragraphs": [
+            "如果你以盈利为目的定期收费提供教学服务，这就是一门生意。收入规模不是判断标准——每周赚 $400 的补习老师与每周赚 $4,000 的，在经营性质上没有区别。",
+            "商业行为的判断指标："
+          ],
+          "bullets": [
+            "你有定期的、回头的学生",
+            "你自己定价并开具发票或收据",
+            "你主动招募新学生（打广告、口碑推荐策略）",
+            "你有结构化的课程计划或教学材料"
+          ]
+        },
+        {
+          "title": "我需要申请 ABN 吗？",
+          "paragraphs": [
+            "是的——如果补习是你的生意，你需要 ABN。无论你是独立接单、通过补习机构（以承包商身份），还是通过自己的线上平台。",
+            "如果你在补习公司担任受雇员工，则不需要 ABN——收入通过工资单处理。但很多补习机构的合作关系属于承包商安排，这种情况下确实需要 ABN。"
+          ]
+        },
+        {
+          "title": "哪些收入需要申报？",
+          "paragraphs": [
+            "收到现金付款并不意味着免税。ATO 与银行和数字平台的数据匹配意味着少报现金收入存在真实的审计风险。"
+          ],
+          "bullets": [
+            "所有私教费，无论以何种方式支付",
+            "现金收款（ATO 通过数据交叉比对——现金收入并不透明）",
+            "银行转账和数字钱包付款（PayID、PayPal）",
+            "线上平台收益（Tutoroo、Cluey、Wyzant、iTutor）",
+            "小组课程收入",
+            "出售课程材料、练习题或课程大纲的收入",
+            "在 Udemy 或自建网站上销售线上课程"
+          ]
+        },
+        {
+          "title": "什么时候必须注册 GST？",
+          "paragraphs": [
+            "一旦所有补习和教育活动的年营业额超过 $75,000，注册 GST 就是法律义务。对于全职补习老师或开展小组计划的教练而言，这个门槛完全可以达到。",
+            "教育服务与 GST：大多数私教属于应税供应——注册后必须收取并上缴 10% GST。但是，由注册学校提供的某些学校课程教学可免除 GST；个人提供的私教服务通常不适用。"
+          ]
+        },
+        {
+          "title": "补习老师可以申报哪些费用？",
+          "paragraphs": [
+            "重点如下："
+          ],
+          "bullets": [
+            "用于补习的教材、学习指南和课程资源",
+            "教育平台订阅——Khan Academy Pro、学习资源平台",
+            "Zoom、Teams 或其他视频会议软件订阅",
+            "线上白板工具——Miro、Explain Everything、Bitpaper",
+            "营销费用——网站、Google Ads、社交媒体广告",
+            "居家办公费用——按补习工作时间比例计算",
+            "专业发展——教学认证、TEFL/TESOL 资质",
+            "与教学科目相关的专业会员资格",
+            "文具、打印及实体教学材料",
+            "会计和记账费用",
+            "普通家居家具或装饰（即便在家庭办公室）",
+            "个人娱乐、游戏或媒体订阅（除非直接用于课堂）",
+            "从家到学生家上课的第一段路途交通费"
+          ]
+        },
+        {
+          "title": "补习收入如何征税？",
+          "paragraphs": [
+            "作为 Sole Trader，你的净补习利润与其他所有收入（工资、投资收入等）合并，按边际税率征税。如果你唯一的收入是补习且不超过 $18,200，则无需缴纳所得税。随着收入增加，边际税率提升。",
+            "当净补习收入达到 $70k–$100k 以上时，公司结构可能值得研究——尤其是当你正在建立一个有持续性学员的补习事业，而非偶尔的一对一课时时。"
+          ]
+        },
+        {
+          "title": "通过机构工作 — 承包商还是员工？",
+          "paragraphs": [
+            "很多线上补习平台以承包商方式合作。但 ATO 对员工和承包商的区分取决于实际工作关系，而非标签。如果平台：",
+            "ATO 可能将这种关系认定为雇佣关系而非承包商关系。这影响超级年金供款、PAYG 预扣税和你的 ABN 义务。"
+          ],
+          "bullets": [
+            "控制你的收费标准和可用时间",
+            "提供所有学员和工具",
+            "不允许你同时在竞争平台工作"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "我的补习是\"生意\"还是\"爱好\"？",
+        "我需要申请 ABN 吗？",
+        "哪些收入需要申报？",
+        "什么时候必须注册 GST？"
+      ]
+    }
+  }
+}

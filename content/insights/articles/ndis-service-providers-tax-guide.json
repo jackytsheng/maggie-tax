@@ -1,0 +1,222 @@
+{
+  "slug": "ndis-service-providers-tax-guide",
+  "publishedAt": "2025-12-19",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "NDIS Provider Tax in Australia (Non-Medical)",
+        "excerpt": "Is All Your NDIS Income Really GST-Free? Most Providers Get This Wrong",
+        "category": "Business tax",
+        "tag": "Guide"
+      },
+      "intro": "NDIS service providers are commonly under the impression that their income is straightforward — or entirely exempt from GST. In practice, NDIS tax is one of the most misunderstood areas we deal with, and errors in GST classification can result in significant underpayment penalties or overpayment of taxes. This guide addresses the specific tax issues faced by non-medical NDIS service providers, including support workers, community participation coordinators, plan managers and support coordinators.",
+      "sections": [
+        {
+          "title": "Is All NDIS Income GST-Free?",
+          "paragraphs": [
+            "No — and this misconception causes more problems than almost anything else we see in this sector. The ATO's position is nuanced:"
+          ]
+        },
+        {
+          "title": "NDIS GST Classification — The Key Distinction",
+          "paragraphs": [
+            "GST-free (typically): Direct personal care and therapy services that qualify under Schedule 1 of the NDIS Price Guide — e.g., assistance with daily activities, personal care, some community access supports.",
+            "Taxable (may attract GST): Administrative support, plan management fees if structured incorrectly, support coordination in certain configurations, employment supports, home modifications if structured as a building service rather than a support service.",
+            "The classification depends on the specific support category, how services are invoiced, and the nature of the service agreement."
+          ]
+        },
+        {
+          "title": "The 'Everything Is GST-Free' Assumption",
+          "paragraphs": [
+            "Treating all NDIS income as GST-free without reviewing each support category is incorrect and potentially exposes you to ATO penalties.",
+            "The GST treatment of plan management and support coordination income is particularly complex and often misclassified.",
+            "If you have been treating all income as GST-free, a voluntary disclosure to the ATO — properly handled — is far less costly than an audit finding."
+          ]
+        },
+        {
+          "title": "ABN — All NDIS Providers Must Have One",
+          "paragraphs": [
+            "Whether you are a sole trader, partnership or company, you must hold an ABN and use it on all NDIS service agreements and invoices. Without an ABN, NDIS plan managers may withhold payments or be unable to process claims."
+          ]
+        },
+        {
+          "title": "GST-Free Does Not Mean Tax-Free",
+          "paragraphs": [
+            "This is one of the most commonly confused concepts among new NDIS providers. Even if your services are GST-free under NDIS rules:"
+          ],
+          "bullets": [
+            "Your net income is still subject to income tax",
+            "You must lodge a tax return regardless of your structure",
+            "You may still need to register for GST (even if all supplies are GST-free) once turnover exceeds $75,000 — because you would have taxable supplies if GST applies to any portion of your income"
+          ]
+        },
+        {
+          "title": "Income Tax Obligations",
+          "paragraphs": [
+            "NDIS provider income is fully assessable for income tax purposes. Your profit — revenue minus legitimate deductions — is taxed at your marginal rate (Sole Trader) or the company rate (25%) if you operate through a company."
+          ]
+        },
+        {
+          "title": "What Can You Deduct?",
+          "paragraphs": [
+            "The key points are below:"
+          ],
+          "bullets": [
+            "Travel between clients (not from home to first client)",
+            "Vehicle expenses — log book method or ATO cents-per-kilometre rate",
+            "Professional liability and public liability insurance",
+            "PPE, consumables and care supplies used in service delivery",
+            "NDIS certification and registration renewal fees",
+            "Professional development and mandatory training",
+            "Software — NDIS-specific platforms, scheduling tools, invoicing systems",
+            "Mobile phone and internet (business portion)",
+            "Home office expenses if administrative work is done from home",
+            "Personal vehicle use (only the business portion of actual costs)",
+            "Clothing that could be worn outside of work",
+            "Fines or penalties of any kind"
+          ]
+        },
+        {
+          "title": "Should You Operate Through a Company?",
+          "paragraphs": [
+            "For NDIS providers who are growing their team or taking on sub-contractors, a company structure provides:",
+            "Many sole trader NDIS providers transition to a company structure once they employ 2 or more workers — the compliance overhead is justified by the protection and tax efficiency it provides."
+          ],
+          "bullets": [
+            "Cleaner separation between personal and business liability",
+            "More tax-efficient structure once profits scale",
+            "Better documentation structure for NDIS quality and safeguards framework compliance"
+          ]
+        },
+        {
+          "title": "Record Keeping for NDIS Providers",
+          "paragraphs": [
+            "NDIS audits — both from the NDIA and the ATO — require meticulous records. You should maintain:"
+          ],
+          "bullets": [
+            "Service delivery notes for every session",
+            "All NDIS invoices and plan manager correspondence",
+            "Evidence of expenses claimed as deductions",
+            "Participant service agreements",
+            "Evidence of qualifications and screening checks"
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "Is All NDIS Income GST-Free?",
+        "NDIS GST Classification — The Key Distinction",
+        "The 'Everything Is GST-Free' Assumption",
+        "ABN — All NDIS Providers Must Have One"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "NDIS 服务提供商澳洲税务指南（非医护类）",
+        "excerpt": "你的 NDIS 收入真的都免 GST 吗？大多数服务商第一步就做错了",
+        "category": "企业税务",
+        "tag": "指南"
+      },
+      "intro": "NDIS 服务提供商普遍认为他们的收入结构简单——或完全免除 GST。实际上，NDIS 税务是我们处理的最容易被误解的领域之一，GST 分类错误可能导致大额少缴税罚款或不必要的多缴税。 这篇指南专门针对非医护类 NDIS 服务提供商面临的具体税务问题，包括支持工作者、社区参与协调员、计划管理者及支持协调员。",
+      "sections": [
+        {
+          "title": "NDIS 收入全部免 GST 吗？",
+          "paragraphs": [
+            "不是——这个误解造成的问题比我们在这个领域看到的几乎任何其他错误都多。ATO 的立场是有细微区别的："
+          ]
+        },
+        {
+          "title": "NDIS GST 分类——核心区别",
+          "paragraphs": [
+            "通常免 GST：符合 NDIS 价格指南附表一的直接个人护理和治疗服务——如日常活动协助、个人护理、部分社区参与支持。",
+            "可能需要缴纳 GST：行政支持、结构不当的计划管理费、特定配置下的支持协调、就业支持、以建筑服务而非支持服务形式提供的家居改造。",
+            "分类取决于具体的支持类别、开票方式以及服务协议的性质。"
+          ]
+        },
+        {
+          "title": "一切都免 GST\"的假设",
+          "paragraphs": [
+            "在未审查各支持类别的情况下将所有 NDIS 收入视为免 GST 是不正确的，可能使你面临 ATO 罚款。",
+            "计划管理收入和支持协调收入的 GST 处理尤其复杂，经常被错误分类。",
+            "如果你一直将所有收入作为免 GST 处理，主动向 ATO 自愿披露——处理得当——代价远小于被审计发现。"
+          ]
+        },
+        {
+          "title": "ABN——所有 NDIS 服务提供商都必须有",
+          "paragraphs": [
+            "无论你是 Sole Trader、合伙关系还是公司，都必须持有 ABN，并在所有 NDIS 服务协议和发票上使用。没有 ABN，NDIS 计划管理者可能无法处理付款申请。"
+          ]
+        },
+        {
+          "title": "免 GST 不等于免税",
+          "paragraphs": [
+            "这是新 NDIS 服务提供商最常混淆的概念之一。即便你的服务根据 NDIS 规则免除 GST："
+          ],
+          "bullets": [
+            "你的净收入仍然需要缴纳所得税",
+            "无论采用何种结构，你都必须申报税表",
+            "一旦营业额超过 $75,000，你可能仍需注册 GST——即便所有供应都是免 GST 的——因为如果你的任何部分收入适用 GST，就会产生应税供应"
+          ]
+        },
+        {
+          "title": "所得税义务",
+          "paragraphs": [
+            "NDIS 服务提供商的收入完全属于应税收入。你的利润——收入减去合法扣除额——按边际税率（Sole Trader）或公司税率（25%，若通过公司运营）征税。"
+          ]
+        },
+        {
+          "title": "可以申报哪些扣税项目？",
+          "paragraphs": [
+            "重点如下："
+          ],
+          "bullets": [
+            "客户间的差旅费（不包括从家到第一位客户的通勤）",
+            "车辆费用——行车日志法或 ATO 每公里费率法",
+            "职业责任险和公众责任险",
+            "服务交付中使用的个人防护设备、耗材和护理用品",
+            "NDIS 认证和注册更新费用",
+            "专业发展和强制性培训",
+            "软件——NDIS 专属平台、排班工具、开票系统",
+            "手机和网络（业务部分）",
+            "在家处理行政工作的居家办公费用",
+            "个人车辆使用（仅限实际成本中的业务部分）",
+            "可在工作场合以外穿着的服装",
+            "任何形式的罚款或处罚"
+          ]
+        },
+        {
+          "title": "应该通过公司运营吗？",
+          "paragraphs": [
+            "对于正在扩大团队或接纳分包商的 NDIS 服务提供商，公司结构可以提供：",
+            "许多 Sole Trader 的 NDIS 服务提供商在雇用 2 名以上工作人员后转型为公司结构——合规成本的增加，由所获得的保护和税务效率来抵消。"
+          ],
+          "bullets": [
+            "更清晰地分隔个人与业务责任",
+            "利润扩大后更高效的税务结构",
+            "更好的文档管理框架，有助于 NDIS 质量与保障框架合规"
+          ]
+        },
+        {
+          "title": "NDIS 服务提供商的记录保存要求",
+          "paragraphs": [
+            "无论是 NDIA 还是 ATO 的审计，都需要详尽的记录。你应当保存："
+          ],
+          "bullets": [
+            "每次服务的交付记录",
+            "所有 NDIS 发票及计划管理者往来函件",
+            "已申报扣除费用的凭证",
+            "参与者服务协议",
+            "资质证明和背景调查记录"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "NDIS 收入全部免 GST 吗？",
+        "NDIS GST 分类——核心区别",
+        "一切都免 GST\"的假设",
+        "ABN——所有 NDIS 服务提供商都必须有"
+      ]
+    }
+  }
+}

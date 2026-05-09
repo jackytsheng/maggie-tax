@@ -1,0 +1,162 @@
+{
+  "slug": "common-tax-return-mistakes",
+  "publishedAt": "2026-03-17",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "10 Common Tax Return Mistakes Australian Employees Make",
+        "excerpt": "Commuting Costs, Duplicate Claims, Cash Income and More — What the ATO Watches For",
+        "category": "Individual tax",
+        "tag": "Checklist"
+      },
+      "intro": "Most Australian employees are entitled to a tax refund — but many either overclaim (which can trigger an audit) or underclaim (leaving money on the table). Here are the ten most common mistakes, and what the correct position actually is.",
+      "sections": [
+        {
+          "title": "Mistake 1: Claiming Commuting Costs",
+          "paragraphs": [
+            "Travelling from home to your regular workplace is not a work-related deduction. The ATO explicitly excludes ordinary commuting. You can only claim travel between work locations during the day, from home to a client site if you are not required to report to a fixed office, or to carry heavy tools that cannot be stored at work."
+          ]
+        },
+        {
+          "title": "Mistake 2: Claiming Expenses Your Employer Already Reimbursed",
+          "paragraphs": [
+            "If your employer reimbursed an expense — wholly or partially — you cannot claim a deduction for the reimbursed portion. Double-claiming (known as 'Double Dipping') is one of the ATO's data-matching focus areas."
+          ]
+        },
+        {
+          "title": "Mistake 3: Claiming General Clothing",
+          "paragraphs": [
+            "A suit, business shirt, or standard footwear cannot be claimed even if you only wear it for work. The ATO's rule is clear: clothing must be either a distinctive uniform, occupation-specific workwear (e.g. hi-vis), or protective equipment. 'I only wear it to work' is not sufficient."
+          ]
+        },
+        {
+          "title": "Mistake 4: Claiming 100% of Your Phone or Internet Bill",
+          "paragraphs": [
+            "If you use your phone or internet partly for personal use (which almost everyone does), you can only claim the business-use proportion. The ATO expects you to have kept a four-week log or have another reasonable basis for your claimed percentage."
+          ]
+        },
+        {
+          "title": "Mistake 5: Claiming Work-from-Home Expenses and Phone/Internet Separately Under the Fixed Rate Method",
+          "paragraphs": [
+            "If you use the ATO's 67 cents per hour fixed rate method for working from home, the rate already includes phone and internet costs. You cannot also claim your phone and internet bill as a separate deduction — it would be double-counting the same expense."
+          ]
+        },
+        {
+          "title": "Mistake 6: Claiming Coffee, Lunches and Snacks",
+          "paragraphs": [
+            "Meals and food purchased during a normal working day are not deductible. The exception is overnight travel — if you are away from home for work overnight, meals on that trip are claimable. A daily office lunch is not."
+          ]
+        },
+        {
+          "title": "Mistake 7: Claiming Courses That Lead to a New Career",
+          "paragraphs": [
+            "Self-education expenses are only deductible if the course directly maintains or improves skills required in your current job. If you are studying for a career change or a new field, the course costs are not deductible — even if the new career is related."
+          ]
+        },
+        {
+          "title": "Mistake 8: Claiming Sunscreen or Sunglasses",
+          "paragraphs": [
+            "These are deductible only if your job requires you to work outdoors in the sun for extended periods (e.g. a construction worker or landscaper). Office workers who occasionally walk outside cannot claim these items."
+          ]
+        },
+        {
+          "title": "Mistake 9: Lodging Your Return on 1 July",
+          "paragraphs": [
+            "Many people rush to lodge on 1 July, but employer income statements, bank interest, share dividend reports and health fund data often take until late July to become available in the ATO's systems. Lodging too early risks omitting income the ATO already has data on — resulting in an amendment, delays, and potentially a penalty. Wait until myTax shows your information as 'Tax Ready'."
+          ]
+        },
+        {
+          "title": "Mistake 10: Not Reporting Side Income or Platform Earnings",
+          "paragraphs": [
+            "Uber, Airbnb, Airtasker, eBay sales, content creation income, and any other platform-based earnings must be declared. The ATO receives data directly from Australian platforms and is increasingly receiving international platform data. Unreported income — even small amounts — creates risk of penalties of 25–75% on top of the tax owed."
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "Mistake 1: Claiming Commuting Costs",
+        "Mistake 2: Claiming Expenses Your Employer Already Reimbursed",
+        "Mistake 3: Claiming General Clothing",
+        "Mistake 4: Claiming 100% of Your Phone or Internet Bill"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "澳洲打工人最常犯的 10 个报税错误",
+        "excerpt": "通勤费、重复申报、现金收入……ATO 盯着的那些坑",
+        "category": "个人税务",
+        "tag": "清单"
+      },
+      "intro": "大多数澳洲员工有权申请退税——但很多人要么多报（可能触发审计），要么少报（白白损失钱）。以下是十个最常见的错误，以及正确的处理方式。",
+      "sections": [
+        {
+          "title": "错误一：申报通勤费",
+          "paragraphs": [
+            "从家里去固定工作地点的交通费不属于工作相关扣除。ATO 明确排除普通通勤。你只能在以下情况申报车费：在工作时间内的两地之间移动、从家直接前往客户现场（前提是没有固定办公室要求报到），或者携带无法存放在工作场所的重型工具。"
+          ]
+        },
+        {
+          "title": "错误二：申报老板已报销的费用",
+          "paragraphs": [
+            "如果你的雇主已经全额或部分报销了某项费用，你就不能对已报销部分再次申报扣除。「双重索取」（Double Dipping）是 ATO 数据匹配的重点关注领域之一。"
+          ]
+        },
+        {
+          "title": "错误三：申报普通服装",
+          "paragraphs": [
+            "西装、商务衬衫或普通皮鞋即便只在上班时穿，也不能申报。ATO 的规则很明确：只有具有明显标识的制服、特定职业工作服（如反光背心）或防护装备才能申报。「我只在上班时穿」这个理由不够。"
+          ]
+        },
+        {
+          "title": "错误四：全额申报手机或网络账单",
+          "paragraphs": [
+            "如果你的手机或网络有部分用于个人用途（几乎所有人都有），你只能申报业务使用的比例。ATO 要求你有四周的使用日志，或其他合理依据来支撑所申报的比例。"
+          ]
+        },
+        {
+          "title": "错误五：使用居家办公固定费率法后，还单独申报手机和网费",
+          "paragraphs": [
+            "如果你使用 ATO 的 67 分/小时固定费率法申报居家办公费用，该费率已经包含了电话和网络成本。你不能再单独申报手机和网费账单——这会导致对同一笔费用重复计算。"
+          ]
+        },
+        {
+          "title": "错误六：申报咖啡、午餐和零食",
+          "paragraphs": [
+            "普通工作日购买的餐饮不可申报。唯一例外是出差过夜——如果因工作需要在外过夜，该行程中的餐费可以申报。日常办公室午餐不行。"
+          ]
+        },
+        {
+          "title": "错误七：申报转行的课程费",
+          "paragraphs": [
+            "自我教育费用只有在课程直接维持或提升你当前工作所需技能的情况下才可申报。如果你是为了转行或进入新领域而学习，即便新方向与原来的工作有关，课程费用也不可申报。"
+          ]
+        },
+        {
+          "title": "错误八：申报防晒霜或太阳镜",
+          "paragraphs": [
+            "只有工作要求你长时间在户外暴晒的情况下（如建筑工人或园艺工人），这些费用才可申报。偶尔走出办公室的白领人士不能申报这些物品。"
+          ]
+        },
+        {
+          "title": "错误九：7 月 1 日就急着报税",
+          "paragraphs": [
+            "很多人在 7 月 1 日一到就急着提交税表，但雇主收入声明、银行利息、股票分红报告和私保信息，往往要到 7 月底才能进入 ATO 系统。过早提交可能遗漏 ATO 已有数据的收入——导致需要修正申报，还可能产生罚款。等 myTax 显示「Tax Ready」后再行动。"
+          ]
+        },
+        {
+          "title": "错误十：不申报副业收入或平台收入",
+          "paragraphs": [
+            "Uber、Airbnb、Airtasker、eBay 销售、内容创作收入及其他任何平台性收入都必须申报。ATO 直接从澳洲平台接收数据，并越来越多地获取国际平台数据。未申报收入——哪怕金额很小——会带来超过欠税额 25–75% 的罚款风险。"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "错误一：申报通勤费",
+        "错误二：申报老板已报销的费用",
+        "错误三：申报普通服装",
+        "错误四：全额申报手机或网络账单"
+      ]
+    }
+  }
+}

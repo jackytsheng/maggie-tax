@@ -1,0 +1,194 @@
+{
+  "slug": "digital-marketing-agency-tax-guide",
+  "publishedAt": "2025-11-06",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "Digital Marketing & Creative Agency Tax in Australia",
+        "excerpt": "Contractor vs Employee, GST Cash Flow, Company Structure & Deductions",
+        "category": "Business tax",
+        "tag": "Guide"
+      },
+      "intro": "Digital marketing and creative agency owners typically focus on growth, client acquisition and campaign performance — and that is exactly as it should be. But the tax and compliance issues that emerge as you scale are some of the most serious — and most frequently misunderstood — in the business landscape. This guide covers the questions we hear most often from agency owners, including some that do not come up until they are already a problem.",
+      "sections": [
+        {
+          "title": "Are Your Contractors Actually Employees? This Could Cost You Significantly",
+          "paragraphs": [
+            "This is the most significant compliance risk for agencies of any size. Many agency owners hire freelancers, pay per project, and reasonably assume they are engaging contractors. However, the ATO assesses the actual working relationship — not just the contract wording.",
+            "Indicators that a 'contractor' may actually be an employee:"
+          ],
+          "bullets": [
+            "They work exclusively or predominantly for your agency",
+            "You direct how, when and where they work",
+            "They do not bear commercial or financial risk for their work",
+            "They cannot subcontract or delegate the work",
+            "You provide their tools and equipment"
+          ]
+        },
+        {
+          "title": "Sham Contracting: Consequences Are Severe",
+          "paragraphs": [
+            "If a worker is deemed an employee, you may owe backdated Superannuation Guarantee contributions (currently 11.5%) plus interest and penalties.",
+            "Payroll tax obligations may also apply — particularly if your total wages and contractor payments exceed state thresholds.",
+            "The ATO has significantly increased compliance activity in this area. A proactive review of your contractor relationships now can prevent a very expensive problem later."
+          ]
+        },
+        {
+          "title": "ABN — Yes, You Need One",
+          "paragraphs": [
+            "Regardless of structure, every agency operating in Australia must hold an ABN. This applies from day one, even before your first invoice."
+          ]
+        },
+        {
+          "title": "GST and the Cash Flow Trap Most Agencies Fall Into",
+          "paragraphs": [
+            "Most digital agencies exceed the $75,000 turnover threshold quickly. Once registered for GST, you collect 10% GST from clients on top of your fees — but this money is not yours. It belongs to the ATO and must be remitted when you lodge your BAS (quarterly or monthly).",
+            "The trap:",
+            "This is one of the most common reasons agencies hit cash flow crises. The solution is simple: maintain a separate GST holding account, or use a bookkeeping system that tracks GST liability in real time."
+          ],
+          "bullets": [
+            "Agency receives $110,000 invoice payment (including $10,000 GST)",
+            "Pays contractors, runs expenses — treats the full $110,000 as revenue",
+            "BAS quarter arrives: $10,000 GST is owed but has been spent"
+          ]
+        },
+        {
+          "title": "Income Tax — Why Your Bank Balance Is Not Your Profit",
+          "paragraphs": [
+            "Agency income tax is calculated on your net profit, not your revenue. But understanding the difference between bank balance, revenue, GST liability and taxable profit is something many agency owners struggle with, especially in the early years. Without clean accounting, overpaying tax — or underpaying and receiving a penalty — is common."
+          ]
+        },
+        {
+          "title": "Should You Operate Through a Company?",
+          "paragraphs": [
+            "For most digital agencies, the answer is yes — particularly once you are scaling or employing people. Benefits include:",
+            "Note: Unlike IT contractors, agency income is less likely to be classified as PSI, because the business typically generates revenue from multiple clients and uses a team rather than solely the director's personal skills. This makes company tax planning more straightforward."
+          ],
+          "bullets": [
+            "25% company tax rate vs up to 47% personal rate on profits",
+            "Limited liability protection from business debts and legal risk",
+            "More structured ability to retain earnings and reinvest",
+            "Greater credibility with larger enterprise clients"
+          ]
+        },
+        {
+          "title": "What Can You Deduct?",
+          "paragraphs": [
+            "The key points are below:"
+          ],
+          "bullets": [
+            "Contractor and freelancer payments (with correct documentation)",
+            "Employee wages and superannuation",
+            "Software subscriptions — Adobe, Canva, Monday, Notion, HubSpot, reporting tools",
+            "Advertising and client acquisition costs",
+            "Office rent or home office expenses",
+            "Client entertainment (subject to FBT rules — limited deductibility)",
+            "Professional development and training for staff",
+            "Accounting, legal and professional services"
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "Are Your Contractors Actually Employees? This Could Cost You Significantly",
+        "Sham Contracting: Consequences Are Severe",
+        "ABN — Yes, You Need One",
+        "GST and the Cash Flow Trap Most Agencies Fall Into"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "数字营销与创意公司老板澳洲税务指南",
+        "excerpt": "承包商 vs 员工 · GST 现金流 · 公司结构 · 扣税项目",
+        "category": "企业税务",
+        "tag": "指南"
+      },
+      "intro": "数字营销和创意公司老板的精力通常集中在增长、获客和项目执行上——这完全正确。但随着规模扩大而出现的税务与合规问题，是整个商业领域最严重、也最容易被误解的问题之一。 这篇指南涵盖了我们最常从公司老板那里听到的问题，包括一些只有到了棘手时才浮出水面的问题。",
+      "sections": [
+        {
+          "title": "你的承包商，实际上可能是员工——代价可能非常高",
+          "paragraphs": [
+            "这是任何规模的公司最重要的合规风险。很多公司老板雇佣自由职业者、按项目付款，并合理地认为对方是承包商。然而，ATO 评估的是实际工作关系，而不仅仅是合同措辞。",
+            "\"承包商\"实际上可能是员工的判断指标："
+          ],
+          "bullets": [
+            "他们只为你的公司工作，或绝大部分时间为你工作",
+            "你指定他们如何、何时、在哪里工作",
+            "他们不承担工作的商业或财务风险",
+            "他们不能将工作转包或委托给他人",
+            "你提供他们使用的工具和设备"
+          ]
+        },
+        {
+          "title": "虚假承包安排：后果非常严重",
+          "paragraphs": [
+            "如果某位工人被认定为员工，你可能需要补缴追溯期内的超级年金保障金（目前为 11.5%），加上利息和罚款。",
+            "Payroll Tax 义务也可能适用——尤其是当你的员工工资和承包商付款总额超过各州门槛时。",
+            "ATO 已在这一领域大幅加强合规力度。现在主动审查你的承包商关系，可以防止日后出现代价高昂的问题。"
+          ]
+        },
+        {
+          "title": "ABN——你必须有",
+          "paragraphs": [
+            "无论采用何种架构，在澳洲经营的每家公司都必须持有 ABN。这从第一天就适用，即便在你开出第一张发票之前。"
+          ]
+        },
+        {
+          "title": "GST 与大多数公司都会陷入的现金流陷阱",
+          "paragraphs": [
+            "大多数数字公司很快就会超过 $75,000 的营业额门槛。注册 GST 后，你在向客户收费时附加 10% GST——但这笔钱不属于你，它属于 ATO，必须在申报 BAS 时（按季度或月度）上缴。",
+            "陷阱是怎样发生的：",
+            "这是公司陷入现金流危机最常见的原因之一。解决方案很简单：设立专门的 GST 保留账户，或使用实时追踪 GST 负债的记账系统。"
+          ],
+          "bullets": [
+            "公司收到客户付款 $110,000（含 $10,000 GST）",
+            "支付承包商、运营费用——将全部 $110,000 视为收入",
+            "BAS 季度到来：$10,000 的 GST 应缴，但已被花掉"
+          ]
+        },
+        {
+          "title": "所得税——为什么银行余额不等于利润",
+          "paragraphs": [
+            "公司所得税按净利润计算，而非营业额。但理解银行余额、营业额、GST 负债和应税利润之间的区别，是很多公司老板——尤其是在创业初期——挣扎的地方。没有清晰的会计系统，多缴税或少缴税被罚款都很常见。"
+          ]
+        },
+        {
+          "title": "应该通过公司运营吗？",
+          "paragraphs": [
+            "对大多数数字公司而言，答案是肯定的——尤其是当你在扩展规模或雇用员工时。优势包括：",
+            "注意：与 IT 承包商不同，公司收入被认定为 PSI 的可能性较低，因为业务通常来自多个客户，且依靠团队而非仅靠公司老板的个人技能创收。这使公司税务规划更为直接。"
+          ],
+          "bullets": [
+            "公司税率 25%，对比个人利润最高 47% 税率",
+            "对公司债务和法律风险的有限责任保护",
+            "更有条理地保留盈余和再投资",
+            "在较大企业客户面前更具可信度"
+          ]
+        },
+        {
+          "title": "可以申报哪些扣税项目？",
+          "paragraphs": [
+            "重点如下："
+          ],
+          "bullets": [
+            "承包商和自由职业者的付款（需正确记录）",
+            "员工工资和超级年金",
+            "软件订阅——Adobe、Canva、Monday、Notion、HubSpot、报告工具",
+            "广告和客户获取成本",
+            "办公室租金或居家办公费用",
+            "客户招待（受 FBT 规则约束——可扣除性有限）",
+            "员工职业发展和培训",
+            "会计、法律及专业服务费"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "你的承包商，实际上可能是员工——代价可能非常高",
+        "虚假承包安排：后果非常严重",
+        "ABN——你必须有",
+        "GST 与大多数公司都会陷入的现金流陷阱"
+      ]
+    }
+  }
+}

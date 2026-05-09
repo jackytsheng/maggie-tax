@@ -6,6 +6,7 @@ import path from "node:path";
 import { z } from "zod";
 
 const articlesDirectory = path.join(process.cwd(), "content/insights/articles");
+const supportedLocales = ["zh", "en"];
 
 const localizedSectionSchema = z.object({
   title: z.string().trim().min(1),
@@ -106,6 +107,10 @@ function assertEquivalentStructure(left, right, fieldLabel, fullPath) {
   );
 }
 
+function buildLocalizedInsightPath(locale, slug) {
+  return `/${locale}/insights/${slug}`;
+}
+
 test("every insight article file is valid JSON and matches the article schema", async () => {
   const parsedArticles = await loadParsedArticles();
 
@@ -173,6 +178,44 @@ test("every insight article keeps zh and en structurally aligned", async () => {
         `numbered point count in section ${index + 1}`,
         fullPath
       );
+    }
+  }
+});
+
+test("every insight article uses concise section titles", async () => {
+  const parsedArticles = await loadParsedArticles();
+
+  for (const { article, fullPath } of parsedArticles) {
+    for (const locale of ["zh", "en"]) {
+      for (const section of article.translations[locale].sections) {
+        assert.ok(
+          section.title.length <= 120,
+          `${fullPath}: ${locale} section title is too long and may contain copied body text`
+        );
+      }
+    }
+  }
+});
+
+test("every insight article supports both localized insight routes", async () => {
+  const parsedArticles = await loadParsedArticles();
+  const seenPaths = new Set();
+
+  for (const { article, fullPath } of parsedArticles) {
+    for (const locale of supportedLocales) {
+      const translation = article.translations[locale];
+      const localizedPath = buildLocalizedInsightPath(locale, article.slug);
+
+      assert.match(
+        localizedPath,
+        new RegExp(`^\\/${locale}\\/insights\\/[a-z0-9]+(?:-[a-z0-9]+)*$`),
+        `${fullPath}: localized route should be a valid insight URL`
+      );
+      assert.equal(seenPaths.has(localizedPath), false, `${fullPath}: duplicate localized route "${localizedPath}"`);
+      assert.ok(translation.card.title.trim().length > 0, `${fullPath}: ${locale} title is required for localized route`);
+      assert.ok(translation.card.excerpt.trim().length > 0, `${fullPath}: ${locale} excerpt is required for localized route`);
+
+      seenPaths.add(localizedPath);
     }
   }
 });

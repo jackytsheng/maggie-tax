@@ -1,0 +1,232 @@
+{
+  "slug": "onlyfans-creators-tax-guide",
+  "publishedAt": "2025-05-19",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "OnlyFans Tax in Australia: Protect Your Privacy & Maximise Your Returns",
+        "excerpt": "ABN, GST, Deductions & Business Structure — A Complete Guide for Creators",
+        "category": "Business tax",
+        "tag": "Guide"
+      },
+      "intro": "OnlyFans creator income can grow fast — and your tax obligations grow with it. The ATO has significantly increased its focus on income from digital platforms and subscription-based content, meaning compliance is no longer optional. The good news: with the right structure, you can protect your privacy, minimise your tax, and stay fully compliant. Here is what you need to know.",
+      "sections": [
+        {
+          "title": "Is OnlyFans Income a Business or a Hobby?",
+          "paragraphs": [
+            "Under ATO guidelines, OnlyFans income is almost always classified as Business Income — not a hobby. This applies even if you are still building your subscriber base, earning inconsistently, or treat it as a side income. Once you are providing content in exchange for payment, it is a business transaction.",
+            "What this means practically:"
+          ],
+          "bullets": [
+            "You must declare all income on your tax return",
+            "You should register an ABN as a Sole Trader",
+            "You are responsible for income tax on your net profit"
+          ]
+        },
+        {
+          "title": "ABN Registration & Privacy",
+          "paragraphs": [
+            "Yes — you need an ABN to operate compliantly. The concern we hear most from creators is privacy: 'Will my ABN reveal my home address?'",
+            "The answer is no — with proper planning. We regularly help creators register their ABN using a business address or virtual office, keeping personal residential details off public records. This is a standard and ATO-compliant approach."
+          ]
+        },
+        {
+          "title": "The GST Complexity for OnlyFans",
+          "paragraphs": [
+            "OnlyFans is an international platform, which makes GST classification genuinely complex. The key rules are:"
+          ],
+          "bullets": [
+            "If your annual turnover exceeds $75,000, you must register for GST",
+            "The treatment of platform fees, commissions and cross-border payments must be assessed carefully",
+            "Certain transactions may qualify as Exported Services (GST-free); others may not"
+          ]
+        },
+        {
+          "title": "Common OnlyFans GST Errors",
+          "paragraphs": [
+            "Incorrectly treating GST-exempt income as taxable — or the reverse — can result in thousands of dollars of over- or under-payment.",
+            "Many creators lodge BAS without understanding which portions of their OnlyFans income attract GST. This is one of the most common and costly errors we see."
+          ]
+        },
+        {
+          "title": "Tax Deductions for OnlyFans Creators",
+          "paragraphs": [
+            "The following are generally deductible — provided the expense is directly related to your content business and properly documented:",
+            "The ATO requires substantiation. A well-maintained expense log with receipts is essential — and we can set this up for you in Xero or similar software from day one."
+          ],
+          "bullets": [
+            "Camera, lighting, ring lights, tripods and filming equipment",
+            "Computer, tablet or phone used for content creation (business portion)",
+            "Editing software subscriptions",
+            "Internet and phone bill (business use portion)",
+            "Platform fees charged by OnlyFans",
+            "Costumes, props and professional makeup used exclusively for filming",
+            "Home office expenses if you create content from home",
+            "Professional services — accountant, bookkeeper fees",
+            "Personal clothing worn outside of content creation",
+            "General grooming or beauty treatments not tied to specific content",
+            "Gym memberships (unless the fitness content is the actual product)",
+            "Living expenses — rent, groceries, general utilities"
+          ]
+        },
+        {
+          "title": "Income Tax — What Rate Will You Pay?",
+          "paragraphs": [
+            "2024–25 Individual Income Tax Rates",
+            "$0 – $18,200:       0%  (tax-free threshold)",
+            "$18,201 – $45,000:  19% on each dollar above $18,200",
+            "$45,001 – $120,000: 32.5% on each dollar above $45,000",
+            "$120,001 – $180,000: 37% on each dollar above $120,000",
+            "Over $180,000:       45% on each dollar above $180,000",
+            "Note: Medicare Levy (2%) applies to most taxpayers",
+            "As your income grows, the marginal tax rate increases. This is why tax planning — including whether to operate through a company — becomes increasingly valuable at higher income levels."
+          ]
+        },
+        {
+          "title": "Should You Set Up a Company?",
+          "paragraphs": [
+            "A company structure (taxed at a flat 25% rate for base rate entities) can be beneficial when your net income consistently exceeds approximately $80,000–$120,000. Potential advantages include:",
+            "However, PSI (Personal Services Income) rules may limit income splitting if the ATO determines your income is derived primarily from your personal activities — which is very often the case for content creators. Professional structuring advice is essential before setting up a company."
+          ],
+          "bullets": [
+            "Capped 25% company tax rate vs up to 47% personal rate",
+            "Ability to retain profits within the company for reinvestment",
+            "Greater separation between business and personal assets"
+          ]
+        },
+        {
+          "title": "Why Acting Early Matters",
+          "paragraphs": [
+            "OnlyFans income often involves high cash flow, minimal physical inventory, and relatively clean transactions — making it actually well-suited for professional bookkeeping from the start. By engaging a CA early, you can:"
+          ],
+          "bullets": [
+            "Set up automated bookkeeping so you can focus on creating",
+            "Ensure your ABN and privacy setup is correct from registration",
+            "Plan for quarterly BAS and income tax instalments before they become a surprise",
+            "Avoid the most common — and costly — compliance errors"
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "Is OnlyFans Income a Business or a Hobby?",
+        "ABN Registration & Privacy",
+        "The GST Complexity for OnlyFans",
+        "Common OnlyFans GST Errors"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "OnlyFans 创作者澳洲报税全指南",
+        "excerpt": "保护隐私 · 合规申报 · 最大化税务优势",
+        "category": "企业税务",
+        "tag": "指南"
+      },
+      "intro": "OnlyFans 的收入增长往往很快，随之而来的税务责任也同样快速积累。ATO 已大幅加强对数字平台和订阅制内容收入的监管，合规已经不是可选项，而是必选项。 好消息是：通过正确的税务结构，你完全可以保护个人隐私、合法降低税负，同时保持全面合规。下面是你需要了解的核心内容。",
+      "sections": [
+        {
+          "title": "OnlyFans 收入算\"商业\"还是\"爱好\"？",
+          "paragraphs": [
+            "根据 ATO 的判断标准，OnlyFans 收入几乎在所有情况下都被认定为商业收入，而非个人爱好——即便你的订阅量还在增长、收入不稳定，或者只是兼职。一旦你为内容换取报酬，这就是商业行为。",
+            "实际影响："
+          ],
+          "bullets": [
+            "所有收入必须在年度税表中申报",
+            "应以 Sole Trader 身份注册 ABN",
+            "需就净利润缴纳所得税"
+          ]
+        },
+        {
+          "title": "ABN 注册与隐私保护",
+          "paragraphs": [
+            "是的——合规经营需要 ABN。我们最常听到创作者的顾虑是：\"ABN 会不会暴露我的家庭住址？\"",
+            "答案是不会——只要提前规划。我们会定期帮助创作者使用商业地址或虚拟办公室注册 ABN，确保个人住宅信息不出现在公开记录中。这是一种标准且符合 ATO 规范的做法。"
+          ]
+        },
+        {
+          "title": "OnlyFans 的 GST 处理有多复杂？",
+          "paragraphs": [
+            "OnlyFans 是一个国际平台，这使得 GST 分类变得相当复杂。核心规则如下："
+          ],
+          "bullets": [
+            "年营业额超过 $75,000，必须注册 GST",
+            "平台抽佣、手续费及跨境收款的税务处理需要逐项评估",
+            "部分交易可能属于\"出口服务\"（免 GST），部分则不适用"
+          ]
+        },
+        {
+          "title": "OnlyFans GST 常见错误",
+          "paragraphs": [
+            "将免 GST 收入误作应税收入申报（或反之）可能导致数千澳元的多缴或少缴。",
+            "许多创作者在不清楚哪部分 OnlyFans 收入需要缴纳 GST 的情况下申报 BAS，这是我们最常见到的高频错误之一。"
+          ]
+        },
+        {
+          "title": "OnlyFans 创作者可以申报的扣税项目",
+          "paragraphs": [
+            "以下费用在符合直接业务用途且有完整记录的前提下，通常可以申报扣除：",
+            "ATO 要求提供凭证。维护一份附有收据的费用记录至关重要——我们可以从一开始就帮你在 Xero 等软件中建立这套系统。"
+          ],
+          "bullets": [
+            "相机、补光灯、环形灯、三脚架及拍摄设备",
+            "用于内容创作的电脑、平板或手机（业务比例部分）",
+            "剪辑软件订阅费",
+            "网络和手机账单（业务使用比例）",
+            "OnlyFans 收取的平台手续费",
+            "专门用于拍摄的服装、道具和专业化妆品",
+            "居家办公费用（如在家创作内容）",
+            "专业服务费——会计师、记账员等",
+            "在内容创作以外场合穿着的日常服装",
+            "与具体内容无关的日常美容或护理消费",
+            "健身会员（除非健身内容本身就是产品）",
+            "生活费用——房租、购物、日常水电费"
+          ]
+        },
+        {
+          "title": "所得税——你将缴纳多少？",
+          "paragraphs": [
+            "2024–25 个人所得税税率表",
+            "$0 – $18,200：      免税",
+            "$18,201 – $45,000：超出部分按 19% 缴税",
+            "$45,001 – $120,000：超出部分按 32.5% 缴税",
+            "$120,001 – $180,000：超出部分按 37% 缴税",
+            "超过 $180,000：     超出部分按 45% 缴税",
+            "注：大多数纳税人还需缴纳 2% 医疗保险税（Medicare Levy）",
+            "随着收入增加，边际税率也在提升。这正是税务规划——包括是否通过公司运营——在高收入阶段越来越有价值的原因。"
+          ]
+        },
+        {
+          "title": "应该注册公司吗？",
+          "paragraphs": [
+            "当净收入稳定超过约 $80,000–$120,000 时，公司结构（基本税率实体的固定税率为 25%）可能更为有利。主要优势包括：",
+            "但需注意：如果 ATO 认定你的收入属于 PSI（Personal Services Income）——即主要来源于个人活动，内容创作者通常属于这一类——通过公司分配收入的策略可能受到限制。设立公司前，专业的结构规划建议必不可少。"
+          ],
+          "bullets": [
+            "固定 25% 公司税率，对比个人最高 47% 税率",
+            "利润可以留存于公司内用于再投资",
+            "更清晰地分隔业务资产与个人资产"
+          ]
+        },
+        {
+          "title": "为什么要尽早行动？",
+          "paragraphs": [
+            "OnlyFans 收入通常具有现金流高、无实体库存、账目相对清晰的特点——这恰恰非常适合从一开始就建立专业记账体系。尽早委托注册会计师，你可以："
+          ],
+          "bullets": [
+            "建立自动化记账流程，让你专注于内容创作",
+            "从注册之初就确保 ABN 和隐私配置正确",
+            "提前规划季度 BAS 和所得税分期付款，避免意外惊喜",
+            "规避最常见、也是代价最高的合规错误"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "OnlyFans 收入算\"商业\"还是\"爱好\"？",
+        "ABN 注册与隐私保护",
+        "OnlyFans 的 GST 处理有多复杂？",
+        "OnlyFans GST 常见错误"
+      ]
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "slug": "it-contractors-solopreneurs-tax",
+  "publishedAt": "2025-08-29",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "IT Contractor & Solopreneur Tax in Australia",
+        "excerpt": "PSI Rules, ABN, GST & Company Structure — What You Actually Need to Know",
+        "category": "Business tax",
+        "tag": "Guide"
+      },
+      "intro": "Many IT contractors and independent developers believe their tax situation is straightforward — until an ATO review, a missed BAS, or an unexpected tax bill reveals otherwise. Whether you are a developer, engineer, consultant or IT freelancer, this guide addresses the specific tax issues most relevant to your situation.",
+      "sections": [
+        {
+          "title": "You Have One Client — Can You Still Use a Company?",
+          "paragraphs": [
+            "This is the most common question we receive from IT contractors, and the answer is nuanced.",
+            "If most of your income comes from one client and is derived from your personal skills — coding, architecture, consulting — the ATO may classify it as Personal Services Income (PSI). PSI rules can restrict your ability to:",
+            "However, PSI rules do not mean a company is useless. Even under PSI, a company may still provide liability protection, credibility, and certain structuring benefits. The key is getting the assessment right before you decide."
+          ],
+          "bullets": [
+            "Split income with a spouse or family member through a company",
+            "Claim certain business deductions a typical company could claim",
+            "Retain profits in the company at the lower company tax rate"
+          ]
+        },
+        {
+          "title": "The PSI Tests Explained (Simplified)",
+          "paragraphs": [
+            "Results Test: >75% of income from one contract/client — PSI likely applies",
+            "80% Test: >80% from one entity — PSI likely applies",
+            "Unrelated Clients Test, Employment Test, Business Premises Test — each can remove the income from PSI treatment",
+            "One contractor cleared PSI by maintaining 3+ clients in a financial year — structure matters"
+          ]
+        },
+        {
+          "title": "Do I Need an ABN?",
+          "paragraphs": [
+            "If you invoice clients, operate under a contract, and are not on a company payroll — yes, you need an ABN. Operating without one is a compliance risk, and clients may be required to withhold 47% of your payment (top marginal rate) if you cannot provide a valid ABN."
+          ]
+        },
+        {
+          "title": "Overseas Clients and GST — Do I Still Register?",
+          "paragraphs": [
+            "This is a common source of confusion. The rules are:"
+          ],
+          "bullets": [
+            "If your annual turnover exceeds $75,000, GST registration is compulsory — regardless of where your clients are based",
+            "Services provided to overseas clients are often GST-free as Exported Services",
+            "You still need to register, lodge BAS, and correctly report zero-rated supplies"
+          ]
+        },
+        {
+          "title": "The Overseas Client GST Misconception",
+          "paragraphs": [
+            "Many contractors assume 'my clients are overseas so I don't need to register.' This is incorrect.",
+            "Even with zero-rated (GST-free) overseas services, registration is required once the threshold is met.",
+            "Lodging BAS with incorrectly reported overseas income is one of the most common IT contractor compliance errors."
+          ]
+        },
+        {
+          "title": "What Expenses Can I Claim?",
+          "paragraphs": [
+            "The key points are below:"
+          ],
+          "bullets": [
+            "Laptop, monitors, peripherals and home office setup",
+            "Software subscriptions — IDE licences, AWS, GitHub, Azure, productivity tools",
+            "Internet and phone bill — business portion",
+            "Professional development, courses, certifications (ATO-compliant, directly relevant to income)",
+            "Home office expenses using ATO's fixed rate or actual cost method",
+            "Professional indemnity insurance",
+            "Accounting and tax agent fees",
+            "100% of phone/internet if partly personal use",
+            "Expenses without records — software purchases without invoices, cash transactions",
+            "Commuting to a primary place of work (not deductible)"
+          ]
+        },
+        {
+          "title": "Should You Switch to a Company?",
+          "paragraphs": [
+            "A company structure may benefit you if:",
+            "The 25% company tax rate versus personal rates of up to 47% can represent a meaningful saving — but only when structured correctly. The wrong setup can trigger PSI restrictions, PAYG implications, and unnecessary ASIC compliance costs."
+          ],
+          "bullets": [
+            "You earn consistently high contracting income ($120,000+ per year)",
+            "You have multiple clients (reducing PSI risk)",
+            "You plan to reinvest profits into growing a consulting practice",
+            "You want liability protection beyond what a Sole Trader offers"
+          ]
+        },
+        {
+          "title": "PAYG Withholding and Quarterly Instalments",
+          "paragraphs": [
+            "Once your income tax liability exceeds a certain threshold, the ATO will require you to pay income tax in quarterly instalments (PAYG Instalments) rather than one lump sum at the end of the year. Planning for these quarterly amounts is essential for cash flow — a surprise $40,000 tax bill in October is avoidable with the right setup."
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "You Have One Client — Can You Still Use a Company?",
+        "The PSI Tests Explained (Simplified)",
+        "Do I Need an ABN?",
+        "Overseas Clients and GST — Do I Still Register?"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "IT 承包商与独立开发者澳洲税务指南",
+        "excerpt": "PSI 规则 · ABN · GST · 公司结构——你真正需要了解的内容",
+        "category": "企业税务",
+        "tag": "指南"
+      },
+      "intro": "很多 IT 承包商和独立开发者认为自己的税务情况很简单——直到遭遇 ATO 审查、错过 BAS 截止日，或者收到一笔意料之外的税单。无论你是开发者、工程师、顾问还是 IT 自由职业者，这篇指南专门针对你这个群体最常遇到的税务问题。",
+      "sections": [
+        {
+          "title": "我只有一个客户——可以注册公司吗？",
+          "paragraphs": [
+            "这是 IT 承包商最常问的问题，答案并不简单。",
+            "如果你的大部分收入来自一个客户，且收入来源是你的个人技能——编程、架构设计、咨询——ATO 可能将其认定为 Personal Services Income（PSI，个人服务收入）。PSI 规则会限制你：",
+            "但 PSI 规则并不意味着注册公司没有意义。即便受 PSI 约束，公司仍可以提供责任保护、更强的商业信誉和一定的结构优势。关键是在做决定之前，先进行准确的评估。"
+          ],
+          "bullets": [
+            "通过公司向配偶或家庭成员分配收入",
+            "申报普通公司才能扣除的某些业务费用",
+            "以公司税率（25%）留存利润"
+          ]
+        },
+        {
+          "title": "PSI 测试简解",
+          "paragraphs": [
+            "结果测试（Results Test）：超过 75% 的收入来自同一合同/客户——可能适用 PSI",
+            "80% 测试：超过 80% 来自同一主体——可能适用 PSI",
+            "无关客户测试、雇佣测试、商业场所测试——满足任意一项可能豁免 PSI",
+            "曾有承包商通过在一个财年内维持 3 个以上客户，成功规避 PSI——结构设计至关重要"
+          ]
+        },
+        {
+          "title": "我需要申请 ABN 吗？",
+          "paragraphs": [
+            "如果你向客户开具发票、以合同方式工作、且不在公司工资单上——那么你需要 ABN。没有 ABN 存在合规风险，且客户可能被要求从你的付款中预扣 47%（最高边际税率）。"
+          ]
+        },
+        {
+          "title": "客户在海外——还需要注册 GST 吗？",
+          "paragraphs": [
+            "这是常见的困惑来源。规则如下："
+          ],
+          "bullets": [
+            "年营业额超过 $75,000，必须注册 GST——无论客户在哪里",
+            "向海外客户提供的服务通常属于\"出口服务\"，免除 GST",
+            "你仍然需要注册、申报 BAS，并正确申报零税率供应"
+          ]
+        },
+        {
+          "title": "海外客户 GST 误解",
+          "paragraphs": [
+            "许多承包商认为\"客户在海外就不需要注册\"——这是错误的。",
+            "即便所有服务均为免 GST 的出口服务，只要超过门槛就必须注册。",
+            "在 BAS 中错误申报海外收入，是 IT 承包商最常见的合规错误之一。"
+          ]
+        },
+        {
+          "title": "可以申报哪些费用？",
+          "paragraphs": [
+            "重点如下："
+          ],
+          "bullets": [
+            "笔记本电脑、显示器、外设及居家办公设备",
+            "软件订阅——IDE 许可证、AWS、GitHub、Azure、生产力工具",
+            "网络和手机账单——业务使用比例",
+            "专业发展、课程、证书（需符合 ATO 要求，与收入直接相关）",
+            "居家办公费用（按 ATO 固定费率法或实际成本法）",
+            "职业赔偿保险",
+            "会计及税代服务费",
+            "手机/网络全额报销（若存在个人使用）",
+            "缺乏记录的费用——无发票的软件购买、现金交易",
+            "通勤至固定工作地点的交通费（不可扣除）"
+          ]
+        },
+        {
+          "title": "应该切换到公司结构吗？",
+          "paragraphs": [
+            "如果以下情况适用于你，公司结构可能更有利：",
+            "公司税率 25% 与个人最高税率 47% 之间的差距可以带来可观的节税效果——但前提是架构正确。错误的设置会触发 PSI 限制、PAYG 预扣义务，以及不必要的 ASIC 合规成本。"
+          ],
+          "bullets": [
+            "承包收入稳定且较高（每年 $120,000 以上）",
+            "有多个客户（降低 PSI 风险）",
+            "计划将利润再投资，发展顾问业务",
+            "需要比 Sole Trader 更强的责任保护"
+          ]
+        },
+        {
+          "title": "PAYG 预扣与季度分期付款",
+          "paragraphs": [
+            "一旦你的所得税负超过一定门槛，ATO 会要求你按季度预缴所得税（PAYG Instalments），而非年底一次性缴清。提前规划这些季度金额对现金流至关重要——10 月份突然出现一张 $40,000 的税单，是完全可以通过正确的财务安排来避免的。"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "我只有一个客户——可以注册公司吗？",
+        "PSI 测试简解",
+        "我需要申请 ABN 吗？",
+        "客户在海外——还需要注册 GST 吗？"
+      ]
+    }
+  }
+}

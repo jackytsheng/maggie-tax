@@ -1,0 +1,198 @@
+{
+  "slug": "ecommerce-dropshipping-tax-guide",
+  "publishedAt": "2025-10-03",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "High-Ticket E-Commerce & Dropshipping Tax in Australia",
+        "excerpt": "GST on Imports, Income Structure, Business Registration & Deductions",
+        "category": "Business tax",
+        "tag": "Guide"
+      },
+      "intro": "Running a high-ticket e-commerce or dropshipping business comes with a distinct set of tax challenges — particularly around GST on imported goods, income reporting across platforms, and choosing the right business structure to protect profits and manage risk. Whether you are selling through Shopify, Amazon FBA, TikTok Shop, or your own website, here is what you need to understand.",
+      "sections": [
+        {
+          "title": "Do You Need an ABN?",
+          "paragraphs": [
+            "Yes — without exception. If you are operating an online store with the intention of making a profit, you are running a business in the eyes of the ATO, regardless of where your products are sourced or fulfilled."
+          ]
+        },
+        {
+          "title": "GST on Imported Goods — The Part Most Sellers Miss",
+          "paragraphs": [
+            "This is the area where many e-commerce operators — particularly those using overseas suppliers or FBA warehousing — make costly errors.",
+            "Two key GST rules to understand:"
+          ],
+          "bullets": [
+            "Low Value Imported Goods (under $1,000): Since 2018, overseas sellers supplying goods to Australian consumers must collect GST on items under $1,000. If you are the Australian importer/re-seller, different rules apply and you may be able to claim GST credits on import costs.",
+            "Goods over $1,000: GST (and customs duty) is payable at the Australian border — typically handled by your freight forwarder. You can claim GST credits on this if you are GST registered."
+          ]
+        },
+        {
+          "title": "The Dropshipping GST Assumption",
+          "paragraphs": [
+            "Many dropshippers assume they have no GST obligations because their supplier is overseas and ships direct to customers.",
+            "Depending on your business model, you may still have Australian GST obligations on your sales revenue — particularly once turnover exceeds $75,000.",
+            "Platform marketplace facilitator rules (Shopify, Amazon) mean GST is sometimes collected by the platform — but this does not eliminate your reporting obligations."
+          ]
+        },
+        {
+          "title": "Registering for GST — When and Why",
+          "paragraphs": [
+            "Mandatory once your annual turnover exceeds $75,000. For high-ticket sellers, this threshold is often reached quickly — a few sales per month on a $3,000+ product can push you over within weeks.",
+            "Once registered, you can claim GST credits on:"
+          ],
+          "bullets": [
+            "Supplier invoices (where GST is included)",
+            "Platform fees (Shopify, eBay, Amazon fees with GST)",
+            "Advertising spend (Meta Ads, Google Ads)",
+            "Software subscriptions with Australian GST",
+            "Import costs (where applicable)"
+          ]
+        },
+        {
+          "title": "Income Tax — How Is Profit Taxed?",
+          "paragraphs": [
+            "As a Sole Trader, your e-commerce profit is added to your other income and taxed at your marginal rate (up to 47% including Medicare Levy). If you operate through a company, the rate is a flat 25% for base rate entities — a significant difference once profits scale."
+          ]
+        },
+        {
+          "title": "What Can You Deduct?",
+          "paragraphs": [
+            "The key points are below:"
+          ],
+          "bullets": [
+            "Cost of Goods Sold (COGS) — the direct cost of products sold",
+            "Platform fees — Shopify subscriptions, Amazon seller fees, eBay listing fees",
+            "Advertising spend — Meta, Google, TikTok, influencer campaigns",
+            "Shipping and fulfilment costs",
+            "Software — Klaviyo, ReConvert, order management tools",
+            "Photography, videography and content creation for product listings",
+            "Returns and refund-related costs",
+            "Professional services — accountant, legal, copywriting"
+          ]
+        },
+        {
+          "title": "Should You Operate Through a Company?",
+          "paragraphs": [
+            "For e-commerce businesses, a company structure is often worth considering earlier than other business types — for two reasons:",
+            "However, be aware: under PSI rules, if the income is essentially derived from your personal effort (e.g. you are building the entire business yourself), the company tax saving may be limited. This is less of an issue for product-based e-commerce than for pure service businesses — but worth discussing."
+          ],
+          "bullets": [
+            "Profit margins can be high and scale quickly. The difference between 25% company tax and 47% personal tax becomes significant fast.",
+            "E-commerce businesses often involve product liability risk. A company provides a legal separation between business risk and personal assets."
+          ]
+        },
+        {
+          "title": "Foreign Currency and Payment Platforms",
+          "paragraphs": [
+            "Many high-ticket sellers receive payments in USD or other currencies via Stripe, PayPal, or Wise. All of this income must be converted to AUD and declared. Exchange rate gains and losses also have tax implications. A clear record of conversion rates at the time of each transaction is essential for accurate reporting."
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "Do You Need an ABN?",
+        "GST on Imported Goods — The Part Most Sellers Miss",
+        "The Dropshipping GST Assumption",
+        "Registering for GST — When and Why"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "高客单价跨境电商与 Dropshipping 澳洲税务指南",
+        "excerpt": "进口 GST · 收入申报 · 公司结构 · 扣税项目",
+        "category": "企业税务",
+        "tag": "指南"
+      },
+      "intro": "经营高客单价跨境电商或代发货（Dropshipping）业务，面临着一套独特的税务挑战——尤其是进口商品的 GST 处理、跨平台收入申报，以及选择合适的商业结构来保护利润、管理风险。 无论你是通过 Shopify、Amazon FBA、TikTok Shop，还是自建独立站销售，以下是你需要了解的核心内容。",
+      "sections": [
+        {
+          "title": "需要申请 ABN 吗？",
+          "paragraphs": [
+            "是的——毫无例外。只要你以盈利为目的经营网店，在 ATO 眼中你就是在经营一门生意，无论你的产品来自哪里、由谁发货。"
+          ]
+        },
+        {
+          "title": "进口商品的 GST——大多数卖家忽略的部分",
+          "paragraphs": [
+            "这是很多电商经营者——尤其是使用海外供应商或 FBA 仓库的卖家——最容易犯代价高昂错误的地方。",
+            "两条关键 GST 规则："
+          ],
+          "bullets": [
+            "低价值进口商品（不超过 $1,000）：自 2018 年起，向澳洲消费者供应低价值商品的海外卖家需要代收 GST。如果你是澳洲进口商/转卖方，规则有所不同，且可能可以申请 GST 抵扣。",
+            "超过 $1,000 的商品：GST（及关税）需在澳洲口岸缴纳——通常由货代代办。如果你已注册 GST，可以申请这部分 GST 抵扣。"
+          ]
+        },
+        {
+          "title": "Dropshipping GST 常见误解",
+          "paragraphs": [
+            "很多代发货卖家认为，因为供应商在海外直接发货给客户，所以自己没有 GST 义务。",
+            "根据你的商业模式，你在销售收入上仍可能产生澳洲 GST 义务——尤其是年营业额超过 $75,000 之后。",
+            "平台代征规则（Shopify、Amazon 等）有时由平台代收 GST，但这并不免除你的申报义务。"
+          ]
+        },
+        {
+          "title": "GST 注册——何时注册，为何注册",
+          "paragraphs": [
+            "年营业额超过 $75,000 后必须注册。对于高客单价卖家，这个门槛往往来得很快——每月几单 $3,000+ 的商品，几周内就可能触发。",
+            "注册后，可以申请以下 GST 抵扣："
+          ],
+          "bullets": [
+            "供应商发票（含 GST 的部分）",
+            "平台费用（Shopify、eBay、Amazon 等含 GST 的手续费）",
+            "广告费用（Meta Ads、Google Ads）",
+            "含澳洲 GST 的软件订阅",
+            "进口费用（适用情况下）"
+          ]
+        },
+        {
+          "title": "所得税——利润如何计税？",
+          "paragraphs": [
+            "作为 Sole Trader，电商利润将计入你的总收入，按边际税率征税（最高 47%，含医疗保险税）。如果通过公司运营，基本税率实体适用固定 25% 税率——利润扩大后，这一差距相当可观。"
+          ]
+        },
+        {
+          "title": "可以申报哪些扣税项目？",
+          "paragraphs": [
+            "重点如下："
+          ],
+          "bullets": [
+            "销售商品成本（COGS）——已售商品的直接采购成本",
+            "平台费用——Shopify 订阅费、Amazon 卖家手续费、eBay 刊登费",
+            "广告费用——Meta、Google、TikTok、网红推广",
+            "运输及履约成本",
+            "软件——Klaviyo、ReConvert、订单管理工具",
+            "产品摄影、视频制作及内容创作费用",
+            "退货及退款相关成本",
+            "专业服务费——会计、法律、文案"
+          ]
+        },
+        {
+          "title": "应该通过公司运营吗？",
+          "paragraphs": [
+            "对于电商业务而言，公司结构通常比其他类型的业务更值得提前考虑——原因有二：",
+            "但需注意：如果 ATO 认定收入主要来自个人努力（例如你独自构建整个业务），PSI 规则可能限制公司税务优势。对于以商品为核心的电商而言，这一限制通常小于纯服务类业务——但仍值得与专业人士讨论。"
+          ],
+          "bullets": [
+            "利润空间可以很高且增长迅速。25% 公司税率与 47% 个人最高税率之间的差距，很快就会变得非常显著。",
+            "电商业务通常涉及产品责任风险。公司结构在商业风险与个人资产之间提供了法律隔离。"
+          ]
+        },
+        {
+          "title": "外币收款与支付平台",
+          "paragraphs": [
+            "很多高客单价卖家通过 Stripe、PayPal 或 Wise 收取美元或其他外币。所有收入必须换算为澳元后申报。汇率差异也有税务影响。在每笔交易时准确记录汇率，是精确申报的前提。"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "需要申请 ABN 吗？",
+        "进口商品的 GST——大多数卖家忽略的部分",
+        "Dropshipping GST 常见误解",
+        "GST 注册——何时注册，为何注册"
+      ]
+    }
+  }
+}

@@ -71,7 +71,7 @@ export function formatInsightReadTimeLabel(article: InsightArticle, locale: Loca
   return locale === "zh" ? `约 ${minutes} 分钟` : `${minutes} min read`;
 }
 
-const loadInsightArticles = cache(async (): Promise<InsightArticle[]> => {
+async function readInsightArticles(): Promise<InsightArticle[]> {
   const entries = await fs.readdir(ARTICLES_DIRECTORY, { withFileTypes: true });
   const articleFiles = entries.filter((entry) => entry.isFile() && entry.name.endsWith(".json"));
 
@@ -90,7 +90,17 @@ const loadInsightArticles = cache(async (): Promise<InsightArticle[]> => {
   );
 
   return articles.sort((left, right) => right.publishedAt.localeCompare(left.publishedAt));
-});
+}
+
+const loadInsightArticlesCached = cache(readInsightArticles);
+
+async function loadInsightArticles(): Promise<InsightArticle[]> {
+  if (process.env.NODE_ENV === "development") {
+    return readInsightArticles();
+  }
+
+  return loadInsightArticlesCached();
+}
 
 export async function getAllInsightArticles() {
   return loadInsightArticles();

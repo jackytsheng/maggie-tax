@@ -1,0 +1,132 @@
+{
+  "slug": "rsu-and-employee-share-schemes",
+  "publishedAt": "2026-04-19",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "RSU and Employee Share Schemes in Australia: When Vesting Means a Tax Bill Before You See the Money",
+        "excerpt": "How Share Vesting Is Taxed, the Stock Price Drop Problem, and What to Do About It",
+        "category": "Individual tax",
+        "tag": "Explainer"
+      },
+      "intro": "If you work at a technology company that offers RSUs (Restricted Stock Units) or other employee equity, the tax consequences can be significant — and can create a situation where you owe tax on income you have never actually received in cash. Here is what you need to understand.",
+      "sections": [
+        {
+          "title": "How RSUs Are Taxed in Australia",
+          "paragraphs": [
+            "When RSUs vest — the moment they become your unconditional property — the ATO treats the market value of those shares on that date as ordinary income. This means:"
+          ],
+          "bullets": [
+            "You are taxed on the vest-date value as employment income, at your marginal tax rate",
+            "This applies even if you do not sell a single share",
+            "The taxable amount is included in your tax return for the year the shares vested",
+            "Your employer should report this on your income statement — but always verify it is included correctly"
+          ]
+        },
+        {
+          "title": "The Stock Price Drop Scenario",
+          "paragraphs": [
+            "This is where RSU taxation becomes genuinely painful. Consider this example:"
+          ]
+        },
+        {
+          "title": "When Holding Creates a Cash Loss",
+          "paragraphs": [
+            "You receive 1,000 RSUs that vest when the share price is $100. Taxable income: $100,000.",
+            "At a 47% marginal rate, tax owed: approximately $47,000.",
+            "You decide to hold the shares rather than sell them.",
+            "Over the next year, the share price falls 70%. Your shares are now worth $30,000.",
+            "Result: You paid $47,000 in tax on income that is now worth $30,000 — a net position of -$17,000.",
+            "The subsequent $70,000 fall in share value is a Capital Loss — but capital losses cannot offset employment income. They can only offset future capital gains."
+          ]
+        },
+        {
+          "title": "Strategies to Manage RSU Tax Risk",
+          "paragraphs": [
+            "Managing RSU Tax Risk",
+            "Sell to Cover: On vest date, sell enough shares to cover the estimated tax liability. This ensures you have the cash to pay what is owed without being exposed to further price risk on the portion you will need to liquidate for tax.",
+            "30-Day Rule (Section 83A): In some circumstances, you may be able to elect to defer the tax point or restructure the timing of when income is recognised. This is complex and very situation-specific — get advice before vest date, not after.",
+            "Tax Withholding Review: Confirm with your employer that they are correctly withholding tax from your RSU vest. Some international payroll systems do not handle Australian RSU taxation correctly."
+          ]
+        },
+        {
+          "title": "What Happens When You Eventually Sell",
+          "paragraphs": [
+            "When you sell shares that were acquired through RSU vesting, you trigger a CGT event. The cost base of those shares is their market value at vest date (the amount you already paid income tax on). Any gain or loss above that amount is subject to CGT, with the 50% discount potentially available if held for more than 12 months from vest date.",
+            "If you are in a tech company with a significant RSU component to your compensation, a pre-vest review with a registered tax agent can identify your tax liability before it becomes a cash flow emergency."
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "How RSUs Are Taxed in Australia",
+        "The Stock Price Drop Scenario",
+        "When Holding Creates a Cash Loss",
+        "Strategies to Manage RSU Tax Risk"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "澳洲 RSU 与员工股权：为什么解锁当天就可能产生税单，而你还没收到现金",
+        "excerpt": "股权解锁如何征税、股价下跌困境，以及应对方法",
+        "category": "个人税务",
+        "tag": "解读"
+      },
+      "intro": "如果你在科技公司工作并持有 RSU（受限股票单元）或其他员工股权，税务影响可能相当显著——甚至可能出现你从未实际收到现金却要先交税的局面。以下是你需要了解的核心内容。",
+      "sections": [
+        {
+          "title": "澳洲如何对 RSU 征税",
+          "paragraphs": [
+            "当 RSU 解锁（Vest）——即你对这些股票取得无条件所有权的那一刻——ATO 将当日股票市场价值视为普通就业收入征税。这意味着："
+          ],
+          "bullets": [
+            "按解锁当日的股票价值作为就业收入，按你的边际税率征税",
+            "即便你一股都没卖，税款依然产生",
+            "应税金额计入股票解锁当年的税表",
+            "雇主应在你的收入声明中报告此项——但请始终核实是否已正确录入"
+          ]
+        },
+        {
+          "title": "股价下跌的困境",
+          "paragraphs": [
+            "这正是 RSU 税务变得真正棘手的地方。以下是一个真实的例子："
+          ]
+        },
+        {
+          "title": "持股带来现金损失的情形",
+          "paragraphs": [
+            "你的 1,000 股 RSU 在股价 $100 时解锁，应税收入为 $100,000。",
+            "按 47% 边际税率，应缴税款约 $47,000。",
+            "你决定继续持有，不卖出股票。",
+            "一年后，股价下跌 70%，股票现在价值 $30,000。",
+            "结果：你为价值现已缩水至 $30,000 的收入缴纳了 $47,000 的税——净损失 $17,000。",
+            "随后的 $70,000 股票跌幅属于资本亏损（Capital Loss）——但资本亏损不能直接抵扣就业收入，只能用于抵消未来的资本利得。"
+          ]
+        },
+        {
+          "title": "管理 RSU 税务风险的策略",
+          "paragraphs": [
+            "RSU 税务风险管理策略",
+            "解锁当日卖出以覆盖税款（Sell to Cover）：在解锁当日卖出足够数量的股票以覆盖预估税款。这确保你有现金支付税单，同时不对余下部分承担进一步价格风险。",
+            "30 天规则（Section 83A）：在某些情况下，你可能可以选择推迟纳税时点或重构收入确认的时机。这相当复杂，因人而异——务必在解锁前而非事后咨询专业建议。",
+            "税务预扣审查：与雇主确认他们是否正确从你的 RSU 解锁中代扣税款。部分国际薪酬系统可能未能正确处理澳洲 RSU 税务。"
+          ]
+        },
+        {
+          "title": "最终出售时发生什么",
+          "paragraphs": [
+            "当你出售通过 RSU 解锁获得的股票时，会触发 CGT 事件。这些股票的成本基础为解锁当日的市场价值（即你已经缴纳所得税的金额）。高于该金额的任何收益或损失均需缴纳 CGT，若自解锁日起持有超过 12 个月，可能享受 50% CGT 折扣。",
+            "如果你在科技公司工作且薪酬中有大量 RSU 组成部分，在下一次解锁日前进行一次税代预检，可以在税务负债演变成现金流危机之前及时识别风险。"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "澳洲如何对 RSU 征税",
+        "股价下跌的困境",
+        "持股带来现金损失的情形",
+        "管理 RSU 税务风险的策略"
+      ]
+    }
+  }
+}

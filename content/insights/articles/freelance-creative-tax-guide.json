@@ -1,0 +1,240 @@
+{
+  "slug": "freelance-creative-tax-guide",
+  "publishedAt": "2026-04-08",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "Freelance Designer, Copywriter & Creative Professional Tax in Australia",
+        "excerpt": "ABN, GST, PSI Rules, Deductions & When to Consider a Company",
+        "category": "Business tax",
+        "tag": "Guide"
+      },
+      "intro": "Freelance creative professionals — designers, UX researchers, copywriters, brand strategists, videographers, photographers — are one of the fastest-growing groups of self-employed Australians. Many start freelancing while still employed, then gradually transition to full-time. By the time income is substantial, tax obligations have quietly accumulated. This guide cuts through the confusion and addresses the questions most freelance creatives actually face.",
+      "sections": [
+        {
+          "title": "Do I Need an ABN?",
+          "paragraphs": [
+            "If you invoice clients for creative work — even just one client, even as a side job — yes. The ATO's test is your intent: if you are offering services with the aim of making profit, it is a business, not a hobby.",
+            "Without an ABN, clients are obligated to withhold 47% of your payments. That is a strong practical incentive to register, quite apart from the compliance obligation."
+          ]
+        },
+        {
+          "title": "What Is Taxable Income?",
+          "paragraphs": [
+            "All of the following must be included in your annual tax return:"
+          ],
+          "bullets": [
+            "Project fees — fixed-price client work",
+            "Hourly rate billing to clients",
+            "Retainer income from ongoing client relationships",
+            "Licensing fees for creative work (stock images, templates, fonts)",
+            "Affiliate or referral income from tools you recommend",
+            "Teaching, workshops or online courses related to your creative skills",
+            "Platform income — Behance, Dribbble, Envato, Creative Market"
+          ]
+        },
+        {
+          "title": "GST — When Must You Register?",
+          "paragraphs": [
+            "Once annual business turnover (total revenue, before expenses) exceeds $75,000, you must register for GST. Freelance creatives at mid-to-senior rates often reach this threshold more quickly than they expect.",
+            "Once registered:"
+          ],
+          "bullets": [
+            "You add 10% GST to invoices for Australian clients",
+            "You can claim GST credits on your business expenses",
+            "You lodge BAS quarterly (or monthly if preferred)"
+          ]
+        },
+        {
+          "title": "GST and Overseas Clients",
+          "paragraphs": [
+            "Australian clients: Standard 10% GST applies to your services.",
+            "Overseas clients: Your creative services are typically GST-free as Exported Services, since they are consumed outside Australia.",
+            "However: You must still be GST registered once over the threshold, even if all your clients are overseas.",
+            "Mixed client base: Each invoice must be assessed — Australian clients attract GST, overseas clients typically do not."
+          ]
+        },
+        {
+          "title": "What Can You Deduct?",
+          "paragraphs": [
+            "The key points are below:"
+          ],
+          "bullets": [
+            "Adobe Creative Cloud, Figma, Sketch, Affinity subscriptions",
+            "Stock photo, icon and font licences used for client work",
+            "Website hosting and domain names for your portfolio",
+            "Computer, tablet, drawing pad, monitors (business-use portion)",
+            "Camera, lenses, lighting for photography or video work",
+            "Professional development — design courses, UX conferences, industry events",
+            "Professional memberships — AGDA, AIGA, relevant industry bodies",
+            "Home office expenses — proportional to business use",
+            "Marketing — portfolio advertising, LinkedIn Premium, job board listings",
+            "Accounting fees and bookkeeping software",
+            "Client meeting costs — reasonable, with business purpose documented",
+            "General clothing — even if you wear it to client meetings",
+            "Home internet bill in full (only the business-use proportion is deductible)",
+            "Personal art, design courses or tools with no commercial purpose"
+          ]
+        },
+        {
+          "title": "PSI Rules — The Single Client Problem",
+          "paragraphs": [
+            "PSI (Personal Services Income) rules are particularly relevant for freelancers who work primarily with one or two clients. If:",
+            "The ATO may treat your income as personal services income, even if you operate through a company. This limits certain tax planning strategies but does not prevent you from having an ABN or company — it just means the tax rate benefit of a company may be limited."
+          ],
+          "bullets": [
+            "More than 80% of your income comes from one client in a year",
+            "You work under the direction of that client",
+            "You use their equipment or premises"
+          ]
+        },
+        {
+          "title": "PSI Warning for Freelancers",
+          "paragraphs": [
+            "Having a company does not automatically mean you pay 25% tax on freelance income.",
+            "If PSI applies, profits must be attributed back to you personally in many circumstances.",
+            "The solution is often to grow your client base — multiple unrelated clients reduces PSI risk significantly.",
+            "A professional assessment of your specific situation is strongly recommended before incorporating."
+          ]
+        },
+        {
+          "title": "Company vs Sole Trader — Is It Worth It for Creative Freelancers?",
+          "paragraphs": [
+            "The honest answer for most freelancers: Sole Trader is right until your net income consistently exceeds $80k–$100k, and you have multiple clients rather than one dominant relationship.",
+            "At higher income levels and with a diverse client base, a company provides:"
+          ],
+          "bullets": [
+            "25% tax rate versus up to 47% personal marginal rate on the same profit",
+            "Ability to retain profits in the company for reinvestment (rather than drawing everything out)",
+            "Limited liability protection from client disputes and contract risks",
+            "A more professional entity for larger corporate client engagements"
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "Do I Need an ABN?",
+        "What Is Taxable Income?",
+        "GST — When Must You Register?",
+        "GST and Overseas Clients"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "澳洲自由职业设计师、文案与创意从业者税务指南",
+        "excerpt": "ABN、GST、PSI 规则、扣税项目及何时考虑注册公司",
+        "category": "企业税务",
+        "tag": "指南"
+      },
+      "intro": "自由职业创意从业者——设计师、UX 研究员、文案、品牌策略师、视频制作人、摄影师——是澳洲增长最快的自雇群体之一。很多人在受雇期间开始兼职接单，然后逐步过渡到全职自由职业。当收入规模可观时，税务义务往往已经悄然积累。 这篇指南直击自由创意从业者实际面临的问题，不绕弯子。",
+      "sections": [
+        {
+          "title": "我需要申请 ABN 吗？",
+          "paragraphs": [
+            "如果你向客户开具创意工作的发票——哪怕只有一个客户，哪怕只是副业——答案是肯定的。ATO 的判断标准是你的意图：如果你以盈利为目的提供服务，这就是一门生意，而不是个人爱好。",
+            "没有 ABN，客户有义务预扣你付款的 47%。这是一个很实际的注册动力，完全不用考虑合规义务本身。"
+          ]
+        },
+        {
+          "title": "哪些收入需要申报？",
+          "paragraphs": [
+            "以下所有收入必须纳入年度税表："
+          ],
+          "bullets": [
+            "项目费——固定价格客户工作",
+            "按小时计费的客户账单",
+            "持续客户关系的定期服务费",
+            "创意作品的许可授权费（图库图片、模板、字体）",
+            "推荐工具的联盟或介绍费",
+            "与创意技能相关的教学、工作坊或线上课程",
+            "平台收入——Behance、Dribbble、Envato、Creative Market"
+          ]
+        },
+        {
+          "title": "GST — 什么时候必须注册？",
+          "paragraphs": [
+            "一旦年营业额（税前总收入）超过 $75,000，就必须注册 GST。处于中高收入段的自由创意人往往比预期更快达到这个门槛。",
+            "注册后："
+          ],
+          "bullets": [
+            "向澳洲客户开具发票时需附加 10% GST",
+            "可以申请业务费用的 GST 抵扣",
+            "按季度（或按月）申报 BAS"
+          ]
+        },
+        {
+          "title": "GST 与海外客户",
+          "paragraphs": [
+            "澳洲客户：你的服务适用标准 10% GST。",
+            "海外客户：你的创意服务通常属于「出口服务」免除 GST，因为服务在澳洲以外被消费。",
+            "但是：一旦超过门槛，即便所有客户都在海外，仍需注册 GST。",
+            "混合客户群：每张发票必须单独评估——澳洲客户适用 GST，海外客户通常不适用。"
+          ]
+        },
+        {
+          "title": "可以申报哪些扣税项目？",
+          "paragraphs": [
+            "重点如下："
+          ],
+          "bullets": [
+            "Adobe Creative Cloud、Figma、Sketch、Affinity 订阅",
+            "用于客户工作的图库照片、图标和字体授权",
+            "作品集网站托管和域名",
+            "电脑、平板、绘图板、显示器（业务使用比例）",
+            "摄影或视频工作用的相机、镜头、灯光",
+            "专业发展——设计课程、UX 会议、行业活动",
+            "专业会员资格——AGDA、AIGA 及相关行业机构",
+            "居家办公费用——按业务使用比例计算",
+            "营销——作品集推广、LinkedIn Premium、求职平台",
+            "会计费和记账软件",
+            "客户会面费用——合理且记录有业务目的",
+            "日常服装——即便穿着它去见客户",
+            "家庭网络账单全额（只有业务使用比例可以扣除）",
+            "没有商业目的的个人艺术、设计课程或工具"
+          ]
+        },
+        {
+          "title": "PSI 规则 — 单一客户问题",
+          "paragraphs": [
+            "PSI（个人服务收入）规则对主要服务一两个客户的自由职业者尤为相关。如果：",
+            "ATO 可能将你的收入认定为个人服务收入，即便你通过公司运营。这会限制某些税务规划策略，但并不阻止你拥有 ABN 或公司——只是意味着公司的税率优势可能受限。"
+          ],
+          "bullets": [
+            "一年内超过 80% 的收入来自同一个客户",
+            "你在该客户的指导下工作",
+            "你使用他们的设备或场所"
+          ]
+        },
+        {
+          "title": "PSI 对自由职业者的警示",
+          "paragraphs": [
+            "拥有公司并不自动意味着你的自由职业收入按 25% 缴税。",
+            "如果 PSI 适用，在很多情况下利润必须归属到你个人名下。",
+            "解决方案通常是扩大客户群——拥有多个互不相关的客户可以显著降低 PSI 风险。",
+            "在注册公司之前，强烈建议进行专业的个人情况评估。"
+          ]
+        },
+        {
+          "title": "公司 vs Sole Trader — 对创意自由职业者值得吗？",
+          "paragraphs": [
+            "对大多数自由职业者而言，诚实的答案是：在净收入稳定超过 $80k–$100k，且客户群多元（没有单一主导客户关系）之前，Sole Trader 是正确的选择。",
+            "在较高收入水平和多元客户群的条件下，公司能提供："
+          ],
+          "bullets": [
+            "25% 税率，对比同等利润的个人最高 47% 边际税率",
+            "利润可以留存于公司用于再投资（而不是全部提取）",
+            "面对客户纠纷和合同风险的有限责任保护",
+            "在大型企业客户业务中更专业的主体形象"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "我需要申请 ABN 吗？",
+        "哪些收入需要申报？",
+        "GST — 什么时候必须注册？",
+        "GST 与海外客户"
+      ]
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "slug": "allied-health-tax-guide",
+  "publishedAt": "2026-01-11",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "Allied Health Professional Tax in Australia",
+        "excerpt": "Physiotherapists, Psychologists & Optometrists — GST, ABN, Contractor Rules & Deductions",
+        "category": "Business tax",
+        "tag": "Guide"
+      },
+      "intro": "Allied health professionals — whether working in private practice, in a clinic, or as independent contractors billing under Medicare or private health — face a specific and often misunderstood set of tax obligations. Two questions come up more than any other: 'Are my services GST-free?' and 'Am I a contractor or an employee?' Both have answers that depend on the details — and both are worth getting right before your next tax return.",
+      "sections": [
+        {
+          "title": "Are Allied Health Services GST-Free?",
+          "paragraphs": [
+            "This is not a blanket yes or no. The ATO classifies health services as GST-free only if they meet specific criteria:"
+          ]
+        },
+        {
+          "title": "Conditions for GST-Free Health Services",
+          "paragraphs": [
+            "The practitioner must be recognised by law (i.e., registered with AHPRA or the relevant body)",
+            "The service must be generally accepted in the relevant medical profession as a necessary treatment",
+            "The service must be for the treatment of an individual (not administrative or coaching services)",
+            "In practice, this means:"
+          ],
+          "bullets": [
+            "Consultations, assessments and therapeutic treatment by a registered physio, psychologist or optometrist: typically GST-free",
+            "Non-clinical services, coaching, wellness programs: likely taxable",
+            "Optical products (glasses, contact lenses): taxable — separate from the professional consultation"
+          ]
+        },
+        {
+          "title": "GST Applies to Some Allied Health Income",
+          "paragraphs": [
+            "Psychologists providing non-Medicare services such as coaching, workplace wellbeing programs or executive consulting — these are not automatically GST-free simply because the practitioner is registered.",
+            "Optometrists selling optical products must charge and remit GST on those sales regardless of their clinical service status.",
+            "If any portion of your income is taxable (i.e., has GST), you must register for GST once total turnover exceeds $75,000."
+          ]
+        },
+        {
+          "title": "Contractor or Employee? The Most Consequential Question",
+          "paragraphs": [
+            "Many allied health practitioners work in clinics under arrangements where they receive a percentage of billings — say 60–70% of what they bill Medicare or private health. They often refer to themselves as contractors. But the ATO looks at the actual working relationship, not the label.",
+            "You may be classified as an employee even under a contractor agreement if:",
+            "If you are incorrectly classified as a contractor when you are actually an employee, the employing clinic bears the superannuation and payroll obligations — but if you are the clinic owner engaging these practitioners, you carry the liability."
+          ],
+          "bullets": [
+            "The clinic controls your schedule, hours and patient load",
+            "You cannot work for competing clinics",
+            "You use the clinic's equipment, rooms and consumables",
+            "You do not advertise independently or maintain your own client base"
+          ]
+        },
+        {
+          "title": "Do You Need an ABN?",
+          "paragraphs": [
+            "If you genuinely operate as a contractor — invoice clinics, work across multiple practices, bear some business risk — yes, you need an ABN and should register as a Sole Trader (or company if appropriate).",
+            "If you are employed, you operate under your employer's ABN and should be on payroll with PAYG withholding applied."
+          ]
+        },
+        {
+          "title": "What Deductions Can Allied Health Practitioners Claim?",
+          "paragraphs": [
+            "The key points are below:"
+          ],
+          "bullets": [
+            "Professional registration fees — AHPRA registration",
+            "Professional indemnity insurance",
+            "Continuing Professional Development (CPD) courses and conferences",
+            "Professional memberships — APA, AIOP, APS, etc.",
+            "Clinical equipment and supplies",
+            "Clinic room hire or lease proportion",
+            "Relevant textbooks, journals and clinical resources",
+            "Work-related travel between sites",
+            "Home office expenses for administration",
+            "Everyday clothing — a polo shirt with a clinic logo is generally not deductible",
+            "Gym memberships or general fitness (unless you are a practitioner treating in exercise physiology and it is directly required)",
+            "Meals and entertainment without a clear business purpose"
+          ]
+        },
+        {
+          "title": "Should You Set Up a Company?",
+          "paragraphs": [
+            "Many allied health practitioners at higher income levels benefit from operating through a company or trust. PSI rules do apply here — because the income is derived from personal clinical skills — but structuring still offers meaningful benefits:"
+          ],
+          "bullets": [
+            "If you own and operate a practice employing others, PSI is less likely to apply to the business income",
+            "Company tax at 25% vs personal rates of up to 47%",
+            "Better asset protection — particularly relevant for practitioners with personal liability exposure"
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "Are Allied Health Services GST-Free?",
+        "Conditions for GST-Free Health Services",
+        "GST Applies to Some Allied Health Income",
+        "Contractor or Employee? The Most Consequential Question"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "澳洲专职医疗从业者税务指南",
+        "excerpt": "物理治疗师 · 心理咨询师 · 视光师——GST · ABN · 承包商规则 · 扣税",
+        "category": "企业税务",
+        "tag": "指南"
+      },
+      "intro": "专职医疗从业者——无论是在私人诊所、在诊所内执业，还是以独立承包商身份通过 Medicare 或私人健康保险开具发票——都面临着一套特定且常常被误解的税务义务。两个问题比其他所有问题都出现得更频繁：\"我的服务免 GST 吗？\"和\"我是承包商还是员工？\" 两个问题的答案都取决于具体情况——在下次报税前弄清楚，都是值得的。",
+      "sections": [
+        {
+          "title": "专职医疗服务免 GST 吗？",
+          "paragraphs": [
+            "这不是一个简单的是或否。ATO 仅在满足特定条件的情况下将医疗服务列为免 GST："
+          ]
+        },
+        {
+          "title": "健康服务免 GST 的条件",
+          "paragraphs": [
+            "从业者必须经法律认可（即在 AHPRA 或相关机构注册）",
+            "服务必须在相关医学专业中被普遍认为是必要的治疗",
+            "服务必须针对个人的治疗（而非行政或辅导服务）",
+            "实际上，这意味着："
+          ],
+          "bullets": [
+            "注册物理治疗师、心理咨询师或视光师进行的问诊、评估和治疗：通常免 GST",
+            "非临床服务、健康辅导、健康计划：可能需要缴纳 GST",
+            "光学产品（眼镜、隐形眼镜）：需要缴纳 GST——与专业问诊分开计算"
+          ]
+        },
+        {
+          "title": "部分专职医疗收入适用 GST",
+          "paragraphs": [
+            "心理咨询师提供的非 Medicare 服务，如辅导、职场健康计划或高管咨询——这些不会仅因为从业者已注册就自动免 GST。",
+            "视光师销售光学产品，无论其临床服务状态如何，必须就这些销售收取并上缴 GST。",
+            "如果你的任何部分收入应税（即适用 GST），一旦总营业额超过 $75,000，就必须注册 GST。"
+          ]
+        },
+        {
+          "title": "承包商还是员工？最具影响力的问题",
+          "paragraphs": [
+            "很多专职医疗从业者在诊所以按收费比例结算的方式工作——例如收取他们向 Medicare 或私人健康保险开具发票金额的 60-70%。他们通常自称为承包商。但 ATO 评估的是实际工作关系，而不是标签。",
+            "即便签有承包商协议，以下情况可能被认定为员工：",
+            "如果你被错误地认定为承包商而实际上是员工，雇用诊所承担超级年金和工资税义务——但如果你是聘用这些从业者的诊所老板，你承担这一责任。"
+          ],
+          "bullets": [
+            "诊所控制你的日程安排、工作时间和患者数量",
+            "你不能在竞争诊所工作",
+            "你使用诊所的设备、房间和耗材",
+            "你不独立打广告或维护自己的客户群"
+          ]
+        },
+        {
+          "title": "需要申请 ABN 吗？",
+          "paragraphs": [
+            "如果你确实以承包商身份运营——向诊所开具发票、在多个诊所工作、承担一定的商业风险——是的，你需要 ABN，并应以 Sole Trader 身份注册（或在适当情况下注册公司）。",
+            "如果你是受雇员工，则在雇主的 ABN 下运营，应在工资单上并已预扣 PAYG。"
+          ]
+        },
+        {
+          "title": "专职医疗从业者可以申报哪些扣税项目？",
+          "paragraphs": [
+            "重点如下："
+          ],
+          "bullets": [
+            "专业注册费——AHPRA 注册费",
+            "职业赔偿险",
+            "继续专业发展（CPD）课程和学术会议",
+            "专业会员资格——APA、AIOP、APS 等",
+            "临床设备和耗材",
+            "诊所诊室租用或租赁比例",
+            "相关教材、期刊和临床资源",
+            "工作相关的地点间差旅费",
+            "行政工作的居家办公费用",
+            "日常服装——印有诊所标志的 polo 衫通常不可扣除",
+            "健身会员或一般健身（除非你是运动生理学从业者且直接需要）",
+            "没有明确业务目的的餐饮及娱乐费用"
+          ]
+        },
+        {
+          "title": "应该注册公司吗？",
+          "paragraphs": [
+            "很多收入较高的专职医疗从业者通过公司或信托运营可以获得税务优势。PSI 规则在这里确实适用——因为收入来源于个人临床技能——但结构规划仍然带来有意义的好处："
+          ],
+          "bullets": [
+            "如果你拥有并经营一家雇用他人的诊所，PSI 不太可能适用于业务收入",
+            "公司税率 25%，对比个人最高 47% 税率",
+            "更好的资产保护——对于面临个人责任风险的从业者尤为重要"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "专职医疗服务免 GST 吗？",
+        "健康服务免 GST 的条件",
+        "部分专职医疗收入适用 GST",
+        "承包商还是员工？最具影响力的问题"
+      ]
+    }
+  }
+}

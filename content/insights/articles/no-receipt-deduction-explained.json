@@ -1,0 +1,120 @@
+{
+  "slug": "no-receipt-deduction-explained",
+  "publishedAt": "2026-03-05",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "The $1,000 No-Receipt Deduction: What It Actually Means for Your Tax Return",
+        "excerpt": "It Is Not $1,000 Back in Your Pocket — And for Many People It Could Cost Them Money",
+        "category": "Individual tax",
+        "tag": "Explainer"
+      },
+      "intro": "The new $1,000 instant deduction for work-related expenses has been widely discussed — and widely misunderstood. Many people believe it means the ATO sends them $1,000. It does not. This article explains what the policy actually does, who benefits, and why some workers will be worse off using it.",
+      "sections": [
+        {
+          "title": "What the Policy Actually Does",
+          "paragraphs": [
+            "The policy allows employees to claim up to $1,000 in work-related deductions without needing receipts. This is a simplified claiming method — it removes the burden of keeping records for smaller purchases."
+          ]
+        },
+        {
+          "title": "Deduction ≠ Refund: The Most Common Misconception",
+          "paragraphs": [
+            "A deduction reduces your taxable income — it does not reduce your tax bill by the same amount.",
+            "How much you save depends on your marginal tax rate.",
+            "At a 30% marginal rate: $1,000 deduction × 30% = $300 tax saving",
+            "At a 16% marginal rate: $1,000 deduction × 16% = $160 tax saving",
+            "The ATO is not giving you $1,000. It is giving you a fraction of that.",
+            "Who Does This Policy Actually Help?"
+          ]
+        },
+        {
+          "title": "The $1,000 Method Genuinely Helps These People",
+          "paragraphs": [
+            "People who keep no receipts at all and would otherwise claim $0: Any deduction is better than nothing.",
+            "People whose genuine work-related spending is genuinely under $1,000: The simplified method covers them without the recordkeeping burden.",
+            "Who Could Be Worse Off?",
+            "The average work-related deduction claimed by Australian employees is approximately $3,000. If your actual legitimate expenses exceed $1,000 — which is common for anyone who works from home, uses a car for work, or buys tools, uniforms or professional memberships — then using the $1,000 simplified method could cost you money.",
+            "In these cases, keeping records and claiming your actual deductions will produce a larger refund (or smaller tax bill) than accepting the $1,000 shortcut."
+          ],
+          "bullets": [
+            "Work-from-home employees often have genuine deductions of $2,000–$3,000+ via the actual cost or fixed rate methods",
+            "Tradespeople and field workers frequently have legitimate tool and vehicle costs well above $1,000",
+            "Anyone who has invested in professional development, software or equipment during the year"
+          ]
+        },
+        {
+          "title": "The Bottom Line",
+          "paragraphs": [
+            "The $1,000 no-receipt deduction is a convenience, not a windfall. If you spend on work-related items throughout the year, keeping even basic records — photos of receipts on your phone, a simple spreadsheet, or an app like Xero — allows you to claim what you are actually entitled to, which is almost always more than $1,000.",
+            "If you are unsure whether your deductions would exceed $1,000, a quick review with a registered tax agent before lodgement can make a meaningful difference to your outcome."
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "What the Policy Actually Does",
+        "Deduction ≠ Refund: The Most Common Misconception",
+        "The $1,000 Method Genuinely Helps These People",
+        "The Bottom Line"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "澳洲 $1,000 免收据扣税：这笔钱到底是怎么回事？",
+        "excerpt": "不是退给你 $1,000——对很多人来说，用这个方法反而可能亏",
+        "category": "个人税务",
+        "tag": "解读"
+      },
+      "intro": "关于 $1,000 工作相关支出即时扣除的讨论铺天盖地，误解也随之而来。很多人以为 ATO 直接退给他们 $1,000——并非如此。这篇文章解释这项政策的真实含义、谁会受益，以及为什么对某些打工人来说，用这种方式申报反而吃亏。",
+      "sections": [
+        {
+          "title": "这项政策实际上做了什么",
+          "paragraphs": [
+            "这项政策允许员工在无需提供收据的情况下，申报最多 $1,000 的工作相关扣除。这是一种简化申报方式——减少了小额消费的记录负担。"
+          ]
+        },
+        {
+          "title": "扣除 ≠ 退税：最常见的误解",
+          "paragraphs": [
+            "扣除额是减少你的应税收入，而不是直接减少同等金额的税款。",
+            "你实际节省多少，取决于你的边际税率。",
+            "税率 30%：$1,000 扣除 × 30% = 省下 $300 税",
+            "税率 16%：$1,000 扣除 × 16% = 省下 $160 税",
+            "ATO 给你的不是 $1,000，而是这笔钱的一个小数。",
+            "这项政策真正帮助了谁？"
+          ]
+        },
+        {
+          "title": "1,000 简化方案真正受益的人群",
+          "paragraphs": [
+            "完全没有保留任何收据、否则只能申报 $0 的人：有总比没有强。",
+            "实际工作相关支出确实低于 $1,000 的人：简化方式覆盖了他们的开支，还省去了记账负担。",
+            "谁可能反而吃亏？",
+            "澳洲员工申报的工作相关扣除平均约为 $3,000。如果你的实际合理支出超过 $1,000——这对在家工作、用车出行、购买工具、制服或专业会员的人来说很常见——那么使用 $1,000 简化方法可能让你少退税。",
+            "在这些情况下，保留记录并申报真实扣除，会带来比接受 $1,000 简化方案更高的退税——或更低的税单。"
+          ],
+          "bullets": [
+            "居家工作的员工通过实际成本法或固定费率法，往往有 $2,000–$3,000 以上的真实扣除",
+            "技工和外勤人员经常有合理的工具和车辆成本，远超 $1,000",
+            "任何在年内投资了专业发展、软件或设备的人"
+          ]
+        },
+        {
+          "title": "结论",
+          "paragraphs": [
+            "$1,000 免收据扣除是一种便利，而非意外之财。如果你全年有工作相关支出，哪怕只是用手机拍一张收据照片、维护一个简单的表格，或者使用 Xero 这类应用，就能申报你真正有权享受的扣除——几乎总是超过 $1,000。",
+            "如果你不确定自己的扣除是否会超过 $1,000，在报税前进行一次简短的税代审查，往往能对最终结果产生实质性的影响。"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "这项政策实际上做了什么",
+        "扣除 ≠ 退税：最常见的误解",
+        "1,000 简化方案真正受益的人群",
+        "结论"
+      ]
+    }
+  }
+}

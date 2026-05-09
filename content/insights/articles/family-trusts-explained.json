@@ -1,0 +1,160 @@
+{
+  "slug": "family-trusts-explained",
+  "publishedAt": "2025-10-21",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "Why High-Income Australians Use Family Trusts — And What You Need to Know Before Setting One Up",
+        "excerpt": "Income Splitting, Asset Protection, CGT Discounts and the Risks Most People Miss",
+        "category": "Business tax",
+        "tag": "Explainer"
+      },
+      "intro": "You may have heard that wealthy Australians use trusts to pay less tax. This is broadly true — but the details matter significantly. Trusts are not a shortcut or a loophole; they are a legitimate structure that, when used correctly, can produce meaningful tax savings and asset protection. When used incorrectly — or set up without proper advice — they create compliance risks and potential penalties. This guide explains how a family discretionary trust works, when it makes sense, and the key rules you must follow.",
+      "sections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "What Is a Trust?",
+            "A discretionary trust is a legal arrangement where a trustee holds and manages assets on behalf of beneficiaries. The trustee has discretion each year to decide how to distribute income among the beneficiaries — which is where the tax benefit lies."
+          ],
+          "bullets": [
+            "Assets legally belong to the trust, not to you personally",
+            "Income can be distributed each year to the beneficiary with the lowest marginal tax rate",
+            "Beneficiaries can include a spouse, parents, adult children, or a corporate beneficiary (a company)"
+          ]
+        },
+        {
+          "title": "How Income Splitting Saves Tax",
+          "paragraphs": [
+            "The tax benefit of a trust comes from income splitting. In Australia, each individual has their own tax-free threshold and progressive rate bands. By distributing business or investment income across multiple lower-income family members, the overall family tax bill can be significantly reduced."
+          ]
+        },
+        {
+          "title": "Income Splitting Example",
+          "paragraphs": [
+            "Example: Business earns $300,000. If all income is taxed in one person's name at 45% rate on the top portion, total tax exceeds $100,000.",
+            "With a trust: distribute $80,000 to a lower-income spouse (rate ~19%), $60,000 to a parent (rate ~19%), retain some in a corporate beneficiary (25%).",
+            "Total tax on the same $300,000 can be reduced by $20,000–$40,000 per year, depending on each beneficiary's other income.",
+            "The trust does not create income — it redirects existing income to lower-taxed individuals."
+          ]
+        },
+        {
+          "title": "CGT Discount Through a Trust",
+          "paragraphs": [
+            "If a trust holds an investment (property, shares) for more than 12 months and then sells it, the trust qualifies for the 50% CGT discount on the gain. The discounted capital gain can then be distributed to beneficiaries with low taxable income — dramatically reducing the effective tax rate on that gain."
+          ]
+        },
+        {
+          "title": "Asset Protection",
+          "paragraphs": [
+            "Because assets inside a trust are legally owned by the trust (not by you personally), they are generally protected from claims against you individually. This is particularly valuable for business owners, professionals with liability exposure, and anyone who has accumulated significant assets."
+          ]
+        },
+        {
+          "title": "Critical Rules: What Can Go Wrong",
+          "paragraphs": [
+            "NSW and Victoria impose higher land tax rates on properties held in trusts (often with no tax-free threshold, at 1.6% per year). For investment properties, land tax must be factored into the cost-benefit analysis.",
+            "Trusts must make income distribution resolutions by 30 June each year. Missing this deadline has severe tax consequences — all undistributed income is taxed at the top rate of 47%.",
+            "The ATO's PCG 2025/5 guideline identifies high-risk trust arrangements, including those set up primarily for tax avoidance. A trust must have genuine commercial purpose.",
+            "Setting up a trust without professional legal and tax advice is strongly discouraged.",
+            "Who Should Consider a Trust?"
+          ]
+        },
+        {
+          "title": "Trust Suitability Checklist",
+          "paragraphs": [
+            "Combined family income above $150,000, with meaningful differences in each member's tax rate",
+            "Business owners generating consistent profit who want to distribute income tax-efficiently across family",
+            "Investors with significant capital assets (shares, property, commercial interests) who want CGT planning flexibility",
+            "Anyone who wants a structural separation between operating business risk and accumulated personal wealth",
+            "A trust typically costs $2,000–$3,000 to establish (legal drafting and registration) and $1,500–$2,500 per year to maintain (trust tax return and trustee minutes). These costs need to be weighed against the annual tax saving. At a combined family income of $150,000–$200,000+, the saving typically exceeds the cost."
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "Overview",
+        "How Income Splitting Saves Tax",
+        "Income Splitting Example",
+        "CGT Discount Through a Trust"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "澳洲高收入人群为什么钟爱信托？设立前必须了解的一切",
+        "excerpt": "收入分配、资产保护、CGT 折扣，以及大多数人忽略的风险",
+        "category": "企业税务",
+        "tag": "解读"
+      },
+      "intro": "你可能听说过，澳洲有钱人通过信托少交税。这在很大程度上是事实——但细节至关重要。信托不是捷径或漏洞，而是一种合法架构：使用得当可以带来可观的节税效果和资产保护；使用不当——或在没有专业建议的情况下设立——则会产生合规风险和潜在罚款。 这篇指南解释家族全权信托的运作方式、何时适合使用，以及必须遵守的关键规则。",
+      "sections": [
+        {
+          "title": "概览",
+          "paragraphs": [
+            "什么是信托？",
+            "全权信托是一种法律安排，受托人代受益人持有和管理资产。受托人每年可以自行决定如何在受益人之间分配收入——这正是税务优势的来源。"
+          ],
+          "bullets": [
+            "资产在法律上属于信托，而非你个人",
+            "每年可以将收入分配给边际税率最低的受益人",
+            "受益人可以包括配偶、父母、成年子女，或公司受益人"
+          ]
+        },
+        {
+          "title": "收入分配如何省税",
+          "paragraphs": [
+            "信托的税务优势来自收入分配。在澳洲，每个人都有各自的免税额度和累进税率区间。通过将业务或投资收入分配给多位低收入家庭成员，家庭总体税务负担可以显著降低。"
+          ]
+        },
+        {
+          "title": "收入分配举例",
+          "paragraphs": [
+            "举例：生意年盈利 $300,000。如果全部以一人名义征税，最高税率部分按 45% 计，总税额超过 $100,000。",
+            "有信托：向低收入配偶分配 $80,000（税率约 19%），向父母分配 $60,000（税率约 19%），部分留存于公司受益人（25%）。",
+            "同样的 $300,000，总税额可降低 $20,000–$40,000/年，具体取决于每位受益人的其他收入。",
+            "信托不创造收入，而是将已有收入重新分配给税率更低的人。"
+          ]
+        },
+        {
+          "title": "通过信托享受 CGT 折扣",
+          "paragraphs": [
+            "如果信托持有一项投资（房产、股票）超过 12 个月后出售，可以享受 50% 的 CGT 折扣。折扣后的资本利得可以分配给应税收入较低的受益人，从而大幅降低这笔利得的实际税率。"
+          ]
+        },
+        {
+          "title": "资产保护",
+          "paragraphs": [
+            "由于信托内资产在法律上归信托所有（而非你个人），通常可以免受针对你个人的追索。这对业主、有责任风险敞口的专业人士，以及已积累大量资产的人尤为重要。"
+          ]
+        },
+        {
+          "title": "关键规则：哪里可能出问题",
+          "paragraphs": [
+            "维多利亚州和新南威尔士州对信托持有的房产征收更高的土地税率（通常没有免税额，按每年 1.6% 征收）。对于投资房，必须将土地税纳入成本效益分析。",
+            "信托必须在每年 6 月 30 日之前完成收益分配决议。错过这一截止日期后果严重——所有未分配收益将按最高税率 47% 征税。",
+            "ATO 的 PCG 2025/5 指引明确了高风险信托安排，包括主要以避税为目的设立的信托。信托必须有真实的商业目的。",
+            "强烈不建议在没有专业法律和税务建议的情况下自行设立信托。",
+            "哪类人应该考虑信托？"
+          ]
+        },
+        {
+          "title": "信托适合性评估",
+          "paragraphs": [
+            "家庭合并收入超过 $150,000，且各成员税率有明显差异",
+            "有稳定盈利的业主，希望以税务高效的方式向家庭成员分配收入",
+            "拥有大量资本资产（股票、房产、商业权益），需要 CGT 规划灵活性的投资者",
+            "希望在经营业务风险与个人积累财富之间建立结构性隔离的人",
+            "信托通常设立成本为 $2,000–$3,000（法律起草和注册），每年维护成本约 $1,500–$2,500（信托税表和受托人会议记录）。这些成本需要与每年节税额进行比较。家庭合并收入达到 $150,000–$200,000 以上时，节税通常能覆盖成本。"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "概览",
+        "收入分配如何省税",
+        "收入分配举例",
+        "通过信托享受 CGT 折扣"
+      ]
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "slug": "solo-saas-founder-tax-guide",
+  "publishedAt": "2026-02-20",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "Solo SaaS Founder & Indie App Developer Tax in Australia",
+        "excerpt": "Stripe Income, Overseas Revenue, ABN, GST, Company Structure & PSI Rules",
+        "category": "Business tax",
+        "tag": "Guide"
+      },
+      "intro": "You have built a product that generates recurring revenue — subscriptions, one-time purchases, or usage-based billing. Whether it is a web app, a mobile app, a browser extension, or an API, the ATO treats that income as business income from day one. And the way you structure and report it matters enormously as it scales. This guide addresses the specific tax questions that solo founders and indie developers ask us most — particularly around international revenue, GST registration, and when a company makes sense.",
+      "sections": [
+        {
+          "title": "Do I Need an ABN?",
+          "paragraphs": [
+            "If you are selling access to software or digital products — even if everything runs automatically and you are not actively working for a client — you are running a business and need an ABN.",
+            "Operating without an ABN when you should have one is a compliance risk, and it also prevents you from legitimately claiming GST credits on your development costs and subscriptions."
+          ]
+        },
+        {
+          "title": "What Income Must Be Declared?",
+          "paragraphs": [
+            "If you sell lifetime deals in a single launch period (e.g. $80k in one month), the ATO treats this as income in the year received — not spread across future years. Plan for the tax liability in the same financial year."
+          ],
+          "bullets": [
+            "Stripe, Paddle, Lemon Squeezy, or Gumroad revenue — all assessable in AUD at the exchange rate on each payment date",
+            "App Store (Apple) and Google Play developer payouts",
+            "SaaS subscription revenue at any pricing tier",
+            "Lifetime deal sales (e.g. AppSumo launches)",
+            "API usage-based billing",
+            "Affiliate commissions earned through your product ecosystem",
+            "Consulting or custom development work alongside your product income"
+          ]
+        },
+        {
+          "title": "GST and International Software Revenue",
+          "paragraphs": [
+            "This is where solo founders consistently run into issues. The key rules:"
+          ]
+        },
+        {
+          "title": "GST for Software Products — Key Rules",
+          "paragraphs": [
+            "Threshold: Once your total business turnover exceeds $75,000/year, GST registration is compulsory.",
+            "Australian customers: You must collect and remit 10% GST on sales to Australian-based customers.",
+            "Overseas customers: Sales to non-Australian customers are typically GST-free as Exported Services — but you must still be registered once the threshold is met.",
+            "Platform-collected GST: Some platforms (Paddle, Apple, Google) act as the \"merchant of record\" and handle GST obligations on Australian sales directly. This does not eliminate your registration obligation."
+          ]
+        },
+        {
+          "title": "Common GST Mistakes for SaaS Founders",
+          "paragraphs": [
+            "Many solo founders think \"my customers are mostly overseas so I don't need to register.\" Incorrect — once total turnover exceeds $75,000, registration is required regardless.",
+            "If a platform like Paddle collects GST on your behalf for Australian sales, you need to understand your net reporting obligations. Your revenue figure may already be net of GST collected by the platform.",
+            "Stripe alone does not handle Australian GST obligations for you."
+          ]
+        },
+        {
+          "title": "What Development and Business Expenses Can I Claim?",
+          "paragraphs": [
+            "The key points are below:"
+          ],
+          "bullets": [
+            "Cloud hosting and infrastructure — AWS, GCP, Azure, Vercel, Fly.io monthly costs",
+            "Software and SaaS subscriptions used in your stack — GitHub Pro, Linear, Figma, Notion",
+            "Domain names and SSL certificates",
+            "Third-party APIs and services — Twilio, SendGrid, Stripe fees, authentication services",
+            "Contractor payments — designers, developers, VA (with proper invoices and ABNs)",
+            "Marketing and growth spend — SEO tools, advertising, Product Hunt launches",
+            "Accounting software and bookkeeping costs",
+            "Computer, peripherals and home office setup (business-use portion)",
+            "Professional development — courses, conferences, technical certifications",
+            "Legal and compliance costs — terms of service, privacy policy, incorporation"
+          ]
+        },
+        {
+          "title": "Company or Sole Trader — The PSI Question",
+          "paragraphs": [
+            "This is the most nuanced question for solo founders. The ATO's Personal Services Income (PSI) rules are designed to prevent individuals from routing personal-effort income through a company to access lower tax rates.",
+            "The good news for product businesses: PSI rules are generally less likely to apply when:"
+          ],
+          "bullets": [
+            "Revenue comes from a product (software subscription) rather than your personal service to specific clients",
+            "You have multiple unrelated customers — the income is not tied to any single client relationship",
+            "The product operates autonomously — revenue is generated without you delivering work to specific individuals"
+          ]
+        },
+        {
+          "title": "PSI Assessment for SaaS Businesses",
+          "paragraphs": [
+            "Pure product revenue (SaaS, app, digital downloads): PSI unlikely to apply — company tax planning is viable",
+            "Mixed income (product + consulting for individual clients): PSI assessment required — portion may be PSI",
+            "Consulting-only with a \"product\" label: PSI likely applies — company may not provide the expected tax benefit",
+            "When in doubt: a professional assessment of your specific income profile is far cheaper than getting it wrong",
+            "A company taxed at 25% versus personal rates of up to 47% on the same profit represents a very significant difference as your MRR grows. The right time to set up a company is before you need it — not after."
+          ]
+        },
+        {
+          "title": "Foreign Currency Income",
+          "paragraphs": [
+            "If you receive revenue in USD, EUR, or other currencies, every payment must be converted to AUD at the exchange rate on the date of receipt. This applies to Stripe payouts, PayPal transfers, and any other foreign currency income. Maintaining accurate records of conversion rates is essential — a bookkeeping system that connects directly to your payment processor (e.g. Xero + Stripe integration) handles this automatically."
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "Do I Need an ABN?",
+        "What Income Must Be Declared?",
+        "GST and International Software Revenue",
+        "GST for Software Products — Key Rules"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "澳洲独立 SaaS 创始人与 App 开发者税务指南",
+        "excerpt": "Stripe 收入、海外收款、ABN、GST、公司架构与 PSI 规则",
+        "category": "企业税务",
+        "tag": "指南"
+      },
+      "intro": "你构建了一个产生持续性收入的产品——订阅、一次性购买或按用量计费。无论是 Web 应用、移动 App、浏览器插件还是 API，ATO 从第一天起就将其视为商业收入。随着规模扩大，你如何申报和架构这些收入，影响极其显著。 这篇指南专门解答独立创始人和开发者最常问我们的税务问题——尤其是关于国际收入、GST 注册以及何时注册公司。",
+      "sections": [
+        {
+          "title": "我需要申请 ABN 吗？",
+          "paragraphs": [
+            "如果你在销售软件访问权限或数字产品——即便一切都自动运行，你没有为特定客户主动工作——你就是在经营一门生意，需要 ABN。",
+            "在应当申请 ABN 时未申请，存在合规风险，也会导致你无法合法申请开发成本和订阅费的 GST 抵扣。"
+          ]
+        },
+        {
+          "title": "哪些收入必须申报？",
+          "paragraphs": [
+            "如果你在一个首发周期内销售终身授权（例如一个月内获得 $80k），ATO 将其视为当年收入——而非分摊到未来几年。在同一财年内做好税务负债规划。"
+          ],
+          "bullets": [
+            "Stripe、Paddle、Lemon Squeezy 或 Gumroad 收入 — 均按每笔付款日期的汇率换算为澳元后申报",
+            "App Store（苹果）和 Google Play 开发者收益",
+            "任何定价层级的 SaaS 订阅收入",
+            "终身授权销售（如 AppSumo 首发活动）",
+            "API 按用量计费收入",
+            "通过产品生态赚取的联盟佣金",
+            "与产品收入并行的咨询或定制开发工作"
+          ]
+        },
+        {
+          "title": "GST 与国际软件收入",
+          "paragraphs": [
+            "这是独立创始人最容易出现问题的地方。关键规则如下："
+          ]
+        },
+        {
+          "title": "SaaS 产品 GST 核心规则",
+          "paragraphs": [
+            "门槛：一旦总营业额超过 $75,000/年，注册 GST 就是法律义务。",
+            "澳洲客户：必须向澳洲客户收取并缴纳 10% GST。",
+            "海外客户：向非澳洲客户的销售通常属于「出口服务」免除 GST——但一旦超过门槛，仍需注册。",
+            "平台代收 GST：部分平台（Paddle、苹果、谷歌）作为「记录商」直接处理澳洲销售的 GST 义务。这并不消除你的注册义务。"
+          ]
+        },
+        {
+          "title": "SaaS 创始人 GST 常见错误",
+          "paragraphs": [
+            "很多独立创始人认为「大部分客户在海外所以不需要注册」。这是错误的——一旦总营业额超过 $75,000，无论如何都需要注册。",
+            "如果 Paddle 等平台代你为澳洲销售代收 GST，你需要了解自己的净申报义务。你的收入数字可能已经是平台代扣 GST 后的净额。",
+            "仅靠 Stripe 并不会为你处理澳洲 GST 义务。"
+          ]
+        },
+        {
+          "title": "可以申报哪些开发和业务费用？",
+          "paragraphs": [
+            "重点如下："
+          ],
+          "bullets": [
+            "云端托管和基础设施 — AWS、GCP、Azure、Vercel、Fly.io 月费",
+            "技术栈中使用的软件和 SaaS 订阅 — GitHub Pro、Linear、Figma、Notion",
+            "域名和 SSL 证书",
+            "第三方 API 和服务 — Twilio、SendGrid、Stripe 手续费、认证服务",
+            "承包商付款 — 设计师、开发者、助手（需正规发票和 ABN）",
+            "营销和增长投入 — SEO 工具、广告、Product Hunt 首发",
+            "会计软件和记账成本",
+            "电脑、外设及居家办公设备（业务使用比例）",
+            "专业发展 — 课程、技术会议、认证",
+            "法律和合规成本 — 服务条款、隐私政策、公司注册"
+          ]
+        },
+        {
+          "title": "公司 vs Sole Trader — PSI 问题",
+          "paragraphs": [
+            "这是独立创始人面临的最复杂问题。ATO 的 Personal Services Income（PSI）规则旨在防止个人将个人劳动收入通过公司运作，以享受更低税率。",
+            "对于产品类业务，好消息是：当以下情况成立时，PSI 规则通常不太可能适用："
+          ],
+          "bullets": [
+            "收入来自产品（软件订阅），而非为特定客户提供个人服务",
+            "你有多个互不相关的客户——收入不依赖任何单一客户关系",
+            "产品自主运营——无需你向特定个人交付工作即可产生收入"
+          ]
+        },
+        {
+          "title": "SaaS 业务 PSI 评估参考",
+          "paragraphs": [
+            "纯产品收入（SaaS、App、数字下载）：PSI 不太可能适用——公司税务规划可行",
+            "混合收入（产品 + 为个人客户咨询）：需要 PSI 评估——部分可能属于 PSI",
+            "以「产品」名义运营的纯咨询：PSI 可能适用——公司未必能带来预期的节税效果",
+            "不确定时：专业的个人化收入评估远比做错后的代价便宜",
+            "公司税率 25% 与同等利润按个人最高 47% 税率之间，差距极为显著——随着每月经常性收入（MRR）增长，这一差距会进一步扩大。设立公司的最佳时机是在你需要它之前，而不是之后。"
+          ]
+        },
+        {
+          "title": "外币收入",
+          "paragraphs": [
+            "如果你以美元、欧元或其他货币收款，每笔收款必须按收款当日汇率换算为澳元。这适用于 Stripe 转账、PayPal 汇款和任何其他外币收入。保持准确的汇率转换记录至关重要——直接连接支付处理器的记账系统（如 Xero + Stripe 集成）可以自动处理这一工作。"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "我需要申请 ABN 吗？",
+        "哪些收入必须申报？",
+        "GST 与国际软件收入",
+        "SaaS 产品 GST 核心规则"
+      ]
+    }
+  }
+}

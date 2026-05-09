@@ -1,0 +1,158 @@
+{
+  "slug": "sole-trader-vs-company",
+  "publishedAt": "2025-12-02",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "Sole Trader vs Company in Australia: Which Structure Is Right for Your Business?",
+        "excerpt": "Tax Rates, Liability, Setup Costs and When to Make the Switch",
+        "category": "Business tax",
+        "tag": "Explainer"
+      },
+      "intro": "When you start a business in Australia, the first decision you make — whether intentionally or by default — is your business structure. Most people begin as a sole trader because it is simple. But as income grows, the tax and liability implications of staying as a sole trader become increasingly costly. This guide explains the real differences between the two most common structures, and gives you a practical framework for deciding when a company makes sense.",
+      "sections": [
+        {
+          "title": "Sole Trader — Simple, Fast, and Cheap to Start",
+          "paragraphs": [
+            "A sole trader is the simplest structure. You register an ABN, and business income flows directly into your personal tax return. There are no ASIC fees, no separate company tax return, and minimal compliance overhead."
+          ]
+        },
+        {
+          "title": "Sole Trader — Key Facts",
+          "paragraphs": [
+            "Setup cost: Free (ABN registration is free)",
+            "Tax: All business profit taxed at your personal marginal rate (up to 47% including Medicare Levy)",
+            "Liability: Unlimited — you are personally liable for all business debts and legal claims",
+            "Compliance: Lodge a tax return annually; BAS if GST registered",
+            "Best for: Early-stage business, low revenue, low legal risk (e.g. freelancers, creatives, consultants just starting out)",
+            "Company — More Expensive, But Capped Tax and Legal Protection",
+            "A company is a separate legal entity. It files its own tax return, pays the company tax rate, and provides a legal separation between the business and your personal assets."
+          ]
+        },
+        {
+          "title": "Company — Key Facts",
+          "paragraphs": [
+            "Setup cost: ~$600 ASIC registration + ongoing $310/year ASIC annual fee",
+            "Tax rate: 25% for base rate entities (turnover < $50M, with conditions)",
+            "Liability: Limited — creditors generally cannot pursue your personal assets for company debts",
+            "Compliance: Annual financial statements, company tax return, possible PAYG withholding",
+            "Best for: Established business, consistent high income, businesses with legal or contract risk",
+            "The Tax Rate Comparison — Where a Company Starts to Win",
+            "Tax Comparison: Sole Trader vs Company",
+            "Net business profit of $100,000:",
+            "Sole Trader (marginal rate approx. 34.5%): tax ≈ $22,000 on the profit above $45,000",
+            "Company (25% rate): tax ≈ $25,000 flat on $100,000",
+            "At $100k, the company is marginally more expensive due to no tax-free threshold.",
+            "Net business profit of $150,000:",
+            "Sole Trader (rate into 37-45% range): tax ≈ $47,500+",
+            "Company (25% flat): tax ≈ $37,500",
+            "Company saves approximately $10,000+ at this income level.",
+            "The breakeven point (where company tax saves money) is typically around $120,000–$150,000 net profit."
+          ]
+        },
+        {
+          "title": "The PSI Consideration — Not Every Business Qualifies for the 25% Rate",
+          "paragraphs": [
+            "PSI Warning: A Company Is Not Always the Answer",
+            "If your income is classified as Personal Services Income (PSI) — meaning it is derived primarily from your personal skills and effort, rather than from a product, team or business system — the ATO may attribute company profits back to you personally.",
+            "PSI rules apply to many IT contractors, consultants, designers and other service professionals who work for one or two dominant clients.",
+            "A company structure still provides liability protection under PSI, but the tax rate benefit may be limited.",
+            "Professional assessment of your income profile before setting up a company is strongly recommended.",
+            "When Should You Make the Switch?",
+            "If you are not yet at these income levels, a sole trader with an ABN is usually the right starting point. Setting up a company too early creates compliance costs without meaningful tax benefit."
+          ],
+          "bullets": [
+            "Net profit consistently above $120,000–$150,000 per year",
+            "You have multiple clients (reducing PSI risk)",
+            "You employ or plan to employ others, or take on contractors",
+            "Your business involves contracts, products, or services that carry legal risk",
+            "You want to retain profits in the business rather than draw everything as personal income"
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "Sole Trader — Simple, Fast, and Cheap to Start",
+        "Sole Trader — Key Facts",
+        "Company — Key Facts",
+        "The PSI Consideration — Not Every Business Qualifies for the 25% Rate"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "澳洲个体户 vs 公司：哪种商业架构适合你？",
+        "excerpt": "税率、责任保护、注册成本与何时切换的实用框架",
+        "category": "企业税务",
+        "tag": "解读"
+      },
+      "intro": "在澳洲开始做生意时，你做的第一个决定——无论有意还是无意——就是选择商业结构。大多数人一开始选择个体户，因为简单。但随着收入增长，继续以个体户身份运营的税务和责任代价会越来越高。 这篇指南解释两种最常见结构的真实区别，并给出一个判断何时注册公司合适的实用框架。",
+      "sections": [
+        {
+          "title": "个体户（Sole Trader）——简单、快速、启动成本低",
+          "paragraphs": [
+            "个体户是最简单的结构。注册 ABN 后，生意收入直接进入个人税表。没有 ASIC 年费，没有独立的公司报税，合规成本极低。"
+          ]
+        },
+        {
+          "title": "个体户——核心数据",
+          "paragraphs": [
+            "注册成本：免费（ABN 注册免费）",
+            "税率：所有业务利润按个人边际税率征税（含医疗保险税最高 47%）",
+            "责任：无限责任——你对所有业务债务和法律索赔承担个人责任",
+            "合规：每年申报一次税表；如已注册 GST 还需申报 BAS",
+            "适合：初创阶段、收入不高、法律风险低（如刚起步的自由职业者、创意人、顾问）",
+            "公司（Company）——成本较高，但税率封顶且有法律保护",
+            "公司是独立的法律实体，拥有独立税表，按公司税率纳税，并在业务与个人资产之间提供法律隔离。"
+          ]
+        },
+        {
+          "title": "公司——核心数据",
+          "paragraphs": [
+            "注册成本：约 $600 ASIC 注册费 + 每年 $310 ASIC 年费",
+            "税率：基本税率实体适用 25%（营业额低于 $5000 万，需符合条件）",
+            "责任：有限责任——债权人通常无法追索你的个人资产",
+            "合规：年度财务报表、公司税表，可能涉及 PAYG 预扣义务",
+            "适合：成熟业务、稳定高收入、有法律或合同风险的生意",
+            "税率对比——公司什么时候开始划算",
+            "税率对比：个体户 vs 公司",
+            "净利润 $100,000：",
+            "个体户（边际税率约 34.5%）：超过 $45,000 部分税约 $22,000",
+            "公司（25% 固定税率）：$100,000 × 25% = $25,000",
+            "在 $100k 水平，公司因无免税起点，税款略高于个体户。",
+            "净利润 $150,000：",
+            "个体户（进入 37–45% 税率区间）：税约 $47,500 以上",
+            "公司（25% 固定）：税约 $37,500",
+            "公司在此收入水平节税约 $10,000 以上。",
+            "公司开始省税的收支平衡点通常在净利润 $120,000–$150,000 左右。"
+          ]
+        },
+        {
+          "title": "PSI 问题——不是所有生意都能享受 25% 税率",
+          "paragraphs": [
+            "PSI 警示：公司并不总是答案",
+            "如果你的收入被认定为 Personal Services Income（PSI）——即主要来自个人技能和劳动，而非产品、团队或商业系统——ATO 可能将公司利润归属回你个人名下。",
+            "PSI 规则适用于很多 IT 承包商、顾问、设计师等主要服务一两个主要客户的专业人士。",
+            "在 PSI 情况下，公司结构仍然提供责任保护，但税率优势可能受限。",
+            "在注册公司之前，强烈建议对你的收入结构进行专业评估。",
+            "什么时候应该切换到公司？",
+            "如果你的收入还没有达到这些水平，以 ABN 形式作为个体户通常是正确的起点。过早注册公司会产生合规成本，却没有实质性的税务收益。"
+          ],
+          "bullets": [
+            "净利润稳定超过 $120,000–$150,000/年",
+            "有多个客户（降低 PSI 风险）",
+            "已经雇员或计划雇员，或接纳承包商",
+            "业务涉及带有法律风险的合同、产品或服务",
+            "想将利润留存在公司内用于再投资，而非全部以个人收入提取"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "个体户（Sole Trader）——简单、快速、启动成本低",
+        "个体户——核心数据",
+        "公司——核心数据",
+        "PSI 问题——不是所有生意都能享受 25% 税率"
+      ]
+    }
+  }
+}

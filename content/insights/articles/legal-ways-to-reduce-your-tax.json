@@ -1,0 +1,164 @@
+{
+  "slug": "legal-ways-to-reduce-your-tax",
+  "publishedAt": "2026-05-07",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "5 Legal Ways to Reduce Your Australian Tax Bill",
+        "excerpt": "Super Contributions, Investment Property Depreciation, Vehicle Expenses, Work-from-Home and Private Health Cover",
+        "category": "Individual tax",
+        "tag": "Checklist"
+      },
+      "intro": "Most tax optimisation is not about clever strategies or grey-area claims. It is about making sure you are using every legitimate entitlement you are already qualified for. Here are five of the most commonly missed opportunities — each legal, ATO-compliant, and available to most working Australians.",
+      "sections": [
+        {
+          "title": "Extra Super Contributions — Particularly Valuable at Higher Income Levels",
+          "paragraphs": [
+            "Voluntary concessional (before-tax) superannuation contributions are taxed at only 15% inside the fund — regardless of your marginal rate. For someone earning $135,000 (37% marginal rate), each $1 contributed to super saves 22 cents in tax compared to taking the same dollar as salary."
+          ],
+          "bullets": [
+            "The 2025-26 concessional contribution cap is $30,000 per year (including your employer's SGC contributions)",
+            "If your super balance is under $500,000, you may be able to carry forward unused caps from the past five years",
+            "You must submit a Notice of Intent to Claim a Deduction to your super fund before lodging your tax return — without this form, the tax deduction cannot be claimed",
+            "Most valuable for individuals earning over $90,000, particularly in the 37–45% tax brackets"
+          ]
+        },
+        {
+          "title": "Investment Property Depreciation — The Deduction Most Landlords Miss",
+          "paragraphs": [
+            "Most investment property owners claim their mortgage interest. Far fewer claim the depreciation deductions they are entitled to. Building depreciation (Div 43) and plant and equipment depreciation (Div 40) — hot water systems, air conditioning, carpets, blinds — are legitimate annual deductions that require a Tax Depreciation Schedule from a Quantity Surveyor."
+          ],
+          "bullets": [
+            "Cost of a depreciation schedule: approximately $300–$500 (one-time)",
+            "Typical annual depreciation deduction: $3,000–$15,000+ depending on property age and fit-out",
+            "The depreciation report is reused every year for the life of the property — it is one of the most cost-effective tax investments available",
+            "Note: Do not confuse repairs (immediately deductible) with capital improvements (depreciated over 40 years)"
+          ]
+        },
+        {
+          "title": "Work-Related Vehicle Expenses",
+          "paragraphs": [
+            "Travel between your home and regular workplace is not deductible. But travel between client sites, to a second workplace, to carry heavy equipment, or to attend work-related training can be claimed. There are two methods:"
+          ]
+        },
+        {
+          "title": "Car Expense Methods",
+          "paragraphs": [
+            "Cents per Kilometre Method: 85 cents per kilometre (2025-26 rate) for up to 5,000 km. No receipts required — but you must have a reasonable basis for the distance claimed.",
+            "Logbook Method: Keep a continuous log for 12 weeks covering date, destination, purpose, and distance. Apply the business-use percentage to actual annual vehicle costs (fuel, insurance, registration, depreciation). Usually produces a larger deduction for high work-use vehicles."
+          ]
+        },
+        {
+          "title": "Working From Home — Two Options, Different Outcomes",
+          "paragraphs": [
+            "If you worked from home during the year, you can claim either:"
+          ],
+          "bullets": [
+            "Fixed Rate Method: 67 cents per hour worked from home. This already includes phone, internet, stationery and consumables — do not also claim these separately.",
+            "Actual Cost Method: Claim the actual proportion of electricity, internet, and equipment depreciation used for work purposes. Requires a dedicated work area and detailed records. Often produces a higher deduction for those with a home office."
+          ]
+        },
+        {
+          "title": "Private Hospital Cover — Avoiding the Medicare Levy Surcharge",
+          "paragraphs": [
+            "Australians earning above $93,000 (single) who do not hold an eligible private hospital policy are subject to the Medicare Levy Surcharge (MLS) of 1.0–1.5% of their taxable income. A basic hospital policy typically costs $1,200–$2,000 per year — often less than the surcharge you would otherwise pay."
+          ]
+        },
+        {
+          "title": "Medicare Levy Surcharge — Common Mistake",
+          "paragraphs": [
+            "Only hospital cover (not extras/general treatment cover) exempts you from the MLS.",
+            "Buying extras cover only (dental, optical, physiotherapy) does not remove the surcharge obligation.",
+            "If you are above the threshold and do not have hospital cover, review whether purchasing a basic policy would save you money on net."
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "Extra Super Contributions — Particularly Valuable at Higher Income Levels",
+        "Investment Property Depreciation — The Deduction Most Landlords Miss",
+        "Work-Related Vehicle Expenses",
+        "Car Expense Methods"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "澳洲合法减税的 5 种方法",
+        "excerpt": "Super 追加供款、投资房折旧、车辆费用、居家办公与私人住院险",
+        "category": "个人税务",
+        "tag": "清单"
+      },
+      "intro": "大多数税务优化不在于聪明的策略或打擦边球——而在于确保你把所有已有资格享受的合法权益都用上了。以下是五种最常被忽略的机会：每种方法都合法、符合 ATO 规定，且大多数在职澳洲人均可使用。",
+      "sections": [
+        {
+          "title": "追加 Super 供款——高收入者尤为有价值",
+          "paragraphs": [
+            "自愿的税前（concessional）超级年金供款在基金内只按 15% 征税——无论你的边际税率是多少。对于年收入 $135,000（边际税率 37%）的人来说，每向 Super 存入 $1，比作为薪水拿到手要少缴 22 分的税。"
+          ],
+          "bullets": [
+            "2025-26 财年税前供款上限为每年 $30,000（含雇主 SGC 缴款）",
+            "如果你的 Super 余额低于 $500,000，可以利用过去五年的未使用额度结转",
+            "必须在提交税表前向 Super 基金提交「意向索取扣除申报表（Notice of Intent to Claim a Deduction）」——没有这份表格，扣税无法申报",
+            "对年收入超过 $90,000、尤其是处于 37–45% 税率区间的人最有价值"
+          ]
+        },
+        {
+          "title": "投资房折旧——大多数房东漏报的扣除",
+          "paragraphs": [
+            "大多数投资房业主都申报了房贷利息，但只有少数人申报了他们有权享受的折旧扣除。建筑折旧（Div 43）和固定资产折旧（Div 40）——热水器、空调、地毯、百叶窗——是合法的年度扣除项，需要由工程造价师（Quantity Surveyor）出具税务折旧报告。"
+          ],
+          "bullets": [
+            "折旧报告费用：约 $300–$500（一次性）",
+            "年度折旧扣除额：$3,000–$15,000 以上，具体取决于房产年龄和装修情况",
+            "折旧报告在房产持有期内每年重复使用——是性价比最高的税务投资之一",
+            "注意：维修（当年全额扣除）和资本改良（40 年折旧）不要混淆"
+          ]
+        },
+        {
+          "title": "工作相关车辆费用",
+          "paragraphs": [
+            "从家到固定工作地点的通勤不可申报。但在客户现场之间出行、前往第二个工作地点、携带重型设备、或参加工作相关培训的车费可以申报。有两种方法："
+          ]
+        },
+        {
+          "title": "车辆费用申报方法",
+          "paragraphs": [
+            "每公里费率法（Cents per Kilometre）：2025-26 财年费率为每公里 $0.85，最多申报 5,000 公里。无需保留油费收据，但必须有合理依据支撑所申报的里程数。",
+            "行车日志法（Logbook Method）：连续记录 12 周的行车日志，包含日期、目的地、用途和里程。计算业务使用比例后，按该比例申报实际全年车辆费用（油费、保险、注册费、折旧）。对于工作用车比例高的人，通常扣除额更大。"
+          ]
+        },
+        {
+          "title": "居家办公——两种方法，结果不同",
+          "paragraphs": [
+            "如果你在本财年有居家工作，可以选择以下两种方法之一："
+          ],
+          "bullets": [
+            "固定费率法：每居家工作小时 $0.67。该费率已包含电话、网络、文具和耗材——不要再单独申报这些费用。",
+            "实际成本法：申报真实发生的电费、网费及设备折旧中用于工作的比例。需要有专用工作区域和详细记录。对拥有家庭办公室的人，通常扣除额更高。"
+          ]
+        },
+        {
+          "title": "私人住院险——避免缴纳 Medicare Levy Surcharge",
+          "paragraphs": [
+            "年收入超过 $93,000（单身）且未持有合格私人住院保险的澳洲人，须缴纳应税收入 1.0–1.5% 的 Medicare Levy Surcharge（MLS）。一份基础住院险通常每年 $1,200–$2,000——往往少于你本来需要支付的附加税。"
+          ]
+        },
+        {
+          "title": "Medicare Levy Surcharge——常见错误",
+          "paragraphs": [
+            "只有住院险（Hospital Cover）才能豁免 MLS，附加险（洗牙、配镜、物理治疗等）不能。",
+            "只购买附加险不能免除附加税义务。",
+            "如果你的收入超过门槛且没有住院险，建议核算一下购买基础住院险净额是否划算。"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "追加 Super 供款——高收入者尤为有价值",
+        "投资房折旧——大多数房东漏报的扣除",
+        "工作相关车辆费用",
+        "车辆费用申报方法"
+      ]
+    }
+  }
+}

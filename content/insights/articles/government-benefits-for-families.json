@@ -1,0 +1,136 @@
+{
+  "slug": "government-benefits-for-families",
+  "publishedAt": "2025-06-14",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "Having a Baby or Getting Married in Australia? Government Payments You May Be Entitled To",
+        "excerpt": "Parental Leave Pay, Family Tax Benefit, Child Care Subsidy & the Tax Trap Most Families Miss",
+        "category": "Individual tax",
+        "tag": "Guide"
+      },
+      "intro": "The Australian government provides substantial financial support for families with children. But many people either do not know these payments exist, do not claim them in full, or claim them incorrectly — and then receive an unexpected debt at tax time when their income estimate was wrong. Here is a practical guide to the main payments, what they are worth, and the tax reporting obligation that catches many families off guard.",
+      "sections": [
+        {
+          "title": "Parental Leave Pay",
+          "paragraphs": [
+            "The government pays up to 22 weeks of Parental Leave Pay after a baby is born (or adopted). The payment is made at the National Minimum Wage rate, currently approximately $915 per week before tax. Both mothers and fathers (or partners) can access the payment, and it can be split between parents."
+          ],
+          "bullets": [
+            "Apply through Centrelink — start the process before your baby is born",
+            "Payment is means-tested based on individual income ($168,865 individual / $350,000 family income cap for 2024-25)",
+            "Paid as a wage replacement, not as a supplement on top of employer parental leave"
+          ]
+        },
+        {
+          "title": "Family Tax Benefit — Part A and Part B",
+          "paragraphs": [
+            "Family Tax Benefit (FTB) is one of Australia's largest family support programs. It comes in two parts:"
+          ]
+        },
+        {
+          "title": "Family Tax Benefit Summary",
+          "paragraphs": [
+            "FTB Part A: Paid per child, based on family income and number of children. The maximum rate is approximately $222 per fortnight per child under 13 (higher for teenagers). Payments reduce as family income increases, phasing out at higher thresholds.",
+            "FTB Part B: Paid as a supplement to single-income families or families where one parent is the primary carer. Maximum approximately $188 per fortnight. Phases out based on the secondary earner's income."
+          ]
+        },
+        {
+          "title": "Child Care Subsidy",
+          "paragraphs": [
+            "The Child Care Subsidy (CCS) covers a percentage of approved childcare costs — up to 90% for lower-income families. The subsidy is calculated on family income, the number of children in care, and the type of childcare service. For families earning under $80,000, the maximum subsidy rate applies."
+          ]
+        },
+        {
+          "title": "Newborn Upfront Payment",
+          "paragraphs": [
+            "When you claim Family Tax Benefit Part A after a new baby, you may also receive a one-off Newborn Upfront Payment of approximately $667. This is paid automatically as part of the FTB claim process."
+          ]
+        },
+        {
+          "title": "The Tax Trap: Income Estimates and End-of-Year Reconciliation",
+          "paragraphs": [
+            "Critical: Update Your Income Estimate Throughout the Year",
+            "FTB and some other Centrelink payments are based on estimated family income during the year.",
+            "If your actual income turns out to be higher than your estimate, Centrelink will reconcile the payments at tax time — and you may owe money back.",
+            "The ATO and Centrelink systems share data. Inaccurate estimates are caught during automatic reconciliation.",
+            "Update your income estimate in myGov whenever your income changes significantly — mid-year, not just at the start.",
+            "Many families receive FTB throughout the year and then face a debt in July when the end-of-year reconciliation happens. The fix is straightforward: keep your Centrelink income estimate current. A registered tax agent can help you review your entitlements and avoid unexpected debts."
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "Parental Leave Pay",
+        "Family Tax Benefit — Part A and Part B",
+        "Family Tax Benefit Summary",
+        "Child Care Subsidy"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "在澳洲结婚生娃，政府会给你哪些钱？",
+        "excerpt": "Parental Leave Pay、Family Tax Benefit、Child Care Subsidy 及大多数家庭忽略的税务陷阱",
+        "category": "个人税务",
+        "tag": "指南"
+      },
+      "intro": "澳洲政府为有孩子的家庭提供了可观的财政支持。但很多人要么不知道这些福利的存在，要么没有足够申领，要么申报不正确——结果在税务季收到意外的欠款通知，因为全年收入估算出了差错。 以下是主要福利的实用指南：各项福利的金额、申请方式，以及一个让很多家庭措手不及的税务申报义务。",
+      "sections": [
+        {
+          "title": "Parental Leave Pay（带薪育儿假）",
+          "paragraphs": [
+            "政府在宝宝出生（或收养）后，最多支付 22 周的带薪育儿假。目前按最低工资标准发放，税前约每周 $915。妈妈和爸爸（或伴侣）均可申请，且可以分开使用。"
+          ],
+          "bullets": [
+            "通过 Centrelink 申请——宝宝出生前就要开始准备",
+            "根据个人收入进行收入测试（2024-25 年个人收入上限 $168,865 / 家庭 $350,000）",
+            "作为工资替代支付，而非叠加在雇主育儿假之上"
+          ]
+        },
+        {
+          "title": "Family Tax Benefit（家庭税务补贴）——A 部分和 B 部分",
+          "paragraphs": [
+            "Family Tax Benefit（FTB）是澳洲最大的家庭支持项目之一，分为两个部分："
+          ]
+        },
+        {
+          "title": "Family Tax Benefit 概览",
+          "paragraphs": [
+            "FTB Part A：按孩子人数和家庭收入计算，每孩每两周最高约 $222（13 岁以下），青少年更高。随家庭收入增加逐步递减。",
+            "FTB Part B：面向单收入家庭或主要照顾者，每两周最高约 $188。根据第二收入者的收入逐步减少。"
+          ]
+        },
+        {
+          "title": "Child Care Subsidy（儿童保育补贴）",
+          "paragraphs": [
+            "Child Care Subsidy（CCS）覆盖政府认可的托育费用的一定比例——低收入家庭最高可达 90%。补贴根据家庭收入、在读孩子数量及托育类型计算。家庭收入低于 $80,000 时，可享受最高补贴率。"
+          ]
+        },
+        {
+          "title": "Newborn Upfront Payment（新生儿一次性补贴）",
+          "paragraphs": [
+            "申请 Family Tax Benefit Part A 后，还可以一并获得约 $667 的新生儿一次性补贴。这笔钱在申请 FTB 时自动发放。"
+          ]
+        },
+        {
+          "title": "税务陷阱：收入估算与年底核算",
+          "paragraphs": [
+            "重要提示：全年保持收入估算更新",
+            "FTB 等 Centrelink 福利根据全年的家庭收入估算发放。",
+            "如果你的实际收入高于估算，Centrelink 会在税务季进行核算，你可能需要退还部分已领金额。",
+            "ATO 和 Centrelink 系统数据共享，收入估算不准确会在自动核算中被发现。",
+            "每当收入发生重大变化，就要在 myGov 中更新收入估算——全年都要保持更新，而不只是在年初填一次。",
+            "很多家庭全年领取 FTB，然后在 7 月年底核算时收到欠款通知。解决方法很简单：及时更新 Centrelink 的收入估算。注册税务代理可以帮你审查应得福利，避免意外欠款。"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "Parental Leave Pay（带薪育儿假）",
+        "Family Tax Benefit（家庭税务补贴）——A 部分和 B 部分",
+        "Family Tax Benefit 概览",
+        "Child Care Subsidy（儿童保育补贴）"
+      ]
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "slug": "saving-money-for-kids-tax-traps",
+  "publishedAt": "2025-08-12",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "Saving Money for Your Kids in Australia: 3 Tax Traps You Must Know",
+        "excerpt": "Interest Tax at 66%, CGT on Transfer, and the TFN Withholding Problem",
+        "category": "Individual tax",
+        "tag": "Explainer"
+      },
+      "intro": "Opening a savings account for your child feels like the responsible thing to do. But in Australia, certain common approaches to children's savings can result in tax rates that most adults never personally face — some as high as 66%. Here is what every parent needs to understand before moving money into a child's name.",
+      "sections": [
+        {
+          "title": "Trap 1: The High-Interest Account Is Actually a High-Tax Account",
+          "paragraphs": [
+            "When unearned income — interest, dividends, or investment income — is received by a minor (under 18), the ATO applies a special penalty tax regime. The effective tax rate on unearned income exceeding $416 per year escalates sharply:"
+          ]
+        },
+        {
+          "title": "Minor Unearned Income Tax Rates",
+          "paragraphs": [
+            "First $416:          0% — tax-free",
+            "$417 – $1,307:       66% — yes, two-thirds",
+            "Over $1,307:         45% — adult top rate applies",
+            "Note: With current savings rates at 4.5–5%+, a balance of just $9,000–$10,000 can push unearned income past the threshold.",
+            "Many parents are shocked to discover that a children's savings account — set up with the best intentions — ends up delivering a 66% tax rate on the interest earned. This is not a planning failure; it is simply the ATO's system working as designed. The solution is to choose the right savings vehicle from the start."
+          ]
+        },
+        {
+          "title": "Trap 2: Holding Shares in Your Own Name for Your Child — the CGT Time Bomb",
+          "paragraphs": [
+            "A common approach is for parents to buy shares or ETFs in their own name, intending to give them to a child at age 18. This feels neat and practical. But when you eventually transfer those assets to your adult child, the ATO treats that transfer as a disposal — triggering Capital Gains Tax (CGT) on any accumulated growth, taxed at your marginal rate."
+          ]
+        },
+        {
+          "title": "Why \"I Will Transfer It Later\" Creates a Costly Problem",
+          "paragraphs": [
+            "You hold $50,000 worth of shares for 15 years. They grow to $120,000.",
+            "When you transfer them to your now-adult child, you trigger a CGT event on $70,000 of gain.",
+            "At a 45% marginal rate (minus the 50% CGT discount if held 12+ months), you owe tax on $35,000 — approximately $16,000 out of pocket.",
+            "If you planned to never formally transfer ownership, the CGT problem is deferred but not eliminated — it falls on your estate instead."
+          ]
+        },
+        {
+          "title": "Trap 3: No TFN Filed — the Bank Withholds at the Top Rate",
+          "paragraphs": [
+            "If a child's savings account does not have a Tax File Number (TFN) registered, and the interest earned exceeds $420 per year, the bank is required by law to withhold tax at the top rate of 47%. The withheld amount can eventually be reclaimed through a tax return — but your money is locked up with the ATO for the entire financial year, earning nothing.",
+            "Fix: Apply for your child's TFN (they can have one from birth) and register it with every financial institution that holds money in their name.",
+            "So What Are the Better Options?"
+          ]
+        },
+        {
+          "title": "Three Smarter Alternatives",
+          "paragraphs": [
+            "Investment Bonds: Earnings taxed internally at 30% (lower than high-income parent rates). After 10 years, all proceeds are tax-free. Ideal for parents in the 37–45% tax bracket who are committed to a long-term plan.",
+            "Informal Trust Account (Parent as A/C Child): Uses the format \"Parent Name <A/C Child Name>\". With proper documentation showing the funds genuinely belong to the child, future transfers may be CGT-exempt. Requires careful record-keeping from day one.",
+            "Offset Account Strategy: Place funds designated for a child inside your mortgage offset account. The \"return\" is your mortgage interest rate (currently 6%+), which is after-tax and risk-free. Simplest option with no tax complexity.",
+            "Each option has trade-offs around control, liquidity and tax efficiency. The right choice depends on your income, time horizon, and how committed you are to the funds genuinely becoming the child's. A 15-minute consultation can help you identify which structure suits your family."
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "Trap 1: The High-Interest Account Is Actually a High-Tax Account",
+        "Minor Unearned Income Tax Rates",
+        "Trap 2: Holding Shares in Your Own Name for Your Child — the CGT Time Bomb",
+        "Why \"I Will Transfer It Later\" Creates a Costly Problem"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "在澳洲给孩子存钱：必须知道的 3 个税务陷阱",
+        "excerpt": "利息税率高达 66%、CGT 转让炸弹、未填 TFN 被预扣",
+        "category": "个人税务",
+        "tag": "解读"
+      },
+      "intro": "给孩子开个储蓄账户，是很多父母认为理所当然的事。但在澳洲，某些常见的儿童存钱方式，可能让你面对连普通成年人都很少遇到的高税率——有时高达 66%。以下是每位父母在把钱放到孩子名下之前，必须了解的核心知识。",
+      "sections": [
+        {
+          "title": "陷阱一：「高息账户」实际上是「高税账户」",
+          "paragraphs": [
+            "当未成年人（18 岁以下）获得非劳动所得——如利息、分红或投资收益——时，ATO 对这些收入适用特殊的惩罚性税率。超过每年 $416 的非劳动所得，税率会急剧攀升："
+          ]
+        },
+        {
+          "title": "未成年人非劳动收入税率表",
+          "paragraphs": [
+            "前 $416：         0% — 免税",
+            "$417 – $1,307：  66% — 三分之二归税务局",
+            "超过 $1,307：     45% — 适用成人最高税率",
+            "注：当前储蓄利率达到 4.5–5%+，账户余额只需 $9,000–$10,000 就可能超过门槛。",
+            "很多父母在发现孩子储蓄账户的利息要缴 66% 的税时大为震惊——这并非规划失误，而是 ATO 制度的运作方式。解决办法是从一开始就选择正确的储蓄工具。"
+          ]
+        },
+        {
+          "title": "陷阱二：父母代持股票——CGT 定时炸弹",
+          "paragraphs": [
+            "很多家长以自己的名义购买股票或 ETF，打算等孩子 18 岁时再转给他。这听起来很简单，但当你把资产过户给已成年的孩子时，ATO 视此为一次「处置」行为，并按你的边际税率对增值部分征收资本利得税（CGT）。"
+          ]
+        },
+        {
+          "title": "为什么「以后再转给孩子」代价高昂",
+          "paragraphs": [
+            "你用自己名义持有 $50,000 的股票 15 年，增值到 $120,000。",
+            "将股票过户给孩子时，触发 $70,000 增值的 CGT 事件。",
+            "按 45% 边际税率（持有满 12 个月享 50% CGT 折扣后），大约需缴税 $16,000。",
+            "即便你打算一直不过户，问题也只是被推迟，并不会消失——最终由你的遗产承担。"
+          ]
+        },
+        {
+          "title": "陷阱三：未填 TFN——银行直接预扣 47%",
+          "paragraphs": [
+            "如果孩子的储蓄账户未登记税号（TFN），且年利息超过 $420，银行依法必须按最高税率 47% 预扣。这笔钱最终可以通过报税退回——但你的资金将在 ATO 「冻结」整整一年，毫无收益。",
+            "解决方法：为孩子申请 TFN（出生即可申请），并在每个持有其资金的金融机构完成登记。",
+            "那么，更好的替代方案是什么？"
+          ]
+        },
+        {
+          "title": "三种更聪明的替代方案",
+          "paragraphs": [
+            "投资债券（Investment Bond）：内部税率固定为 30%（低于高收入父母的边际税率）。持满 10 年后，全部本息均可免税提取。特别适合税率在 37–45% 区间、有长期规划意愿的父母。",
+            "非正式信托账户（Informal Trust）：账户名格式为「Parent Name <A/C Child Name>」。只要有充分记录证明资金真正归孩子所有，日后转让可能豁免 CGT。需要从第一天起就保持完整的记录。",
+            "房贷对冲账户策略（Offset Account）：把为孩子预留的资金放在自己的房贷对冲账户里。「收益」即为你的房贷利率（目前约 6%+），免税且无风险。操作最简单，零税务复杂度。",
+            "每种方案在控制权、流动性和税务效率方面各有取舍。最优选择取决于你的收入水平、投资期限，以及你有多大意愿让这笔钱真正属于孩子。15 分钟免费咨询可以帮你找到最适合家庭情况的结构。"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "陷阱一：「高息账户」实际上是「高税账户」",
+        "未成年人非劳动收入税率表",
+        "陷阱二：父母代持股票——CGT 定时炸弹",
+        "为什么「以后再转给孩子」代价高昂"
+      ]
+    }
+  }
+}

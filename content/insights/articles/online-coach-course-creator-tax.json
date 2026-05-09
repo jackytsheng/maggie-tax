@@ -1,0 +1,236 @@
+{
+  "slug": "online-coach-course-creator-tax",
+  "publishedAt": "2025-07-27",
+  "translations": {
+    "en": {
+      "card": {
+        "title": "Online Coach & Course Creator Tax in Australia",
+        "excerpt": "Kajabi, Teachable, Coaching Programs — ABN, GST, Income Tax & the Right Structure",
+        "category": "Business tax",
+        "tag": "Guide"
+      },
+      "intro": "If you sell online coaching programs, digital courses, or subscription memberships to Australian and overseas clients, your income is taxable in Australia — even if you receive payment through international platforms like Kajabi, Teachable, or Thinkific. Many coaches build six-figure businesses before ever thinking about their tax structure, which is exactly when it becomes expensive. This guide covers every key tax question for online educators and coaches, including the GST trap that catches most creators off guard.",
+      "sections": [
+        {
+          "title": "Do I Need an ABN?",
+          "paragraphs": [
+            "Yes. Once you are selling programs, packages, or memberships with the intention to profit, you are running a business — not a hobby. You need an ABN regardless of:",
+            "Without an ABN, businesses paying you may be required to withhold 47% of your fees. Register as a Sole Trader initially — company and trust structures become relevant as income scales."
+          ],
+          "bullets": [
+            "Whether you have another job or income source",
+            "The size of your coaching income",
+            "Whether your clients are in Australia or overseas"
+          ]
+        },
+        {
+          "title": "What Counts as Taxable Income?",
+          "paragraphs": [
+            "The following are all assessable income you must declare:",
+            "Even if a client pays in USD or EUR and the money sits in a Stripe or PayPal account overseas, it is AUD-assessable income once you have derived it. Exchange rate at the date of receipt applies."
+          ],
+          "bullets": [
+            "One-on-one coaching packages and retainers",
+            "Group programs and masterminds",
+            "Online course sales (single purchase or payment plans)",
+            "Monthly and annual membership subscriptions",
+            "Digital product sales — workbooks, templates, planners",
+            "Affiliate commissions from recommending products or tools",
+            "Sponsorship income from podcast or YouTube channels associated with your coaching business"
+          ]
+        },
+        {
+          "title": "The GST Question Most Coaches Get Wrong",
+          "paragraphs": [
+            "GST registration is mandatory once your annual turnover exceeds $75,000. For coaches selling high-ticket programs, this can happen in one launch cycle."
+          ]
+        },
+        {
+          "title": "The Overseas Platform GST Trap",
+          "paragraphs": [
+            "Overseas platforms are not Australian platforms — but that does not make your income GST-free.",
+            "The key test is: are your CLIENTS based in Australia? If yes, GST may apply to those sales.",
+            "If your clients are predominantly overseas (i.e., the service is \"consumed\" outside Australia), these may qualify as Exported Services and be GST-free — but this must be assessed for each transaction type.",
+            "Many coaches assume all income is GST-free because the platform is overseas. This is incorrect and creates BAS risk.",
+            "Once registered for GST, you can also claim back the GST on your business expenses — software subscriptions, advertising, equipment — which reduces your net GST liability."
+          ]
+        },
+        {
+          "title": "Deductions You Can Claim",
+          "paragraphs": [
+            "Legitimate deductions reduce the income you pay tax on. For online coaches, common claimable expenses include:",
+            "The ATO distinguishes between expenses that are genuinely business-related and those that are personal with a tangential business connection. Keep clear records explaining the business purpose of each expense."
+          ],
+          "bullets": [
+            "Platform fees — Kajabi, Teachable, Thinkific, Circle monthly fees",
+            "Payment processing fees — Stripe, PayPal transaction costs",
+            "Course creation tools — video editing software, Canva Pro, design tools",
+            "Recording equipment — camera, microphone, ring light, video backdrop",
+            "Computer and tablet (business-use portion)",
+            "Email marketing platform — ConvertKit, ActiveCampaign, Mailchimp",
+            "Advertising — Meta Ads, Google Ads, YouTube Ads spend",
+            "Coaching supervision, mentorship or masterminds directly related to your practice",
+            "Professional development — courses and certifications directly relevant to your coaching niche",
+            "Home office expenses if you work from home",
+            "Bookkeeping and accounting fees",
+            "Personal development courses with no direct link to your coaching business",
+            "Gym membership or general wellness (unless your coaching niche is fitness)",
+            "Meals and entertainment without a clear business purpose",
+            "Clothing that can be worn outside of filming or events"
+          ]
+        },
+        {
+          "title": "Income Tax — What You Actually Pay",
+          "paragraphs": [
+            "2025-26 Individual Income Tax Rates",
+            "$0 – $18,200:        0%  (tax-free threshold)",
+            "$18,201 – $45,000:   16% on each dollar above $18,200",
+            "$45,001 – $135,000:  30% on each dollar above $45,000",
+            "$135,001 – $190,000: 37% on each dollar above $135,000",
+            "Over $190,000:       45% on each dollar above $190,000",
+            "Medicare Levy (2%) applies on most income above the low-income threshold.",
+            "For coaches earning $100k–$200k+ in net profit, the tax bill at personal rates becomes substantial. This is where business structure starts to matter significantly."
+          ]
+        },
+        {
+          "title": "Company vs Sole Trader — When Does It Make Sense?",
+          "paragraphs": [
+            "Structure Planning Guide",
+            "Under $80k net profit: Sole Trader — simple and low cost",
+            "$80k – $150k net profit: Review your structure — tax savings from a company may be emerging",
+            "Over $150k net profit: Company (25% rate) vs personal rates of up to 47% — meaningful annual savings",
+            "Note: PSI (Personal Services Income) rules may apply if your income is derived entirely from your own skills and effort — this limits certain income-splitting strategies but does not eliminate the tax rate benefit of a company"
+          ]
+        },
+        {
+          "title": "PAYG Instalments — Plan for Quarterly Tax",
+          "paragraphs": [
+            "Once your tax liability exceeds a certain threshold, the ATO will require quarterly PAYG Instalment payments. This means you pay income tax throughout the year rather than in one lump sum at lodgement time. Planning your cash flow for these quarterly obligations — typically 20–25% of revenue set aside — avoids a painful surprise in October."
+          ]
+        }
+      ],
+      "takeawayTitle": "Key takeaways",
+      "takeawayItems": [
+        "Do I Need an ABN?",
+        "What Counts as Taxable Income?",
+        "The GST Question Most Coaches Get Wrong",
+        "The Overseas Platform GST Trap"
+      ]
+    },
+    "zh": {
+      "card": {
+        "title": "澳洲线上教练与课程创作者税务指南",
+        "excerpt": "Kajabi、Teachable、线上辅导计划 — ABN、GST、所得税与架构选择",
+        "category": "企业税务",
+        "tag": "指南"
+      },
+      "intro": "如果你向澳洲及海外客户销售线上辅导计划、数字课程或订阅会员，你的收入在澳洲需要纳税——即便是通过 Kajabi、Teachable 或 Thinkific 等国际平台收款。很多教练在建立六位数业务后才开始考虑税务架构，这恰恰是税务成本最高的时候。 这篇指南涵盖线上教育工作者和教练最常遇到的税务问题，包括让大多数创作者措手不及的 GST 陷阱。",
+      "sections": [
+        {
+          "title": "我需要申请 ABN 吗？",
+          "paragraphs": [
+            "是的。一旦你以盈利为目的销售计划、辅导或会员，你就是在经营一门生意，而非个人爱好。你需要申请 ABN，无论：",
+            "没有 ABN 的情况下，向你付款的企业可能需要预扣 47% 的费用。初期以 Sole Trader 身份注册——随着收入规模扩大，公司或信托结构的必要性才会显现。"
+          ],
+          "bullets": [
+            "你是否有其他工作或收入来源",
+            "辅导收入的规模大小",
+            "客户是在澳洲还是海外"
+          ]
+        },
+        {
+          "title": "哪些收入需要申报？",
+          "paragraphs": [
+            "以下所有收入均属于应税收入，必须申报：",
+            "即便客户以美元或欧元付款，资金停留在海外的 Stripe 或 PayPal 账户里，一旦你已获得该收入，它就是澳元应税收入。收款当日的汇率适用。"
+          ],
+          "bullets": [
+            "一对一辅导套餐和顾问服务",
+            "小组计划和高端群体项目",
+            "线上课程销售（一次性付款或分期）",
+            "月度和年度订阅会员",
+            "数字产品销售——工作手册、模板、计划表",
+            "推荐工具或产品的联盟佣金",
+            "与辅导业务相关的播客或 YouTube 频道赞助收入"
+          ]
+        },
+        {
+          "title": "大多数教练都搞错的 GST 问题",
+          "paragraphs": [
+            "一旦年营业额超过 $75,000，注册 GST 就是法律义务。对于销售高客单价计划的教练而言，一次发布活动就可能超过这个门槛。"
+          ]
+        },
+        {
+          "title": "海外平台 GST 陷阱",
+          "paragraphs": [
+            "海外平台不是澳洲平台——但这并不意味着你的收入免 GST。",
+            "关键测试是：你的客户是否在澳洲？如果是，GST 可能适用于这些销售。",
+            "如果客户主要在海外（即服务在澳洲以外被消费），这些可能属于「出口服务」并免除 GST——但必须逐项评估。",
+            "很多教练认为收入全部免 GST，因为平台在海外。这是错误的，会产生 BAS 申报风险。",
+            "注册 GST 后，你也可以申请业务费用的 GST 抵扣——软件订阅、广告费、设备——从而降低净 GST 应缴额。"
+          ]
+        },
+        {
+          "title": "可以申报的扣税项目",
+          "paragraphs": [
+            "合法扣除减少你的应税收入。线上教练常见的可申报费用包括：",
+            "ATO 区分真正与业务相关的费用和具有边缘业务关联的个人消费。请保留清晰的记录，说明每笔费用的业务目的。"
+          ],
+          "bullets": [
+            "平台费用 — Kajabi、Teachable、Thinkific、Circle 月费",
+            "支付处理费 — Stripe、PayPal 交易手续费",
+            "课程制作工具 — 视频剪辑软件、Canva Pro、设计工具",
+            "录制设备 — 相机、麦克风、环形灯、视频背景",
+            "电脑和平板（业务使用比例）",
+            "邮件营销平台 — ConvertKit、ActiveCampaign、Mailchimp",
+            "广告费 — Meta Ads、Google Ads、YouTube Ads 投放",
+            "与执业直接相关的辅导督导、导师或高端学习群体",
+            "专业发展 — 与辅导领域直接相关的课程和认证",
+            "居家办公费用（如在家工作）",
+            "记账和会计服务费",
+            "与辅导业务无直接关联的个人发展课程",
+            "健身会员或一般健康消费（除非辅导方向是健身）",
+            "没有明确业务目的的餐饮和娱乐消费",
+            "可在拍摄或活动以外穿着的服装"
+          ]
+        },
+        {
+          "title": "所得税 — 你实际需要缴多少",
+          "paragraphs": [
+            "2025-26 个人所得税税率表",
+            "$0 – $18,200：      免税",
+            "$18,201 – $45,000：  超出部分按 16% 缴税",
+            "$45,001 – $135,000： 超出部分按 30% 缴税",
+            "$135,001 – $190,000：超出部分按 37% 缴税",
+            "超过 $190,000：     超出部分按 45% 缴税",
+            "大多数超过低收入门槛的纳税人还需缴纳 2% 医疗保险税（Medicare Levy）。",
+            "对于净利润在 $100k–$200k 以上的教练而言，按个人税率缴纳的税款相当可观。这正是商业架构开始产生显著意义的地方。"
+          ]
+        },
+        {
+          "title": "公司 vs Sole Trader — 什么时候有意义？",
+          "paragraphs": [
+            "架构规划参考",
+            "净利润低于 $80k：Sole Trader — 简单，成本低",
+            "净利润 $80k – $150k：审查架构 — 公司结构的节税效果开始显现",
+            "净利润超过 $150k：公司（25% 税率）vs 个人最高 47% 税率 — 每年可节省可观税款",
+            "注：如果收入完全来自个人技能和劳动，PSI 规则可能适用，限制某些收入分配策略，但不消除公司税率优势"
+          ]
+        },
+        {
+          "title": "PAYG 分期付款 — 为季度税款做规划",
+          "paragraphs": [
+            "一旦你的税务负担超过一定门槛，ATO 将要求你按季度预缴所得税（PAYG Instalments）。这意味着你在全年都需要缴纳所得税，而不是在申报时一次性缴清。为这些季度义务做好现金流规划——通常预留收入的 20-25%——可以避免在 10 月份出现意外账单。"
+          ]
+        }
+      ],
+      "takeawayTitle": "重点提示",
+      "takeawayItems": [
+        "我需要申请 ABN 吗？",
+        "哪些收入需要申报？",
+        "大多数教练都搞错的 GST 问题",
+        "海外平台 GST 陷阱"
+      ]
+    }
+  }
+}
