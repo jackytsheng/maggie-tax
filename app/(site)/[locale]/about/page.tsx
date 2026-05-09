@@ -46,10 +46,10 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
               <Image
                 alt={founderPhotoAlt}
                 className="h-auto max-h-[500px] w-auto max-w-full rounded-[1.4rem] border border-[var(--border)] bg-[var(--surface-soft)]"
-                height={1536}
+                height={1402}
                 priority
-                src="/images/founder-maggie.jpg"
-                width={1024}
+                src="/images/founder-maggie.webp"
+                width={1122}
               />
             </div>
             <div className="mt-5 space-y-4">

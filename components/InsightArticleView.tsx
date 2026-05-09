@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { CTASection } from "@/components/CTASection";
 import { Container } from "@/components/Container";
 import { PageHero } from "@/components/PageHero";
@@ -5,7 +7,7 @@ import { PageHero } from "@/components/PageHero";
 import { formatInsightPublishedLabel, formatInsightReadTimeLabel } from "@/content/insights";
 import type { InsightArticle } from "@/content/insights/types";
 import type { Dictionary } from "@/content/i18n/schema";
-import type { Locale } from "@/lib/i18n";
+import { localizePath, type Locale } from "@/lib/i18n";
 
 interface InsightArticleViewProps {
   article: InsightArticle;
@@ -85,6 +87,24 @@ export function InsightArticleView({ article, dictionary, locale }: InsightArtic
                 </section>
               ))}
             </div>
+
+            <section className="mt-10 rounded-[1.6rem] border border-[var(--border)] bg-[var(--surface-soft)] px-5 py-5 sm:px-6">
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--primary)]">
+                {dictionary.insightsPage.disclaimer.title}
+              </p>
+              <p className="mt-3 text-sm leading-7 text-[var(--foreground)] sm:text-base">
+                {dictionary.insightsPage.disclaimer.body}
+              </p>
+              <p className="mt-3 text-sm leading-7 text-[var(--muted)] sm:text-base">
+                {dictionary.insightsPage.disclaimer.contactPrompt}
+              </p>
+              <Link
+                className="mt-4 inline-flex rounded-full border border-[var(--border-strong)] px-4 py-2 text-sm font-semibold text-[var(--primary)] transition hover:border-[var(--primary)] hover:bg-white"
+                href={localizePath(locale, "/contact")}
+              >
+                {dictionary.insightsPage.disclaimer.contactLabel}
+              </Link>
+            </section>
           </article>
 
           <aside className="space-y-6">

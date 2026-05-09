@@ -737,6 +737,12 @@ export const zh = {
       nextPageLabel: "下一页",
       pageLabel: "第"
     },
+    disclaimer: {
+      title: "仅供一般信息参考",
+      body: "本文仅提供一般性税务信息，不构成个人税务、法律或财务建议。税法会变化，每个人的情况也各不相同。",
+      contactPrompt: "如果你希望结合自身情况获得更具体的建议，欢迎联系事务所。",
+      contactLabel: "联系事务所"
+    },
     cta: {
       title: "如果你的情况需要更直接的建议，也欢迎联系我们。",
       description: "如果你希望结合自身情况进一步判断下一步，可以直接向事务所发起咨询。",

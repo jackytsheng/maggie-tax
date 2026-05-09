@@ -290,6 +290,12 @@ export interface Dictionary {
       nextPageLabel: string;
       pageLabel: string;
     };
+    disclaimer: {
+      title: string;
+      body: string;
+      contactPrompt: string;
+      contactLabel: string;
+    };
     cta: CtaSectionCopy;
   };
   notFound: {

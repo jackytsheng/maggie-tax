@@ -769,6 +769,13 @@ export const en = {
       nextPageLabel: "Next",
       pageLabel: "Page"
     },
+    disclaimer: {
+      title: "General information only",
+      body:
+        "This article provides general tax information only and does not constitute personal tax, legal, or financial advice. Tax rules can change and individual circumstances vary.",
+      contactPrompt: "If you would like advice based on your situation, please get in touch with the practice.",
+      contactLabel: "Contact the practice"
+    },
     cta: {
       title: "Need help with a tax or accounting matter?",
       description: "If your situation needs more direct guidance, you are welcome to contact the practice.",
