@@ -9,7 +9,7 @@ import { AnalyticsScripts } from "@/components/AnalyticsScripts";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StructuredData } from "@/components/StructuredData";
-import { getDictionary, isLocale, locales, localeToHtmlLang } from "@/lib/i18n";
+import { defaultLocale, getDictionary, isLocale, locales, localeToHtmlLang } from "@/lib/i18n";
 import { buildOrganizationSchema, buildProfessionalServiceSchema } from "@/lib/structured-data";
 
 export const dynamicParams = false;
@@ -24,7 +24,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale: localeParam } = await params;
-  const locale = isLocale(localeParam) ? localeParam : locales[0];
+  const locale = isLocale(localeParam) ? localeParam : defaultLocale;
 
   return {
     metadataBase: new URL(business.domain),

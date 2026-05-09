@@ -4,7 +4,7 @@ import type { Dictionary } from "@/content/i18n/schema";
 
 export const locales = ["zh", "en"] as const;
 export type Locale = (typeof locales)[number];
-export const defaultLocale: Locale = "zh";
+export const defaultLocale: Locale = "en";
 
 const dictionaries: Record<Locale, Dictionary> = {
   zh,

@@ -2,6 +2,8 @@ import "../globals.css";
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 
+import { localeToHtmlLang, defaultLocale } from "@/lib/i18n";
+
 export const metadata: Metadata = {
   icons: {
     icon: [
@@ -19,7 +21,7 @@ export const metadata: Metadata = {
 
 export default function RedirectLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="zh-Hans">
+    <html lang={localeToHtmlLang[defaultLocale]}>
       <body>
         {children}
         <Analytics />
