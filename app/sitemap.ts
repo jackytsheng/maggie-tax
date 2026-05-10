@@ -19,13 +19,18 @@ const routes = [
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const lastModified = new Date();
-  const articleRoutes = (await getAllInsightArticles()).map((article) => `/insights/${article.slug}`);
-  const allRoutes = [...routes, ...articleRoutes];
+  const articles = await getAllInsightArticles();
 
   return locales.flatMap((locale) =>
-    allRoutes.map((route) => ({
-      url: `${business.domain}${localizePath(locale, route)}`,
-      lastModified
-    }))
+    [
+      ...routes.map((route) => ({
+        url: `${business.domain}${localizePath(locale, route)}`,
+        lastModified
+      })),
+      ...articles.map((article) => ({
+        url: `${business.domain}${localizePath(locale, `/insights/${article.slug}`)}`,
+        lastModified: new Date(`${article.publishedAt}T00:00:00.000Z`)
+      }))
+    ]
   );
 }
