@@ -7,7 +7,7 @@ export const business = {
   state: "Victoria",
   country: "Australia",
   serviceArea: "Melbourne and remote clients across Australia",
-  domain: "https://www.practice-domain.com.au",
+  domain: "https://www.maggiexingtax.com",
   consultationCta: "Book a Consultation",
   legalName: "Maggie Xing Tax",
   abn: "90 737 652 644",
